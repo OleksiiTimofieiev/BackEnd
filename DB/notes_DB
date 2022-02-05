@@ -1,0 +1,17 @@
+- reads takes different amount of times;
+- DB: SQL || NoSQL
+- строка == кортеж
+- UNION == union of data
+- JOIN = INTERSECT
+- primary key
+- primary key may be a custom 
+- DDL == data definition language
+
+demand to have reference to primary key of the referenced table:
+- country_id bigint
+- FOREIGN KEY (country_id) REFERENCES country (id)
+
+- migration: problem is data to be saved after migration
+
+Additional:
+- ITVDN

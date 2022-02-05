@@ -1,0 +1,24 @@
+///// async small intro
+{
+    - async programming
+    - small cash memory
+    - context switch
+    - cgi-bin
+    - worker pool
+    - multithreading
+    - most of time of the modern web api == waiting on reply from remote server, service
+    ====> event driven concurrency == non-blocking i/o on one core
+    - thread model == CSP (communication sequencial processing) == working with go routines
+}
+
+///// goroutines & channels
+{
+    - channels are used to return value from the goroutine
+    - channels may be buffered or not
+    - blocking until reading if not buffered channel
+    - channel may be closed
+    - channel may be spesialized for read/write with <- operator
+    - channels shoud be closed, used to terminate cycle which iterates on channel
+    - select to multiplex channels
+    - channels are of FIFO queue, thread safe
+}

@@ -1,0 +1,25 @@
+--- Why go was introduced ---
+{
+  - easyly scalable the cores of processor
+  - a lot of easy concurrent requests
+  - effectiveness of a programmer
+  - kinda fibers from the box
+  - not for realtime sort of things: IoT for exampl
+}
+
+{
+  - bin == exe, elf
+  - pkg == package files
+  - src == source code, github goes to src
+}
+
+{
+  - duck typization is being used
+  - inteface keyword
+}
+
+{
+  - empty interfaces => for dynamic functions
+  - interface has to be casted to desired type before accessing its methods 
+  - interface composition can be used
+}

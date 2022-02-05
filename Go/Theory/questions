@@ -1,0 +1,60 @@
+- async in go
+- working with channels
+
+---
+
+Профилирования 
+БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
+Error management 
+Design Patterns in g
+Interfaces and casting
+Build big projects 
+Executor tracing
+Scheduler in go
+Context
+Perfomance measurement
+Gof patterns 
+Async patterns in go
+Kafka: streams API
+Reflection 
+Aws
+garbage collector
+Strings. Builder 
+Build system 
+Highload couroutines patterns
+Data structures 
+Testing
+Go-Kit
+Rabbit-MQ and connected 
+Garbage collector 
+Aws kubernetes
+Project with microservices on docker aws kubernetes 
+Apache nginx 
+Containers in GO, types of collection
+Code generation 
+Collection s in go
+Protobuf
+Closures 
+Вопросы для собеседования 
+CAP theorem
+SQL vs NoSQL
+Apache Nguni servers
+Осередки солбщений
+Вычитать новые сообщения по чатам и пометить прочтёнными
+Docker compose
+Работа с сетью го
+Mongo / SQL in project 
+https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
+
+
+Кане лоні
+
+gracefull shutdown with context
+ Pool of coroutines 
+Покрытие тестами
+Докер компоуз 
+
+---
+
+https://golangcourse.ru/#submit
+https://www.coursera.org/learn/golang-webservices-1/lecture/n4PV5/taimiery-i-taimauty
