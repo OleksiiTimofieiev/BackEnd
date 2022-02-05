@@ -21,4 +21,5 @@
     - channels shoud be closed, used to terminate cycle which iterates on channel
     - select to multiplex channels
     - channels are of FIFO queue, thread safe
+    
 }
