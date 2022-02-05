@@ -21,5 +21,7 @@
     - channels shoud be closed, used to terminate cycle which iterates on channel
     - select to multiplex channels
     - channels are of FIFO queue, thread safe
-    
+    - goroutines waites for channels
+    - channel: circle queue, send and recv index, lock
+    - channels are allocated on heap
 }
