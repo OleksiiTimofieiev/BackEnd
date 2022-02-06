@@ -10,7 +10,6 @@
     ====> event driven concurrency == non-blocking i/o on one core
     - thread model == CSP (communication sequencial processing) == working with go routines
 }
-
 ///// goroutines & channels
 {
     - channels are used to return value from the goroutine
@@ -24,10 +23,44 @@
     - goroutines waites for channels
     - channel: circle queue, send and recv index, lock
     - channels are allocated on heap
-    - channel == kinda unix pipe, data type
+    - channel == kinda unix pipe, data type, write/read end
     - hint:
     type nextCh chan int
     func (ch nextCh) handler(...){
         <-ch
     }
+    - channels block until ready ready to read or write
+    - channel is a data type, it can be returned from a function
+    - channel should be closed
+}
+///// timers and timeouts
+{
+   - timer has a channel(timer.C) that can be passed to select to check the timeouts
+   - time can be stopped, etc. 
+}
+///// context
+{
+    - stop async operations 
+    - go worker(ct, i ,result...)
+    - finish => signal to stop goroutine
+    - can be finished by timeout
+}
+//// worker pool
+{
+    - usefull for queue processing
+    - Gosched == yiel goroutine => other goroutines have possibility to work
+}
+///// join==wait
+{
+    - waitgroup
+    - add before its start
+}
+///// limiting
+{
+    - quota via channel manipulations
+}
+///// sync
+{
+    - sync.Mutex
+    - sync.Atomic
 }
