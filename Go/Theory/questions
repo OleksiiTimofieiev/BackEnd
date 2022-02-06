@@ -1,11 +1,13 @@
 - async in go
-- working with channels
 
 ---
 
 Профилирования 
 БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
 Error management 
+- Scheduler: OTUS lectures
+- garbage collector: OTUS lectures
+- concurrency patterns
 Design Patterns in g
 Interfaces and casting
 Build big projects 

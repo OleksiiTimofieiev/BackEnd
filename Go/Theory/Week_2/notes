@@ -24,4 +24,10 @@
     - goroutines waites for channels
     - channel: circle queue, send and recv index, lock
     - channels are allocated on heap
+    - channel == kinda unix pipe, data type
+    - hint:
+    type nextCh chan int
+    func (ch nextCh) handler(...){
+        <-ch
+    }
 }
