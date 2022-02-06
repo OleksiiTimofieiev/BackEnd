@@ -61,6 +61,6 @@
 }
 ///// sync
 {
-    - sync.Mutex
+    - sync.Mutex: to be used by reference
     - sync.Atomic
 }
