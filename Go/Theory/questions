@@ -10,6 +10,9 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - reflection
 - profiling
 - sync package
+- working with http/web/etc in go
+- testing a web server
+- strings in go
 ---
 
 Профилирования 

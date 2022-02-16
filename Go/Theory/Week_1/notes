@@ -23,3 +23,7 @@
   - interface has to be casted to desired type before accessing its methods 
   - interface composition can be used
 }
+
+{
+  - sync.RWMutex to make map safe
+}
