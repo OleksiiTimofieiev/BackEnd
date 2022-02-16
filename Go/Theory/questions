@@ -1,6 +1,15 @@
+- memory leaking in go
 - async in go
 - переключение горутин
 https://www.youtube.com/watch?v=WpgFpILGVO4
+- reverse proxy
+- профилирование и оптимизация
+- CLI go
+- garbage collector
+- worker pool in go
+- reflection
+- profiling
+- sync package
 ---
 
 Профилирования 
@@ -41,9 +50,8 @@ Closures
 Вопросы для собеседования 
 CAP theorem
 SQL vs NoSQL
-Apache Nguni servers
+Apache Nginx servers
 Осередки солбщений
-Вычитать новые сообщения по чатам и пометить прочтёнными
 Docker compose
 Работа с сетью го
 Mongo / SQL in project 
@@ -61,3 +69,8 @@ gracefull shutdown with context
 
 https://golangcourse.ru/#submit
 https://www.coursera.org/learn/golang-webservices-1/lecture/n4PV5/taimiery-i-taimauty
+
+
+
+
+working with bufferized channels

@@ -32,6 +32,9 @@
     - channels block until ready ready to read or write
     - channel is a data type, it can be returned from a function
     - channel should be closed
+    - The state of a channel can be nil, open or closed.
+    - signaling without data is a single goroutine can signal many goroutines at once
+    - buffered channels: Anything waiting in the buffer will be lost.
 }
 ///// timers and timeouts
 {
@@ -63,4 +66,25 @@
 {
     - sync.Mutex: to be used by reference
     - sync.Atomic
+}
+/////
+{
+    - godoc.org
+    - continuos profiling
+    - code review
+    - linters
+    - monitoring: prometheus, gops
+    - finalizers: brazil schema
+    - runtime.NumGoroutine(), debug.Stack(), pprof, prometheus.io == отслеживание утекающих горутин
+    - goleak, leaktest == отслеживание утекающих горутин
+    - context package
+    
+}
+///// best practices
+{
+    - allocate with length
+    - non closed resources == defer *.Close()
+    - save 2kib on stack
+    - limited worker pool
+    - утекающие горутины == каналы стоит закрывать
 }
