@@ -1,5 +1,8 @@
+- map aspects
 - memory leaking in go
 - async in go
+- sync.Map
+- context
 - переключение горутин
 https://www.youtube.com/watch?v=WpgFpILGVO4
 - reverse proxy
@@ -13,6 +16,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - working with http/web/etc in go
 - testing a web server
 - strings in go
+- templates
 ---
 
 Профилирования 
