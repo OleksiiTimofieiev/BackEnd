@@ -1,0 +1,14 @@
+///// Componenets
+{
+    - routing: gorilla/mux/http-router
+    - authentification
+    - sessions
+    - logging
+    - error handling
+    - validation of input parameters
+    - templates
+    - configuring
+    - monitoring
+    - middleware/frameworks
+    - working with databases
+}
