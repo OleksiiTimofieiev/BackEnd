@@ -88,3 +88,15 @@
     - limited worker pool
     - утекающие горутины == каналы стоит закрывать
 }
+///// select
+{
+    - a way to route channels 
+
+    {
+        https://www.youtube.com/watch?v=rDRa23k70CU&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=17
+
+        - fan-out send to first non-blocking channel => choose workers
+        - turnout =>  in & out many channels
+        - sync.atomic
+    }
+}

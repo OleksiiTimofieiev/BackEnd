@@ -17,6 +17,9 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - testing a web server
 - strings in go
 - templates
+- sync.atomic
+- errors in prod: typical ones check
+- secure go code
 ---
 
 Профилирования 

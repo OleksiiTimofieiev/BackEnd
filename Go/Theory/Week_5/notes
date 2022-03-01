@@ -12,3 +12,11 @@
     - middleware/frameworks
     - working with databases
 }
+///// to check in prod
+https://www.youtube.com/watch?v=YF1qSfkDGAQ
+{
+    - http.client/http.server timeouts
+    - http.TimeoutHandler
+    - OS Signals <= shut down app...
+    - req.Context().Done()
+}
