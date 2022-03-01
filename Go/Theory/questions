@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - sync.atomic
 - errors in prod: typical ones check
 - secure go code
+- docker compose
 ---
 
 Профилирования 

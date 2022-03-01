@@ -1,0 +1,6 @@
+- func main to invoke the app == cmd/app/main.go && cmd/parser/main.go ==> able to build two applications
+- internal == keep internal business loggic which can not be included by external repositories
+main logic of go project should be located in internal dir
+- pkg == libraries for other project, in general - code that can be reused
+- configs 
+- docs
