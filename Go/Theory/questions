@@ -1,23 +1,16 @@
-- map aspects
+- sync package
 - memory leaking in go
 - async in go
-- sync.Map
-- context
 - переключение горутин
 https://www.youtube.com/watch?v=WpgFpILGVO4
 - reverse proxy
-- профилирование и оптимизация
 - CLI go
-- garbage collector
 - worker pool in go
 - reflection
 - profiling
-- sync package
 - working with http/web/etc in go
 - testing a web server
-- strings in go
 - templates
-- sync.atomic
 - errors in prod: typical ones check
 - secure go code
 - docker compose
@@ -29,42 +22,31 @@ Error management
 - Scheduler: OTUS lectures
 - garbage collector: OTUS lectures
 - concurrency patterns
-Design Patterns in g
+Design Patterns in go
 Interfaces and casting
-Build big projects 
 Executor tracing
-Scheduler in go
-Context
 Perfomance measurement
-Gof patterns 
-Async patterns in go
 Kafka: streams API
 Reflection 
 Aws
 garbage collector
-Strings. Builder 
-Build system 
 Highload couroutines patterns
 Data structures 
 Testing
 Go-Kit
 Rabbit-MQ and connected 
-Garbage collector 
 Aws kubernetes
 Project with microservices on docker aws kubernetes 
 Apache nginx 
-Containers in GO, types of collection
 Code generation 
-Collection s in go
 Protobuf
-Closures 
+Closures
 Вопросы для собеседования 
 CAP theorem
 SQL vs NoSQL
 Apache Nginx servers
-Осередки солбщений
+Очереди сообщений
 Docker compose
-Работа с сетью го
 Mongo / SQL in project 
 https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
 
@@ -80,8 +62,5 @@ gracefull shutdown with context
 
 https://golangcourse.ru/#submit
 https://www.coursera.org/learn/golang-webservices-1/lecture/n4PV5/taimiery-i-taimauty
-
-
-
 
 working with bufferized channels

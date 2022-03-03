@@ -43,6 +43,9 @@
 }
 ///// context
 {
+    - tupically used to end long request on internet
+    - used for cancellation
+    - Deadlines [withDeadline, withTimeout], cancellation signals, request-scope values
     - stop async operations 
     - go worker(ct, i ,result...)
     - finish => signal to stop goroutine

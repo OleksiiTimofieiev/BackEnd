@@ -27,3 +27,8 @@
 {
   - sync.RWMutex to make map safe
 }
+
+//// strings
+{
+  - read-only slice of bytes
+}
