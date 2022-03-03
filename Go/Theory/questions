@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - templates
 - errors in prod: typical ones check
 - secure go code
-- docker compose
+
 ---
 
 Профилирования 
@@ -22,24 +22,26 @@ Error management
 - Scheduler: OTUS lectures
 - garbage collector: OTUS lectures
 - concurrency patterns
+- docker compose // TODO: check docker todos
 Design Patterns in go
 Interfaces and casting
 Executor tracing
 Perfomance measurement
 Kafka: streams API
 Reflection 
-Aws
 garbage collector
 Highload couroutines patterns
 Data structures 
 Testing
 Go-Kit
 Rabbit-MQ and connected 
-Aws kubernetes
+Aws 
+kubernetes
+why we need code generation in go
 Project with microservices on docker aws kubernetes 
 Apache nginx 
 Code generation 
-Protobuf
+Protobuf and other protocols
 Closures
 Вопросы для собеседования 
 CAP theorem

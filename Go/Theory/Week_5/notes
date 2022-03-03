@@ -20,3 +20,24 @@ https://www.youtube.com/watch?v=YF1qSfkDGAQ
     - OS Signals <= shut down app...
     - req.Context().Done()
 }
+
+//// middleware
+{
+    - authentification
+    - implementation via decorator == next.httpHandler
+    - context with value
+}
+
+///// handling errors
+{
+    - named error
+    - own error == create custom error interface
+}
+
+///// routers
+{
+    - gorilla/mux [methods, hosts, query params,...
+    - httpRouter
+    - routers may be combined
+    - fastHttp
+}

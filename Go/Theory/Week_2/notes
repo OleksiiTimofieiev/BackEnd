@@ -44,12 +44,18 @@
 ///// context
 {
     - tupically used to end long request on internet
+    - finish all childs of the parent context
     - used for cancellation
-    - Deadlines [withDeadline, withTimeout], cancellation signals, request-scope values
+    - every RPC call has to have an ability to timeout or no longer needed
+    - manage state during request
+    - keep data beetween call, general data
+    - Deadlines [withDeadline, withTimeout, withCancel], cancellation signals, request-scope values
     - stop async operations 
     - go worker(ct, i ,result...)
     - finish => signal to stop goroutine
     - can be finished by timeout
+    - cancel() -> to inform that context was Done
+    - withValue ==> pass value with context
 }
 //// worker pool
 {
