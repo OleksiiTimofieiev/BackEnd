@@ -18,7 +18,7 @@ func getRemoteResource() error {
 		// return err
 
 		// будет `res error: time out`. а где?
-		// return fmt.Errof("getRemoteResource: %+v", err)
+		// return fmt.Errof("getRemoteResource: %+v", er	r)
 
 		return fmt.Errorf("getRemoteResource: %s at %s", err, url)
 	}
