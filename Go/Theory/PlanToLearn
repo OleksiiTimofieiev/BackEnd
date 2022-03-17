@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - check tooling
 - reflection
 - tracing
+- goroutines leakage
 ---
 
 Профилирования 
