@@ -1,0 +1,18 @@
+///// sql
+{
+    - no standart driver, only interface == database/sql:
+    _ "github.../mysql" == init registers handlers of interface
+    - setMaxOpenConnections == sync protocol, quantity of connections
+    - sql.Open() => initialize
+    - sql.Ping() => connect to DB
+    - always close connections
+    - query() => get
+    - insert() => post
+    - use placeholders
+}
+
+///// gorm
+{
+    - object relation mapping
+    - reflection or codegen
+}

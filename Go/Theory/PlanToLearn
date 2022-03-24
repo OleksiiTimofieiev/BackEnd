@@ -25,6 +25,8 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - goroutines leakage
 - refresh channels
 - шаблонизация
+- templates
+- sql injections
 ---
 
 Профилирования 
