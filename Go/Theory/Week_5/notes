@@ -41,3 +41,23 @@ https://www.youtube.com/watch?v=YF1qSfkDGAQ
     - routers may be combined
     - fastHttp
 }
+
+///// framework
+{
+    - beego
+    - gin
+}
+
+///// logging
+{
+    - log
+    - zap
+    - logrus
+}
+
+///// websocket
+{
+    - duplex connection
+}
+
+- dep  package
