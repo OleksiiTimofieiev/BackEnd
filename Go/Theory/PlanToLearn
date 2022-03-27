@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - CLI go
 - worker pool in go
 - reflection
+- highload architercture in go
 - when to use each type of database: in memory/not in memory
 - design patterns in go
 - databases: effectivenes, specifications, course on itvdn as a basis
@@ -30,6 +31,7 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - шаблонизация
 - templates
 - sql injections
+- cache misses
 ---
 
 Профилирования 
