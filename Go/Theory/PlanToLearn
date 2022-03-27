@@ -7,6 +7,9 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - CLI go
 - worker pool in go
 - reflection
+- when to use each type of database: in memory/not in memory
+- design patterns in go
+- databases: effectivenes, specifications, course on itvdn as a basis
 - profiling
 - working with http/web/etc in go
 - testing a web server
