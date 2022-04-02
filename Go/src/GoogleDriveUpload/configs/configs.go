@@ -6,7 +6,7 @@ import (
 )
 
 type Config struct {
-	BackEnd []string
+	// BackEnd []string
 	Work    string
 }
 

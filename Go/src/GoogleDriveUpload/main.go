@@ -10,7 +10,7 @@ import (
 
 // TODO: one folder
 const (
-	pathBackEnd = "/home/otimofieiev/Desktop/BackEnd/"
+	// pathBackEnd = "/home/otimofieiev/Desktop/BackEnd/"
 	pathWork    = "/home/otimofieiev/Desktop/"
 	uploadDir   = "upload"
 )
