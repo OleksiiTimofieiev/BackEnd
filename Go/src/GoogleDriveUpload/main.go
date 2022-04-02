@@ -8,11 +8,12 @@ import (
 	// "sync"
 )
 
-// TODO: one folder
+// TODO: one folder passed as command line argument, move binary to PATH
 const (
 	// pathBackEnd = "/home/otimofieiev/Desktop/BackEnd/"
-	pathWork    = "/home/otimofieiev/Desktop/"
-	uploadDir   = "upload"
+	// TODO: use config for vars below with relative path
+	pathWork  = "/home/otimofieiev/Desktop/"
+	uploadDir = "upload"
 )
 
 var (
@@ -43,7 +44,9 @@ func main() {
 
 	// zip archives
 	// wg.Add(1)
-	/*go*/ archivation.RecursiveZip(pathWork+config.Work, uploadDir+"/"+config.Work)
+	// TODO: use vars, not concatenation
+	/*go*/
+	archivation.RecursiveZip(pathWork+config.Work, uploadDir+"/"+config.Work)
 
 	// for _, dir := range config.BackEnd {
 	// 	wg.Add(1)
