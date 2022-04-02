@@ -1,0 +1,22 @@
+///// monolit vs microservices
+{
+    - to reduce the load on the program
+    - single responsibility principle
+    - monolit == complexity
+    - huge codebase
+    - divida et impera
+    - business logic => single responsibility => DB
+    - too much microservices is bad
+    - communication expenses
+}
+
+///// microservices in monolith
+{
+    - decompse of the project
+}
+
+///// making microservices
+{
+    - rpc == call a method
+    - jsonrpc
+}
