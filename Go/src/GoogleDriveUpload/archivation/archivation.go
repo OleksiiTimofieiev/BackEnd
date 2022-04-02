@@ -5,11 +5,11 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	"sync"
+	// "sync"
 )
 
-func RecursiveZip(wg *sync.WaitGroup, in string, out string) {
-	defer wg.Done()
+func RecursiveZip(in string, out string) {
+	// defer wg.Done()
 	file, err := os.Create(out + ".zip")
 	if err != nil {
 		panic(err)

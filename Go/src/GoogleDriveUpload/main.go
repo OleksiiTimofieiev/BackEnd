@@ -5,9 +5,10 @@ import (
 	"GoogleDriveUpload/configs"
 	"fmt"
 	"os"
-	"sync"
+	// "sync"
 )
 
+// TODO: one folder
 const (
 	pathBackEnd = "/home/otimofieiev/Desktop/BackEnd/"
 	pathWork    = "/home/otimofieiev/Desktop/"
@@ -15,7 +16,7 @@ const (
 )
 
 var (
-	wg     sync.WaitGroup
+	// wg     sync.WaitGroup/
 	config configs.Config
 )
 
@@ -41,15 +42,15 @@ func main() {
 	configs.ReadConfigs(&config)
 
 	// zip archives
-	wg.Add(1)
-	go archivation.RecursiveZip(&wg, pathWork+config.Work, uploadDir+"/"+config.Work)
+	// wg.Add(1)
+	/*go*/ archivation.RecursiveZip(pathWork+config.Work, uploadDir+"/"+config.Work)
 
-	for _, dir := range config.BackEnd {
-		wg.Add(1)
-		go archivation.RecursiveZip(&wg, pathBackEnd+dir, uploadDir+"/"+dir)
-	}
+	// for _, dir := range config.BackEnd {
+	// 	wg.Add(1)
+	// 	go archivation.RecursiveZip(&wg, pathBackEnd+dir, uploadDir+"/"+dir)
+	// }
 
-	wg.Wait()
+	// wg.Wait()
 
 	fmt.Println(Yellow + "--- Uploading finished ---" + Reset)
 }
