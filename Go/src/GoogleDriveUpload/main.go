@@ -30,6 +30,7 @@ var (
 // TODO: do not forget about n
 // TODO: https://www.youtube.com/watch?v=P9CjdN93iHE&t=241s
 // TODO: add cron job
+// TODO: remove zip file after work was done
 
 func main() {
 	fmt.Println(Blue + "--- Uploading started ---" + Reset)
