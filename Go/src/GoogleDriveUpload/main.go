@@ -2,21 +2,8 @@ package main
 
 import (
 	"GoogleDriveUpload/archivation"
-	"GoogleDriveUpload/configs"
 	"fmt"
 	"os"
-)
-
-// TODO: one folder passed as command line argument, move binary to PATH
-
-const (
-	// TODO: use config for vars below with relative path
-	pathWork  = "/home/user/Desktop/"
-	uploadDir = "upload"
-)
-
-var (
-	config configs.Config
 )
 
 var (
@@ -32,15 +19,7 @@ var (
 func main() {
 	fmt.Println(Blue + "--- Uploading started ---" + Reset)
 
-	// create upload dir
-	if err := os.Mkdir(uploadDir, os.ModePerm); err != nil {
-		panic(err)
-	}
-
-	// read uploadable files
-	configs.ReadConfigs(&config)
-
-	archivation.RecursiveZip(pathWork+config.Work, uploadDir+"/"+config.Work)
+	archivation.RecursiveZip(os.Args[1], os.Args[1])
 
 	fmt.Println(Yellow + "--- Uploading finished ---" + Reset)
 }

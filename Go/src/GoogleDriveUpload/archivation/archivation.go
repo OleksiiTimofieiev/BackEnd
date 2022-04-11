@@ -5,11 +5,10 @@ import (
 	"io"
 	"os"
 	"path/filepath"
-	// "sync"
 )
 
 func RecursiveZip(in string, out string) {
-	// defer wg.Done()
+
 	file, err := os.Create(out + ".zip")
 	if err != nil {
 		panic(err)

@@ -1,16 +1,13 @@
 TARGET=GoogleDriveUpload
 
-default: 
-	@ go build -o ${TARGET} 
 
 init:
 	@ export GOPATH="/home/user/Desktop/BackEnd/Go/"
 
-
-
-run: clean default
-	@ ./${TARGET}
+deploy: 
+	@ go install
+	@ cp ./../../bin/GoogleDriveUpload /home/user/bin
+	@ rm ./../../bin/GoogleDriveUpload
 
 clean:
-	@ rm ${TARGET}
-	@ rm -rf upload
+	@ rm -rf SN.zip
