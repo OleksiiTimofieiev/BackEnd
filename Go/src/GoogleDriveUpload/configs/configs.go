@@ -7,15 +7,16 @@ import (
 
 type Config struct {
 	// BackEnd []string
-	Work    string
+	Work string
 }
 
 const (
-	configFile = "/home/otimofieiev/Desktop/BackEnd/Go/src/GoogleDriveUpload/configs/config.json"
+	configFile = "/home/user/Desktop/BackEnd/Go/src/GoogleDriveUpload/configs/configs.json"
 )
 
 func ReadConfigs(config *Config) {
 	data, err := ioutil.ReadFile(configFile)
+
 	if err != nil {
 		panic(err)
 	}

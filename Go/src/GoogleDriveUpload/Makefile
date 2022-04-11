@@ -3,7 +3,12 @@ TARGET=GoogleDriveUpload
 default: 
 	@ go build -o ${TARGET} 
 
-run: default
+init:
+	@ export GOPATH="/home/user/Desktop/BackEnd/Go/"
+
+
+
+run: clean default
 	@ ./${TARGET}
 
 clean:
