@@ -5,6 +5,10 @@
 https://www.youtube.com/watch?v=WpgFpILGVO4
 - reverse proxy
 - CLI go
+- nginx vs Apache
+- hangling go errors practice
+- effective go
+- common go errors
 - worker pool in go
 - reflection
 - highload architercture in go
