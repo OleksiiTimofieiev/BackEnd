@@ -20,3 +20,10 @@
     - rpc == call a method
     - jsonrpc
 }
+
+///// serialization
+{
+    - json = 40 bytes, no schema format => unpack field, then data type
+    - binary format: packed binary data => easier to pack/unpack
+    - protobuf == fixed serialization structure => code can be generated for other languages
+}
