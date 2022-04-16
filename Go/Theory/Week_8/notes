@@ -1,0 +1,4 @@
+- flags, config, ldflags
+- hot reconfig == consul, etc.
+- expvar => monitoring statistics
+- graphite
