@@ -2,3 +2,4 @@
 - hot reconfig == consul, etc.
 - expvar => monitoring statistics
 - graphite
+- go vet, metalinter
