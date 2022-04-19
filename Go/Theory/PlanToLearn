@@ -1,19 +1,17 @@
-- sync package
 - memory leaking in go
 - async in go
-- переключение горутин
-https://www.youtube.com/watch?v=WpgFpILGVO4
 - reverse proxy
 - CLI go
-- nginx vs Apache
 - hangling go errors practice
 - effective go
 - generics
+- string, slice, map 
 - apche vs nginx: otus highload
 - common go errors
-- session in wed: what for and how
+- session in web: what for and how
 - gRPC
-- streaming
+- context
+- streaming protocols in go
 - worker pool in go
 - reflection
 - highload architercture in go
@@ -21,7 +19,6 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - design patterns in go
 - databases: effectivenes, specifications, course on itvdn as a basis
 - profiling
-- working with http/web/etc in go
 - testing a web server
 - templates
 - errors in prod: typical ones check
@@ -37,10 +34,9 @@ https://www.youtube.com/watch?v=WpgFpILGVO4
 - tracing
 - goroutines leakage
 - refresh channels
-- шаблонизация
 - templates
 - sql injections
-- cache misses
+- cache misses, how cache works, cache contention
 ---
 
 Профилирования 
@@ -61,19 +57,19 @@ Highload couroutines patterns
 Data structures 
 Testing
 Go-Kit
+typical interview questions
 Rabbit-MQ and connected 
 Aws 
 kubernetes
 why we need code generation in go
 Project with microservices on docker aws kubernetes 
-Apache nginx 
+Apache vs nginx == otus highload
 Code generation 
 Protobuf and other protocols
 Closures
 Вопросы для собеседования 
 CAP theorem
 SQL vs NoSQL
-Apache Nginx servers
 Очереди сообщений
 Docker compose
 Mongo / SQL in project 

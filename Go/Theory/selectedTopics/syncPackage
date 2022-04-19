@@ -1,0 +1,8 @@
+- atomic package [load, store, add, swap, compareAndSwap]
+- sync.Mutex [state, sema, lock/unlock => atomics used compareAndSwap]; FIFO queue; less then 1 ms
+- sync.RWMutex == lock only on write
+- sync.WaitGroup [Add, Done] == waiting all threads to finish
+- sync.Once [once, do] == go realization of singleton, do smth once
+- sync.Cond [wait, signal == one gouroutine,broadcast == all gouroutines, constructor]
+- sync.Pool [put,get] => kind placement nes, reduce allocation time, thread safe
+- sync.Map [load, store, range] == concurrent safe map, cach of other core, more better performance then RWMutex and standard map for multicore systems
