@@ -51,12 +51,14 @@ Interfaces and casting
 Executor tracing
 Perfomance measurement
 Kafka: streams API
+context swich in Go
 Reflection 
 garbage collector
 Highload couroutines patterns
 Data structures 
 Testing
 Go-Kit
+memory model otus
 typical interview questions
 Rabbit-MQ and connected 
 Aws 

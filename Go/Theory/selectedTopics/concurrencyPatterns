@@ -1,0 +1,54 @@
+- CSP == Communication Sequentional Processes
+- no share state
+- scaling by adding more of the same
+- sender - buffer - reciever == bucket chain
+- blocking: no data [send, receiver]
+- channel closed ==> no more data
+- fanout: one in - multiple out (receive until closed, send to first unblocking channel)
+func fanOut(In <- chan int, OutA,OutB chan int) {
+    for data := range IN {
+        select {
+            case OutA <-data:
+            case OutB <-data:
+        }
+    }
+}
+- funnel
+
+- turnout
+func turnout(InA,InB <- chan int, OutA,OutB chan int) {
+    for {
+        select {
+            case data,more <-InA:
+            case data,more <-InB:
+        }
+        if !more {
+            return
+        }
+
+        select {
+            case OutA <-data:
+            case OutB <-data:
+        }
+    }
+}
+
+func turnout(Quit <- chan int,InA,InB, OutA,OutB chan int) {
+    for {
+        select {
+            case data = <-InA:
+            case data = <-InB:
+        }
+        case <-Quit:
+            close(InA)
+            close(InB)
+
+            fanOut(InA, OutA, OutB)
+            fanOut(InB, OutA, OutB)
+            return
+
+    }
+}
+
+- channels pass around copies,
+passing pointers can create race conditions,
