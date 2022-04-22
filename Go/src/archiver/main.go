@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoogleDriveUpload/archivation"
+	"archiver/archivation"
 	"fmt"
 	"os"
 )
