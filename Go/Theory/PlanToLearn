@@ -37,6 +37,8 @@
 - templates
 - sql injections
 - cache misses, how cache works, cache contention
+- go mod
+- cookie  
 ---
 
 Профилирования 

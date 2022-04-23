@@ -3,3 +3,19 @@
     - доступность
     - маштабируемость
 }
+
+///// Lecture 2
+{
+    - fat client: state is being saved on the client side
+    pros: saving on traffic, delays, cache, constant connection, pushing (server sends events to client), offline mode, server without a state
+    cons: update, different api versions, consistency, localization, experiments
+    - thin client: state on server
+    - session of user:
+    authorization, coockies (id from server to client), memory on server, replication
+    - fat web client: AJAX, Single Page Application
+    - typical architecture:
+    DB server
+    Logic server
+    Web Server 
+    - resources: memory (structures to save data, access to memory), processor (blocks, system tasks, waiting, multythreading), disk, network
+}
