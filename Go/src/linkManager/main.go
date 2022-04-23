@@ -5,12 +5,10 @@ import (
 	"log"
 
 	"linkManager/clients/telegram"
-
-
 )
 
 const (
-	tgBotHost ="api.telegram.org"
+	tgBotHost = "api.telegram.org"
 )
 
 func main() {
