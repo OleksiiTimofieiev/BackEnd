@@ -1,0 +1,4 @@
+- still reachable won`t be GC-ed
+- memory use monitoring
+- pprof
+- invalid use of defer == example in the cycle => emit a function call to solve it

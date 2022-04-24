@@ -1,0 +1,9 @@
+- every long request should have timeout
+- need to propagate timeout through the request
+- how much time is left in the middle of the request
+- need to store that information somewhere so the middle of the request can stop
+- multiple RPC - if one falls, maybe better to cancel all of them
+- context: background, with cancel, with timeout
+- to end sub request or the parent request
+- not just timeout, but to end RPC call early
+- any function that can block should have timeout 

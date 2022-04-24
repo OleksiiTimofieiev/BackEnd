@@ -1,7 +1,9 @@
-- memory leaking in go
-- async in go
+- OOP in go
+- working with interfaces
 - reverse proxy
+- architecture: https://www.youtube.com/watch?v=oL6JBUk6tj0
 - CLI go
+- gob
 - hangling go errors practice
 - effective go
 - generics
@@ -10,10 +12,8 @@
 - common go errors
 - session in web: what for and how
 - gRPC
-- context
 - streaming protocols in go
 - worker pool in go
-- reflection
 - highload architercture in go
 - when to use each type of database: in memory/not in memory
 - design patterns in go
@@ -24,7 +24,6 @@
 - errors in prod: typical ones check
 - secure go code
 - transactions/transactional behaviour
-- http 1,2,3/ http versions
 - gPRC on http 2.0
 - system Design
 - problems with DB
@@ -32,64 +31,44 @@
 - check tooling
 - reflection
 - tracing
-- goroutines leakage
-- refresh channels
 - templates
 - sql injections
 - cache misses, how cache works, cache contention
-- go mod
 - cookie  
 ---
-
-Профилирования 
-БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
-Error management 
+- Профилирования 
+- БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
+- Error management 
 - Scheduler: OTUS lectures
 - garbage collector: OTUS lectures
 - concurrency patterns
 - docker compose // TODO: check docker todos
-Design Patterns in go
-Interfaces and casting
-Executor tracing
-Perfomance measurement
-Kafka: streams API
-context swich in Go
-Reflection 
-garbage collector
-Highload couroutines patterns
-Data structures 
-Testing
-Go-Kit
-memory model otus
-typical interview questions
-Rabbit-MQ and connected 
-Aws 
-kubernetes
-why we need code generation in go
-Project with microservices on docker aws kubernetes 
-Apache vs nginx == otus highload
-Code generation 
-Protobuf and other protocols
-Closures
-Вопросы для собеседования 
-CAP theorem
-SQL vs NoSQL
-Очереди сообщений
-Docker compose
-Mongo / SQL in project 
-https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
-
-
-Кане лоні
-
-gracefull shutdown with context
- Pool of coroutines 
-Покрытие тестами
-Докер компоуз 
-
----
-
-https://golangcourse.ru/#submit
-https://www.coursera.org/learn/golang-webservices-1/lecture/n4PV5/taimiery-i-taimauty
-
-working with bufferized channels
+- Design Patterns in go
+- Interfaces and casting
+- Executor tracing
+- Perfomance measurement
+- Kafka: streams API
+- context swich in Go
+- Highload couroutines patterns
+- Data structures 
+- Testing
+- Go-Kit
+- memory model otus
+- typical interview questions
+- Rabbit-MQ and connected 
+- Aws 
+- kubernetes
+- why we need code generation in go
+- Project with microservices on docker aws kubernetes 
+- Apache vs nginx == otus highload
+- Code generation 
+- Closures
+- CAP theorem
+- SQL vs NoSQL
+- Очереди сообщений
+- Docker compose
+- Mongo / SQL in project 
+- https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
+- gracefull shutdown with context
+- Pool of coroutines 
+- Покрытие тестами

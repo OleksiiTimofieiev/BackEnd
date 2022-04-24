@@ -1,0 +1,12 @@
+- buffered || unbuffered
+- can cause to block || ublock goroutines
+- hchan:
+cirqular queue - buf == initially empty
+send /receive index
+mutex
+waiting senders
+waiting receivers
+- make returns a pointer == channel is a pointer under the hood
+M = machine
+G = goroutine
+P = processor

@@ -2,7 +2,7 @@ TARGET=archiver
 
 
 init:
-	@ export GOPATH="/home/user/Desktop/BackEnd/Go/"
+	@ export GOPATH=/home/user/Desktop/BackEnd/Go/
 
 deploy: 
 	@ go install
