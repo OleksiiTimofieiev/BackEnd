@@ -19,3 +19,4 @@ type Event struct {
 	Type Type
 	Text string
 }
+

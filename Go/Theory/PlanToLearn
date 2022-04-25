@@ -4,9 +4,12 @@ core:
 - hangling go errors practice
 - effective go
 - generics
+- strings
 - slice
-- map 
+- map
 - gRPC
+- interfaces
+- select
 - streaming protocols in go
 - worker pool in go
 - highload architercture in go
@@ -18,8 +21,31 @@ core:
 - Scheduler: OTUS lectures
 - garbage collector: OTUS lectures
 - reflection
+- select
+- runtime package
+- GC
+- Scheduler
+- pprof
+- https://www.youtube.com/watch?v=8D3Vmm1BGoY
+
 
 infrastructure:
+- html/css/javascript/DOM model/Local storage/How requests go
+- http/https protocol, session, jwt tokens
+- ACID transactions
+- CAP theorem
+- MySQL vs NoSQL
+- patterns of microservices
+- шина сообщений
+- distributed systems
+- Docker, CI/Cd, AWS/GCP/Azure
+- Dockerfile, Docker compose
+- difference beetween Docker and Virtual Machine
+- Security: XSS, SQL injections, keeping passwords, keeping secrets
+- indexing, sharding and replication
+- TCP/IP
+- websockets
+- authentification mechanisms
 - microservics
 - highload
 - reverse proxy
@@ -65,3 +91,4 @@ infrastructure:
 - gracefull shutdown with context
 - Pool of coroutines 
 - Покрытие тестами
+- delve
