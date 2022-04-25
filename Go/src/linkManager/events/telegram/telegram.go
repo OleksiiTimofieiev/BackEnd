@@ -27,6 +27,7 @@ var (
 func New(client *telegram.Client, storage storage.Storage) *Processor {
 	return &Processor{
 		tg:      client,
+		offset:  0,
 		storage: storage,
 	}
 }
@@ -61,7 +62,7 @@ func (p *Processor) Process(event events.Event) error {
 	}
 }
 
-func (p *Processor) processMessage(event events.Event) {
+func (p *Processor) processMessage(event events.Event) error {
 	meta, err := meta(event)
 	if err != nil {
 		return e.Wrap("can`t process message", err)
@@ -73,6 +74,7 @@ func meta(event events.Event) (Meta, error) {
 	if !ok {
 		return Meta{}, e.Wrap("can`t get Meta", ErrUnknownMetaType)
 	}
+	return res, nil
 }
 
 func event(upd telegram.Update) events.Event {
