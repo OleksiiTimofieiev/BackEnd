@@ -1,0 +1,8 @@
+- description of the object behaviour
+- all methods have to be implemented to use the interface
+
+type object interface {
+    //
+}
+
+- way to implement polymorphism in go

@@ -1,57 +1,50 @@
-- OOP in go
-- working with interfaces
-- reverse proxy
+core:
 - architecture: https://www.youtube.com/watch?v=oL6JBUk6tj0
-- CLI go
 - gob
 - hangling go errors practice
 - effective go
 - generics
-- string, slice, map 
-- apche vs nginx: otus highload
-- common go errors
-- session in web: what for and how
+- slice
+- map 
 - gRPC
 - streaming protocols in go
 - worker pool in go
 - highload architercture in go
-- when to use each type of database: in memory/not in memory
 - design patterns in go
-- databases: effectivenes, specifications, course on itvdn as a basis
-- profiling
-- testing a web server
 - templates
-- errors in prod: typical ones check
 - secure go code
-- transactions/transactional behaviour
+- profiling
 - gPRC on http 2.0
+- Scheduler: OTUS lectures
+- garbage collector: OTUS lectures
+- reflection
+
+infrastructure:
+- microservics
+- highload
+- reverse proxy
+- CLI go
+- apche vs nginx: otus highload
+- session in web: what for and how
+- when to use each type of database: in memory/not in memory
+- databases: effectivenes, specifications, course on itvdn as a basis
+- testing a web server
+- transactions/transactional behaviour
 - system Design
 - problems with DB
 - databases
 - check tooling
-- reflection
 - tracing
 - templates
 - sql injections
 - cache misses, how cache works, cache contention
-- cookie  
----
-- Профилирования 
+- cookies  
 - БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
-- Error management 
-- Scheduler: OTUS lectures
-- garbage collector: OTUS lectures
-- concurrency patterns
-- docker compose // TODO: check docker todos
-- Design Patterns in go
-- Interfaces and casting
+- docker compose 
 - Executor tracing
 - Perfomance measurement
 - Kafka: streams API
-- context swich in Go
 - Highload couroutines patterns
-- Data structures 
-- Testing
 - Go-Kit
 - memory model otus
 - typical interview questions
