@@ -1,16 +1,13 @@
 core:
+- generics
+- reflection
 - architecture: https://www.youtube.com/watch?v=oL6JBUk6tj0
+- streaming protocols in go
+----------------------------------------------------------------
 - gob
 - hangling go errors practice
 - effective go
-- generics
-- strings
-- slice
-- map
 - gRPC
-- interfaces
-- select
-- streaming protocols in go
 - worker pool in go
 - highload architercture in go
 - design patterns in go
@@ -19,12 +16,10 @@ core:
 - profiling
 - gPRC on http 2.0
 - Scheduler: OTUS lectures
-- garbage collector: OTUS lectures
-- reflection
-- select
 - runtime package
-- GC
-- Scheduler
+- GC: https://www.youtube.com/watch?v=ZZJBu2o-NBU
+- garbage collector: OTUS lectures
+- Scheduler: OTUS
 - pprof
 - https://www.youtube.com/watch?v=8D3Vmm1BGoY
 
@@ -41,6 +36,7 @@ infrastructure:
 - Docker, CI/Cd, AWS/GCP/Azure
 - Dockerfile, Docker compose
 - difference beetween Docker and Virtual Machine
+- making API
 - Security: XSS, SQL injections, keeping passwords, keeping secrets
 - indexing, sharding and replication
 - TCP/IP

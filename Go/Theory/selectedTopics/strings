@@ -1,0 +1,4 @@
+- strings are the immutable chain of arbitrary bytes(including bytes with zero value) or 
+string is a read-only slice of bytes and the bytes of the strings can be represented in the Unicode text using UTF-8 encoding.
+- string library
+- strconv
