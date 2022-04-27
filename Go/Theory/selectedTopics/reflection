@@ -1,0 +1,13 @@
+- no info on representation
+- interface can be type asserted to extract the value of that interface == i.(type)
+- to handle the multiple input data types => flexibility
+- reflection - another tool to obtain information about the type and value of the variable
+- reflection == set of functions === reflect package
+- three core concepts:
+type = reflect.TypeOf(...)
+kind
+value
+- funcs: Name, Type, Kind
+- ValueOF
+- TypeOf
+- all interfaces in go contain value and a type descriptor

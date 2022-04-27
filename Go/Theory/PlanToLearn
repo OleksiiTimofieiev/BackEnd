@@ -1,8 +1,12 @@
 core:
 - generics
-- reflection
-- architecture: https://www.youtube.com/watch?v=oL6JBUk6tj0
+- templates/code generation:
+https://www.youtube.com/watch?v=iLk_LnGrst4
+- architecture: 
+https://www.youtube.com/watch?v=afSiVelXDTQ&t=1279s
 - streaming protocols in go
+- https://www.youtube.com/watch?v=N1wSFA6VNuM&list=PLve39GJ2D71xX0Ham0WoPaYfl8oTzZfN6&index=25
+- GC: https://www.youtube.com/watch?v=ZZJBu2o-NBU
 ----------------------------------------------------------------
 - gob
 - hangling go errors practice
@@ -12,12 +16,10 @@ core:
 - highload architercture in go
 - design patterns in go
 - templates
-- secure go code
 - profiling
 - gPRC on http 2.0
 - Scheduler: OTUS lectures
 - runtime package
-- GC: https://www.youtube.com/watch?v=ZZJBu2o-NBU
 - garbage collector: OTUS lectures
 - Scheduler: OTUS
 - pprof
