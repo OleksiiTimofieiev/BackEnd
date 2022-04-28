@@ -1,1 +1,19 @@
-- 
+- stack == LIFO
+- algo = mark and swear
+- mark:
+white
+grey
+black
+- stop the world => write barrier
+- runtime.GC() || pacer: size of heap *2 => call GC; GOGO var to set
+stop the world => safe-point in goroutines => finish of resource cleaning
+- data fragmentation, no configuring
+- is being concurrent
+- stops 2 times for GC
+- way out:
+increase GOGC
+sync.Pool
+ballast == big memory allocation on the program start
+will create a huge input for GC algorithm
+if no write or read == will be created only in virtual address space and
+will not use no physical memory

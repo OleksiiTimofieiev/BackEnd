@@ -1,12 +1,7 @@
 core:
 - generics
-- templates/code generation:
-https://www.youtube.com/watch?v=iLk_LnGrst4
-- architecture: 
-https://www.youtube.com/watch?v=afSiVelXDTQ&t=1279s
 - streaming protocols in go
 - https://www.youtube.com/watch?v=N1wSFA6VNuM&list=PLve39GJ2D71xX0Ham0WoPaYfl8oTzZfN6&index=25
-- GC: https://www.youtube.com/watch?v=ZZJBu2o-NBU
 ----------------------------------------------------------------
 - gob
 - hangling go errors practice
@@ -17,14 +12,11 @@ https://www.youtube.com/watch?v=afSiVelXDTQ&t=1279s
 - design patterns in go
 - templates
 - profiling
-- gPRC on http 2.0
 - Scheduler: OTUS lectures
 - runtime package
-- garbage collector: OTUS lectures
-- Scheduler: OTUS
 - pprof
 - https://www.youtube.com/watch?v=8D3Vmm1BGoY
-
+- unit tests
 
 infrastructure:
 - html/css/javascript/DOM model/Local storage/How requests go
@@ -55,8 +47,7 @@ infrastructure:
 - testing a web server
 - transactions/transactional behaviour
 - system Design
-- problems with DB
-- databases
+- databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
 - check tooling
 - tracing
 - templates
@@ -90,3 +81,4 @@ infrastructure:
 - Pool of coroutines 
 - Покрытие тестами
 - delve
+- java GC
