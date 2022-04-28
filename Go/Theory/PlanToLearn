@@ -1,6 +1,6 @@
 core:
 - generics
-- streaming protocols in go
+-- goroutines:https://www.youtube.com/watch?v=4CrL3Ygh7S0
 - https://www.youtube.com/watch?v=N1wSFA6VNuM&list=PLve39GJ2D71xX0Ham0WoPaYfl8oTzZfN6&index=25
 ----------------------------------------------------------------
 - gob
