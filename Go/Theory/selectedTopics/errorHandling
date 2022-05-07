@@ -1,0 +1,5 @@
+-  object inherited from interface
+- return of a string value: return fmt.Sprintf
+- return errors.New()   
+- return fmt.Errorf()
+- handle exception: panic -> defer -> recover

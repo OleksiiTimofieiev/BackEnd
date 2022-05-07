@@ -1,31 +1,31 @@
 core:
-- generics
--- goroutines:https://www.youtube.com/watch?v=4CrL3Ygh7S0
-- https://www.youtube.com/watch?v=N1wSFA6VNuM&list=PLve39GJ2D71xX0Ham0WoPaYfl8oTzZfN6&index=25
+- https://www.youtube.com/watch?v=TIAkt9csksI&t=12s
+- https://www.youtube.com/watch?v=kKu9HuOvaUY&list=RDCMUCwFl9Y49sWChrddQTD9QhRA&index=4
+- go scheduler
+- runtime package
+- rules of normalization
 ----------------------------------------------------------------
-- gob
-- hangling go errors practice
-- effective go
-- gRPC
-- worker pool in go
-- highload architercture in go
-- design patterns in go
 - templates
 - profiling
-- Scheduler: OTUS lectures
-- runtime package
 - pprof
 - https://www.youtube.com/watch?v=8D3Vmm1BGoY
 - unit tests
 
 infrastructure:
+- structure of HTTP packet
+- cookie
+- effective go
 - html/css/javascript/DOM model/Local storage/How requests go
+- protocol buffer
 - http/https protocol, session, jwt tokens
+- web protocols: polling, websocket
 - ACID transactions
 - CAP theorem
 - MySQL vs NoSQL
 - patterns of microservices
 - шина сообщений
+- gRPC
+- good vs bad in go
 - distributed systems
 - Docker, CI/Cd, AWS/GCP/Azure
 - Dockerfile, Docker compose
@@ -36,8 +36,6 @@ infrastructure:
 - TCP/IP
 - websockets
 - authentification mechanisms
-- microservics
-- highload
 - reverse proxy
 - CLI go
 - apche vs nginx: otus highload
@@ -61,6 +59,7 @@ infrastructure:
 - Kafka: streams API
 - Highload couroutines patterns
 - Go-Kit
+- how to check successfull read/write in replications
 - memory model otus
 - typical interview questions
 - Rabbit-MQ and connected 
@@ -82,3 +81,9 @@ infrastructure:
 - Покрытие тестами
 - delve
 - java GC
+- backend protocols
+- session & cookies
+- DB & connections
+
+projects:
+https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s

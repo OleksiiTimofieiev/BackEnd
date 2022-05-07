@@ -18,4 +18,76 @@
     Logic server
     Web Server 
     - resources: memory (structures to save data, access to memory), processor (blocks, system tasks, waiting, multythreading), disk, network
+    - scaling: different servers, functions, sharding, partitioning, increasing quantity of replics
+    - идемпотентность
+    - RDBMS - ACID: atomicity, consistency, isolation, durability
+    - optimizations: 
+    index (disk operation are very costly and slow), 
+    short transactions (one transaction waits another), 
+    denormalization, 
+    minimum logic, 
+    minimum foreign key logic
+    - CAP: consistency, availability, partition tolerance
+    - master-slave: read from master and slave, write only to master, replication: sync, async
+    - quorum
+    - my read from master, others from slave
+}
+
+///// Lecture 4: Network stack
+{
+    - 7 layers -> 4 layers
+    Steps of HTTP request:
+    1. DNS
+    2. IP >> route => not in local network -> default gateway
+    3. Route IP >> MAC == ARP Protocol
+    - NIC: network interface controller. Configuring: ethtool
+    - network stack is a huge program in OS
+    - connection parameters:
+    SO_KEEPALIVE
+    SO_REUSEADDR
+    SO_REUSEPORT
+    TCP_CORK - данные пачками -> лучше througout
+    TCP_NODELAY - as much faster as possible -> latency
+    TCP_DEFER_ACCEP - don`t wake up until real data
+    - get packet from NIC:
+    user space network stack: DPDK, netmap
+    XDP == express data path
+    - RTT - round trip time
+    - MTU == maximum transmission unit == 1500 bytes
+    - MSS == payload
+
+}
+///// Lecture 5: balancing
+{
+    - Master - Standby
+    - FQDN == fully qualified domain name => Round-Robin DNS
+    - L4 (TCP/UDP): balancing type (balancing of TCP connections) = LVS (linux virtual server):
+    virtual ip address
+    methods:
+    1. assymetric routing: clint -> L4 balancer -> direct reply to client, bonding, lo == loopback. bond -> lo -> app on 80 port
+    2. L2 == ipip == packet in packet to machine in other network, 1500 => fragmentation (+8-10 GB of memory),
+    not works: path MTU discovery
+    works: advmss(limit to 1480 bytes -> left space for 20 bytes [ipip])
+    3. NAT == Network Address Translation:
+    client -> balancer -> server -> balancer -> client
+    load on balancer, huge configuration issues
+    4. high availability:
+    L4 Balancer [balancing & monitoring]: WRR (weighted round-robin, good to close connections - TCP aspect), WLC (weighted least connections), SH (Source Hash)
+    5. upgrade/update: 
+    6. Reliability: VRRP: two balancers or more (ping each other)
+    7. Router: better to use source hash = ECMP == equal cost multipath 
+    - DNS/GSLB (Global Server Load Balancing):
+    TTL: time to leave = little TTL to check the server availability
+    CDN == content delivery network:
+    unicast: ip address prefix == ip network == ip address and mask => describe user -> cdn ===> from prefixes => go there
+    anycast: 
+    8. Load:
+    To solve SYN flood:
+    User-Space Network stack -> DPDK, Netmap, OpenLoad, pf_ring *100 speed 
+    slow GET/POST:
+    can overload tje server/sql server => proxy[nginx, HAProxy, squid, APACHE]
+    solution: post of a huge file, proxy will accumulate an then throws it to server
+    gzip BOMB (compress/decompress on the fly):
+    solution: proxy of L7
+
 }
