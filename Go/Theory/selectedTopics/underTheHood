@@ -1,0 +1,22 @@
+- runtime: code being run which we didn`t call:
+scheduler
+GC
+memory allocator
+std
+debug information
+- goroutines == green threads, we can controll resources
+- GOMAXPROCS == amount of available process CPUs
+- preemptive/cooperative concurrency
+- FIFO queue = no controll on priority
+- guarantee of execution time
+- goroutines may be transferred beetween thread == cache mish,
+runtime.LockOSThred == to avoid moving from P in scheduler
+- newproc => go smth => structure added to array => one round of scheduler->schedule()
+- mstart() {... ; schedule()}
+- func main {
+    gc()
+    ...
+    alloc()
+    ...
+    main_main()
+}

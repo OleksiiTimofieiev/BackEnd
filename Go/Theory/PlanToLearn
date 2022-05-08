@@ -1,8 +1,6 @@
 core:
-- https://www.youtube.com/watch?v=TIAkt9csksI&t=12s
-- https://www.youtube.com/watch?v=kKu9HuOvaUY&list=RDCMUCwFl9Y49sWChrddQTD9QhRA&index=4
-- go scheduler
-- runtime package
+https://www.youtube.com/watch?v=kKu9HuOvaUY&list=RDCMUCwFl9Y49sWChrddQTD9QhRA&index=5
+https://www.youtube.com/watch?v=TIAkt9csksI&t=12s
 - rules of normalization
 ----------------------------------------------------------------
 - templates
@@ -15,6 +13,7 @@ infrastructure:
 - structure of HTTP packet
 - cookie
 - effective go
+- https://www.youtube.com/watch?v=kClQ7rM5uBY
 - html/css/javascript/DOM model/Local storage/How requests go
 - protocol buffer
 - http/https protocol, session, jwt tokens
@@ -27,6 +26,7 @@ infrastructure:
 - gRPC
 - good vs bad in go
 - distributed systems
+- https://www.youtube.com/watch?v=4U3EaVufuW4&t=51s
 - Docker, CI/Cd, AWS/GCP/Azure
 - Dockerfile, Docker compose
 - difference beetween Docker and Virtual Machine

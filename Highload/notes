@@ -89,5 +89,33 @@
     solution: post of a huge file, proxy will accumulate an then throws it to server
     gzip BOMB (compress/decompress on the fly):
     solution: proxy of L7
+}
 
+///// Lecture 6: processor and memory {
+    - von neuman architecture
+    - harward architecture: bus of command and data
+    - cpu: 
+    non-conveyor architecture, 
+    conveyor architecture (every element of the conveyor can work independently),
+    superscalar (instrucion dispetcher)
+    - caching: exclusive or not exclusive
+    - CPU -> L1 -> L2 ->L3 -> RAM: if cache miss
+    - external instruction set (MMX, AES)
+    - multicore architecture
+    - cache coherency => 
+    paralellism:
+    Symmetric multiprocessing or shared-memory multiprocessing[1] (SMP)
+    NUMA
+    - memory has size of 4kb pages, hugepages: 2Mb, 1Gb
+    - processes work with virtual memory & swap
+    - resources have to be at ratinal maximum
+    stack
+    mmap
+    heap
+    bss (uninitialized data)
+    init data (initialized data)
+    text (program code)
+    - files: /proc/meminfo, /proc/<pid>/status, /proc/<pid>/maps, /proc/vmstat
+    - utilities: free, top, ps, perf, numactl
+    - VMA == virtual memory area
 }
