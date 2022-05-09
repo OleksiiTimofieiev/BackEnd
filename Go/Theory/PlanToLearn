@@ -1,6 +1,4 @@
 core:
-https://www.youtube.com/watch?v=kKu9HuOvaUY&list=RDCMUCwFl9Y49sWChrddQTD9QhRA&index=5
-https://www.youtube.com/watch?v=TIAkt9csksI&t=12s
 - rules of normalization
 ----------------------------------------------------------------
 - templates
@@ -23,6 +21,7 @@ infrastructure:
 - MySQL vs NoSQL
 - patterns of microservices
 - шина сообщений
+- https://www.youtube.com/watch?v=S_1YfTfuWmo
 - gRPC
 - good vs bad in go
 - distributed systems

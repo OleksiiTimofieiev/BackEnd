@@ -1,11 +1,9 @@
-///// Lecture 1
-{
+///// Lecture 1: {
     - доступность
     - маштабируемость
 }
 
-///// Lecture 2
-{
+///// Lecture 2: {
     - fat client: state is being saved on the client side
     pros: saving on traffic, delays, cache, constant connection, pushing (server sends events to client), offline mode, server without a state
     cons: update, different api versions, consistency, localization, experiments
@@ -33,8 +31,7 @@
     - my read from master, others from slave
 }
 
-///// Lecture 4: Network stack
-{
+///// Lecture 4: Network stack {
     - 7 layers -> 4 layers
     Steps of HTTP request:
     1. DNS
@@ -57,8 +54,7 @@
     - MSS == payload
 
 }
-///// Lecture 5: balancing
-{
+///// Lecture 5: balancing {
     - Master - Standby
     - FQDN == fully qualified domain name => Round-Robin DNS
     - L4 (TCP/UDP): balancing type (balancing of TCP connections) = LVS (linux virtual server):
@@ -118,4 +114,15 @@
     - files: /proc/meminfo, /proc/<pid>/status, /proc/<pid>/maps, /proc/vmstat
     - utilities: free, top, ps, perf, numactl
     - VMA == virtual memory area
+}
+
+///// Lecture 7: data storage {
+- parameters: volume, perfomance[normal, in degradation], latency, reliability, price
+- HDD: low price, bigger volume | huge latency, power consumtion, not reliable on physical interference
+- SSD: versus HDD -> block model of writing (read to buffer/delete/change/write)
+TRIM sometimes has more priority then I/O operations
+Garbage Collector: may clean all which is not necessary
+Wear leveling: increase life of disks == balances degradation
+Over provisioning:
+- SATA/SCSI
 }
