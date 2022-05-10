@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494z40&index=7
+
 ///// Lecture 1: {
     - доступность
     - маштабируемость
@@ -125,4 +127,17 @@ Garbage Collector: may clean all which is not necessary
 Wear leveling: increase life of disks == balances degradation
 Over provisioning:
 - SATA/SCSI
+- disk perfomance:
+HDD: length of seek operations
+SDD: paralellism
+- disk elevators(schedulers) == change I/O operation conveyor to optimize those operations:
+noop - FIFO (unite of one type requests)
+deadline - trying to provide specified latency, two queues on read/write
+cfg - as evenly as possible
+bfq - based on cfg, but more optimally
+- disk state: SMART std 
+- partitions: MBR/GPT
+- inode == index descriptor
+- fs: journaling, directories
+- RAID
 }

@@ -1,0 +1,32 @@
+- long processing of requests
+- non-full request processing periodically
+- connection failures
+- decrease of free memory
+
+- automatic balancing
+
+- pillars:
+high-availability
+diagnostics
+latency
+scaling
+
+- C++ => direct memory access, no GC, no stop of the world
+- move semantics => no copying of the objects
+- copy elision => if possible to be with copies, eliminate copies <= O2 == compiler optimizations
+- memory barriers: memory_order_*
+- RAII == resource aquisition is initialization == every memory allocation will have the destructor
+- shared, unique, weak *_ptr == smart pointers
+- each malloc is a system call
+- std::allocator : allocator, allocator shared
+- placement new where possible in order to use sys call as less as possible
+- mutex: mutex, timed, recursive, shared, shared_timed
+- avoid sys calls => one file with offset method => external index in headers
+- avoid huge page tables
+- PTHREAD_SETAFFINITY_AP => bide CPUs to core to avoid cache miss
+
+
+
+?: 
+- friendly C++ code
+- threading in highplos

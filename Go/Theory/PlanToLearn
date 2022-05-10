@@ -1,10 +1,9 @@
 core:
-- rules of normalization
-----------------------------------------------------------------
+- https://www.youtube.com/watch?v=qDgs2FJakVQ
+- https://www.youtube.com/watch?v=8D3Vmm1BGoY
 - templates
 - profiling
 - pprof
-- https://www.youtube.com/watch?v=8D3Vmm1BGoY
 - unit tests
 
 infrastructure:
@@ -37,7 +36,6 @@ infrastructure:
 - authentification mechanisms
 - reverse proxy
 - CLI go
-- apche vs nginx: otus highload
 - session in web: what for and how
 - when to use each type of database: in memory/not in memory
 - databases: effectivenes, specifications, course on itvdn as a basis
@@ -66,7 +64,6 @@ infrastructure:
 - kubernetes
 - why we need code generation in go
 - Project with microservices on docker aws kubernetes 
-- Apache vs nginx == otus highload
 - Code generation 
 - Closures
 - CAP theorem

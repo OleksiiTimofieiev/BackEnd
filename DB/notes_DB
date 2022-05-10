@@ -15,3 +15,12 @@ demand to have reference to primary key of the referenced table:
 
 Additional:
 - ITVDN
+
+- Normalization: {
+    - orginize in multiple related tables
+    - decrease redundancy (same data in several places)
+    - anomally:
+    insertion == same data on insertion
+    modification == update every single record in redundancy fashion
+    deletion problem == delete redundancy fashion
+}

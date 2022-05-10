@@ -1,0 +1,11 @@
+func newGenericFunc[age any] (myAge age){
+	fmt.Println(myAge)
+}
+
+type Number interface {
+	int8 | int16
+}
+
+func newGenericFunc[age Number] (myAge age){
+	fmt.Println(myAge)
+}

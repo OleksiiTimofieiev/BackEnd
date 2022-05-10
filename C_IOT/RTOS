@@ -1,0 +1,3 @@
+- opensource library
+- preemptive scheduling
+- vTaskStartScheduler()
