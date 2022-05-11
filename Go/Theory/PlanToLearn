@@ -6,7 +6,6 @@ core:
 - pprof
 - unit tests
 - hash functions
-
 infrastructure:
 - structure of HTTP packet
 - cookie

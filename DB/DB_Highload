@@ -1,35 +1,35 @@
-Lecture 1: {
+///// Lecture 1: 
+{
+    - Metrics:
+    - rpm == requests per second
+    - onetime connections 
+    - bytes per second
+    - latency == one client service time
+    - troughoutput == processed client/period
+    Frontend (proxy: apache, nginx):
+    - SSL termination
+    - slow clients
+    - providing static
+    - keep-alive
+    - caching
+    Backend:
+    - constantly waits for something
+    - business logic
+    - reply from request to DB
+    - sometimes it is faster to request network then HDD
+    - using of swap is bad
+    - context switching <- signal ==> all data is being save to RAM and switching to another process
+    - apache: new process on each client, amount of idle processes
+    - nginx: async processing:
+    epoll/kqueue
+    handling in one request
+    no context-switch
+    event-driven handling, based on callback
+    - page cache
+    - caching
+    - balancing
+}
 
-- Metrics:
-- rpm == requests per second
-- onetime connections 
-- bytes per second
-- latency == one client service time
-- troughoutput == processed client/period
-
-Frontend (proxy: apache, nginx):
-- SSL termination
-- slow clients
-- providing static
-- keep-alive
-- caching
-
-Backend:
-- constantly waits for something
-- business logic
-- reply from request to DB
-- sometimes it is faster to request network then HDD
-- using of swap is bad
-
-
-- context switching <- signal ==> all data is being save to RAM and switching to another process
-- apache: new process on each client, amount of idle processes
-- nginx: async processing:
-epoll/kqueue
-handling in one request
-no context-switch
-event-driven handling, based on callback
-- page cache
-- caching
-- balancing
+///// Lecture 2: {
+    - 
 }
