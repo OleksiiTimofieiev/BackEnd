@@ -141,3 +141,31 @@ bfq - based on cfg, but more optimally
 - fs: journaling, directories
 - RAID
 }
+
+///// Lecture 15: modern data structures {
+    - streaming nature of data processing, no random access, uncontrollable incoming rate
+    - solution: small data structures, more smaller - less accurate, ubiquitous hashing
+    count-distinct (how many different items in dataset):
+    classic == sort and run == used almost in all DB, spark approxCount Distinct, allmost all DB
+    ~ linear counting => reduces memory used => database query optimizations
+    BitSet mask = new BitSet(m)
+    int position = hash(value)
+    mask.set(position)
+    ~ LogLog Counter(how many different item sin dataset):
+    provide hash in binary == strings of 1010101 => binary division by  rang
+    ~ count-min sketch(how often element appears in dataset):
+    generic == multiset, hashmap, values + counters
+    minimum on results of hash function(sometimes we have conflicts)
+    depth x width
+    use: picking safe password, natural language processing, heavy hitters identifying
+    ~ find top-k element in dataset
+    ~ space-saving:
+    content-delivery networks, traffic monitoring, anomaly detection
+    count-min sketch + heap
+    ~ membership (does element belongs to dataset):
+    generic: set/array =? O(n)
+    Bloom Filter used:
+    use: reducing exact checks/lookups, widly used in DB, prevent one-hit-wonders from caching,
+    avoid show already shown items to user
+    ~ sliding window
+}

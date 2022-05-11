@@ -30,4 +30,6 @@ handling in one request
 no context-switch
 event-driven handling, based on callback
 - page cache
+- caching
+- balancing
 }

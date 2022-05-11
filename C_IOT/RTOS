@@ -1,3 +1,12 @@
+- RTOS:
+https://www.youtube.com/watch?v=F321087yYy4&list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz&index=1
+
 - opensource library
 - preemptive scheduling
 - vTaskStartScheduler()
+
+- Task scheduling:
+- ISR: interrupt service routine
+- every tick processor being interrupted
+- highest priority to run
+- task creation: ready, running, blocked

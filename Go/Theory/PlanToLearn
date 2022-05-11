@@ -5,6 +5,7 @@ core:
 - profiling
 - pprof
 - unit tests
+- hash functions
 
 infrastructure:
 - structure of HTTP packet
@@ -80,6 +81,7 @@ infrastructure:
 - backend protocols
 - session & cookies
 - DB & connections
-
+- data structures for highload
+- RAID
 projects:
 https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
