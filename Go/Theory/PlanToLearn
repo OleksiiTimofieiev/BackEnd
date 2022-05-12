@@ -1,13 +1,14 @@
 core:
 - https://www.youtube.com/watch?v=qDgs2FJakVQ
-- https://www.youtube.com/watch?v=8D3Vmm1BGoY
 - templates
 - profiling
 - pprof
-- unit tests
+- tests
 - hash functions
 infrastructure:
-- structure of HTTP packet
+- structure of HTTP packet/request
+- ping: https://www.youtube.com/watch?v=weHRbig_wEU
+- traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
 - cookie
 - effective go
 - https://www.youtube.com/watch?v=kClQ7rM5uBY

@@ -4,7 +4,6 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
     - доступность
     - маштабируемость
 }
-
 ///// Lecture 2: {
     - fat client: state is being saved on the client side
     pros: saving on traffic, delays, cache, constant connection, pushing (server sends events to client), offline mode, server without a state
@@ -32,7 +31,6 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
     - quorum
     - my read from master, others from slave
 }
-
 ///// Lecture 4: Network stack {
     - 7 layers -> 4 layers
     Steps of HTTP request:
@@ -54,7 +52,6 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
     - RTT - round trip time
     - MTU == maximum transmission unit == 1500 bytes
     - MSS == payload
-
 }
 ///// Lecture 5: balancing {
     - Master - Standby
@@ -88,7 +85,6 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
     gzip BOMB (compress/decompress on the fly):
     solution: proxy of L7
 }
-
 ///// Lecture 6: processor and memory {
     - von neuman architecture
     - harward architecture: bus of command and data
@@ -117,31 +113,29 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
     - utilities: free, top, ps, perf, numactl
     - VMA == virtual memory area
 }
-
 ///// Lecture 7: data storage {
-- parameters: volume, perfomance[normal, in degradation], latency, reliability, price
-- HDD: low price, bigger volume | huge latency, power consumtion, not reliable on physical interference
-- SSD: versus HDD -> block model of writing (read to buffer/delete/change/write)
-TRIM sometimes has more priority then I/O operations
-Garbage Collector: may clean all which is not necessary
-Wear leveling: increase life of disks == balances degradation
-Over provisioning:
-- SATA/SCSI
-- disk perfomance:
-HDD: length of seek operations
-SDD: paralellism
-- disk elevators(schedulers) == change I/O operation conveyor to optimize those operations:
-noop - FIFO (unite of one type requests)
-deadline - trying to provide specified latency, two queues on read/write
-cfg - as evenly as possible
-bfq - based on cfg, but more optimally
-- disk state: SMART std 
-- partitions: MBR/GPT
-- inode == index descriptor
-- fs: journaling, directories
-- RAID
+    - parameters: volume, perfomance[normal, in degradation], latency, reliability, price
+    - HDD: low price, bigger volume | huge latency, power consumtion, not reliable on physical interference
+    - SSD: versus HDD -> block model of writing (read to buffer/delete/change/write)
+    TRIM sometimes has more priority then I/O operations
+    Garbage Collector: may clean all which is not necessary
+    Wear leveling: increase life of disks == balances degradation
+    Over provisioning:
+    - SATA/SCSI
+    - disk perfomance:
+    HDD: length of seek operations
+    SDD: paralellism
+    - disk elevators(schedulers) == change I/O operation conveyor to optimize those operations:
+    noop - FIFO (unite of one type requests)
+    deadline - trying to provide specified latency, two queues on read/write
+    cfg - as evenly as possible
+    bfq - based on cfg, but more optimally
+    - disk state: SMART std 
+    - partitions: MBR/GPT
+    - inode == index descriptor
+    - fs: journaling, directories
+    - RAID
 }
-
 ///// Lecture 15: modern data structures {
     - streaming nature of data processing, no random access, uncontrollable incoming rate
     - solution: small data structures, more smaller - less accurate, ubiquitous hashing
@@ -168,4 +162,138 @@ bfq - based on cfg, but more optimally
     use: reducing exact checks/lookups, widly used in DB, prevent one-hit-wonders from caching,
     avoid show already shown items to user
     ~ sliding window
+}
+///// Lecture 16: replication {
+    - replication (master-master) with leader (master-slave == one leader, many follower, kafka, databases) 
+    {
+        sync == confiramation when operation finished on slave, 
+            pros: full data copy, data availability when master fails
+            cons: one slave fails -> all fails, blocked writes
+        async == not waiting for the confirmation, remedy to have the normal latency
+            pros: one slave fails -> all fails, master not fails
+            cons: potential data loss
+        semi-sync: some slaves in sync (2 slaves at least), others in async
+        - way to hadle the slave:
+        get consistence snapshot from the leader, move it to follower,
+        after follower gets full snapshot, then asking data after snapshot,
+        then follower is being in catch up state
+        - multiversion concurrency control
+        - failover process == if leader fails -> choose another: select good candidate:
+        are you volunteer -> request from client -> others choosing replica as leader(maybe sync replica?)
+        to detect failover == timeout, heartbeats
+        election process(choosing by majority consenus: PAXOS) <= appointing by controller node
+        potential problems:
+        1. lost writes
+        2. discarded lost writes: reusing auto-increment primary keys
+        3. split brain: two nodes think that they are being master, 
+        both leaders accept writes, no conflict resolution, corrupted or lost data
+        4. correct timeout:
+        longer timeout -> longer time to recovery
+        shorter timeout -> unnecessary failover processes
+        - replication log implementations:
+        statement-based (requests which came to master) => every request sent to followers "as-is"
+            problems:
+                lightweight trafic
+                non-deterministic functions (NOW(), RAND())
+                auto-increments, UPDATE WHERE
+                state side effects
+                default in old version on MySQL
+        write-ahead-log shipping(physical) == write to log then apply
+            journal containes description of changes on low level
+            cons:
+                every storage modifications is written to WAL (on leader)
+                very low level
+                potential downtime for upgrades
+                storage format conflicts
+                unused for external systems
+        logical log replication == different log formats for replication and storage engine, working with ids of writes
+            tips:
+                possibly lots of traffic
+                different software version on master in slave
+                zero-downtime for upgrades
+                change data capture
+        - read-scaling architecture (read a lot, write lesser):
+        leader-based replication
+        suatable for web
+        scaling by adding followers
+        needs a lot of async replication
+        => eventual consitency: read from async may be outdated, inconsistency is temprary, followers eventually become as is leader
+        - replication lag anomally:
+        read-on-writes (reading from replica not in sync with master)
+            solutions:
+                read write from master(leader) user profile management
+                tracking time of last update <= our max replication delay
+                monitor replication lags and prevent some routings (
+                    route to up-to-date follower or wait to catch up
+                )
+        monotonic reads (user sees writes in non monotonic order)
+            solutions:
+                each user reads always from the same replica(based on user ID)
+        consistent prefix reads (reply before question) == casuality violations, typical for partitioned databases
+            solutions:
+                consistent prefix reads
+                casually related writes to the same partition
+    }
+    - multi-leader replication {
+        - usually for data centers
+        - two leaders communication from leader stream
+        - all followers listen to all leaders
+        - conflict resolver beetween data centers
+        pros:
+            perfomce(geographical)
+            DC outage tolerance
+            unreliable network tolerance (temporary network issues don`t affect on writes)
+        cons:
+            concurrent modification of the same data => inevitable conflict resolution
+            interactions with auto increments , triggers, integrity constants
+        - dangerouts, should be avoided as possible
+        - offline clients: calendar app, ability to read and write without network connection, synching changes beetween devices(hours and days replication lag)
+        - collaborative replication: google docs, shared links
+        solutions:
+            conflict avoidance
+                all writes for particular record through the same leader (designate home leader for each user)
+                problem: designated leader change
+            converging towards the consistent state
+                - no writes ordering
+                - data eventually same on all replicas
+                resolution:
+                    unique id: pick with the highest ID
+                    give each replica unique id. pick the highest id
+                    merge conflicted values
+                    custom:
+                        on write (call very lightweight conflict handler on write)
+                        on read (all conflicted )
+                    automatic conflict resolution:
+                        conflict free replicated data type(sets, lists, apps)
+                        mergeable immutable data structures(3-way merge. track history)
+                    operational transformation:             
+    }   
+    - leader-less replication {
+        - clients send request to single node 
+        - databases cares about replication
+        - leader determines write order
+        - any replica can access writes
+        - direct interaction with replica vs coordinator
+        convergence:
+            read-repair (good for frequently read values)
+            anti-entropy background process (find inconsistency and fix it)
+            quorums:
+                n replicas
+                w confirmations for successful write
+                r read responses
+                (r + w) > n => read up to date values
+                n,w,r are confirable == cassandra - consistency level
+                w < n = write tolerate nodes unavailability
+                r < n = read tolerates nodes unavailability
+                n = 3, w = 2, r = 2 => tolerate one unavailable node
+                limitations:
+                    concurrent writes => potential data loss
+                    concurrent write => undetermined read behavior
+                    failed writes (< w) = undetermined read
+                    sloppy quorum - may not r and w nodes overlapping
+                pros: 
+                    high availability
+                    low latency
+                    stale read tolerance
+    }
 }

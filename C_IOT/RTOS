@@ -10,3 +10,10 @@ https://www.youtube.com/watch?v=F321087yYy4&list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h3
 - every tick processor being interrupted
 - highest priority to run
 - task creation: ready, running, blocked
+
+Memory:
+- task created on a heap
+- tasks also can be created in static section
+- different allocation schemes are available
+- stack/heap size can be checked in runtime
+- vPortFree(...)
