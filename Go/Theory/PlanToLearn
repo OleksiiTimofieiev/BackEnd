@@ -1,17 +1,24 @@
 core:
-- https://www.youtube.com/watch?v=qDgs2FJakVQ
+
+- how docker and virtualization works
+- https://www.youtube.com/watch?v=qEGQbbD3VVI
+- https://www.youtube.com/watch?v=2fxNbhy2gt0
 - templates
 - profiling
+- tracing
 - pprof
 - tests
 - hash functions
+- GC
 infrastructure:
+- проблема 10/100 тысяч соединений
+- работа с сетью в го практики
 - structure of HTTP packet/request
+- session & cookies
 - ping: https://www.youtube.com/watch?v=weHRbig_wEU
 - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
-- cookie
+- cockies and sessions
 - effective go
-- https://www.youtube.com/watch?v=kClQ7rM5uBY
 - html/css/javascript/DOM model/Local storage/How requests go
 - protocol buffer
 - http/https protocol, session, jwt tokens
@@ -24,40 +31,30 @@ infrastructure:
 - https://www.youtube.com/watch?v=S_1YfTfuWmo
 - gRPC
 - good vs bad in go
-- distributed systems
-- https://www.youtube.com/watch?v=4U3EaVufuW4&t=51s
 - Docker, CI/Cd, AWS/GCP/Azure
+- https://www.youtube.com/watch?v=Uojy57I-xP0
 - Dockerfile, Docker compose
 - difference beetween Docker and Virtual Machine
-- making API
 - Security: XSS, SQL injections, keeping passwords, keeping secrets
-- indexing, sharding and replication
-- TCP/IP
 - websockets
 - authentification mechanisms
 - reverse proxy
 - CLI go
 - session in web: what for and how
 - when to use each type of database: in memory/not in memory
-- databases: effectivenes, specifications, course on itvdn as a basis
 - testing a web server
 - transactions/transactional behaviour
 - system Design
 - databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
 - check tooling
-- tracing
-- templates
 - sql injections
 - cache misses, how cache works, cache contention
-- cookies  
 - БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
-- docker compose 
 - Executor tracing
 - Perfomance measurement
 - Kafka: streams API
 - Highload couroutines patterns
 - Go-Kit
-- how to check successfull read/write in replications
 - memory model otus
 - typical interview questions
 - Rabbit-MQ and connected 
@@ -79,7 +76,6 @@ infrastructure:
 - delve
 - java GC
 - backend protocols
-- session & cookies
 - DB & connections
 - data structures for highload
 - RAID

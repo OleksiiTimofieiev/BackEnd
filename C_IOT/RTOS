@@ -17,3 +17,8 @@ Memory:
 - different allocation schemes are available
 - stack/heap size can be checked in runtime
 - vPortFree(...)
+
+Queue:
+- FIFO
+- xQueue
+- architecture == loop forever until element from queue is not received
