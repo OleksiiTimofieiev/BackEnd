@@ -1,83 +1,88 @@
-core:
+core: {
+  - https://www.youtube.com/watch?v=qEGQbbD3VVI
+  - https://www.youtube.com/watch?v=2fxNbhy2gt0
+  - templates
+  - profiling
+  - tracing
+  - pprof
+  - tests
+  - hash functions
+  - GC
+}
 
-- how docker and virtualization works
-- https://www.youtube.com/watch?v=qEGQbbD3VVI
-- https://www.youtube.com/watch?v=2fxNbhy2gt0
-- templates
-- profiling
-- tracing
-- pprof
-- tests
-- hash functions
-- GC
-infrastructure:
-- проблема 10/100 тысяч соединений
-- работа с сетью в го практики
-- structure of HTTP packet/request
-- session & cookies
-- ping: https://www.youtube.com/watch?v=weHRbig_wEU
-- traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
-- cockies and sessions
-- effective go
-- html/css/javascript/DOM model/Local storage/How requests go
-- protocol buffer
-- http/https protocol, session, jwt tokens
-- web protocols: polling, websocket
-- ACID transactions
-- CAP theorem
-- MySQL vs NoSQL
-- patterns of microservices
-- шина сообщений
-- https://www.youtube.com/watch?v=S_1YfTfuWmo
-- gRPC
-- good vs bad in go
-- Docker, CI/Cd, AWS/GCP/Azure
-- https://www.youtube.com/watch?v=Uojy57I-xP0
-- Dockerfile, Docker compose
-- difference beetween Docker and Virtual Machine
-- Security: XSS, SQL injections, keeping passwords, keeping secrets
-- websockets
-- authentification mechanisms
-- reverse proxy
-- CLI go
-- session in web: what for and how
-- when to use each type of database: in memory/not in memory
-- testing a web server
-- transactions/transactional behaviour
-- system Design
-- databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
-- check tooling
-- sql injections
-- cache misses, how cache works, cache contention
-- БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
-- Executor tracing
-- Perfomance measurement
-- Kafka: streams API
-- Highload couroutines patterns
-- Go-Kit
-- memory model otus
-- typical interview questions
-- Rabbit-MQ and connected 
-- Aws 
-- kubernetes
-- why we need code generation in go
-- Project with microservices on docker aws kubernetes 
-- Code generation 
-- Closures
-- CAP theorem
-- SQL vs NoSQL
-- Очереди сообщений
-- Docker compose
-- Mongo / SQL in project 
-- https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
-- gracefull shutdown with context
-- Pool of coroutines 
-- Покрытие тестами
-- delve
-- java GC
-- backend protocols
-- DB & connections
-- data structures for highload
-- RAID
-projects:
-https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
+infrastructure: {
+  - how docker and virtualization works
+  - structure of http packet
+  - проблема 10/100 тысяч соединений
+  - работа с сетью в го практики
+  - structure of HTTP packet/request
+  - session & cookies
+  - ping: https://www.youtube.com/watch?v=weHRbig_wEU
+  - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
+  - cockies and sessions
+  - effective go
+  - html/css/javascript/DOM model/Local storage/How requests go
+  - protocol buffer
+  - http/https protocol, session, jwt tokens
+  - web protocols: polling, websocket
+  - ACID transactions
+  - CAP theorem
+  - MySQL vs NoSQL
+  - patterns of microservices
+  - шина сообщений
+  - https://www.youtube.com/watch?v=S_1YfTfuWmo
+  - gRPC
+  - good vs bad in go
+  - Docker, CI/Cd, AWS/GCP/Azure
+  - https://www.youtube.com/watch?v=Uojy57I-xP0
+  - Dockerfile, Docker compose
+  - difference beetween Docker and Virtual Machine
+  - Security: XSS, SQL injections, keeping passwords, keeping secrets
+  - websockets
+  - authentification mechanisms
+  - reverse proxy
+  - CLI go
+  - session in web: what for and how
+  - when to use each type of database: in memory/not in memory
+  - testing a web server
+  - transactions/transactional behaviour
+  - system Design
+  - databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
+  - check tooling
+  - sql injections
+  - cache misses, how cache works, cache contention
+  - БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
+  - Executor tracing
+  - Perfomance measurement
+  - Kafka: streams API
+  - Highload couroutines patterns
+  - Go-Kit
+  - memory model otus
+  - typical interview questions
+  - Rabbit-MQ and connected 
+  - Aws 
+  - kubernetes
+  - why we need code generation in go
+  - Project with microservices on docker aws kubernetes 
+  - Code generation 
+  - Closures
+  - CAP theorem
+  - SQL vs NoSQL
+  - Очереди сообщений
+  - Docker compose
+  - Mongo / SQL in project 
+  - https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
+  - gracefull shutdown with context
+  - Pool of coroutines 
+  - Покрытие тестами
+  - delve
+  - java GC
+  - backend protocols
+  - DB & connections
+  - data structures for highload
+  - RAID
+}
+
+projects: {
+  - https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
+}

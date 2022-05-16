@@ -1,0 +1,10 @@
+- channels (emulate future, promise)
+- channels are of runtime package
+- make (chan T) => channels do not have literals
+- hchan have mutex encapsulated, structure of channel is reliable in such a way
+- channels -> select -> get choice on multiple data sources
+- channels are slower then mutex , mutex slower then atomic
+- context to manage channels via Done
+- sync.Cond == conditional variable => broadcast method
+- waitGroup, errgroup.Group, run.Group
+- recursive mutex
