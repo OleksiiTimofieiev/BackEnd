@@ -29,7 +29,13 @@
     - caching
     - balancing
 }
-
 ///// Lecture 2: {
-    - 
-}
+    - CAP:
+    Availability (нормальный ответ от сервера),
+    Consistency (тот же ответ от разных серверов.сервисов), 
+    Partition Tolerance (связь разорвана, все о.к.)
+    - Replication:
+    sync, async, semi-sync
+    M/S, M/M
+    statement based, row-based, mixed
+    how data being checked by replica: push, pull

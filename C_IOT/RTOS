@@ -22,3 +22,6 @@ Queue:
 - FIFO
 - xQueue
 - architecture == loop forever until element from queue is not received
+
+Interrupts:
+- FromISR

@@ -208,9 +208,6 @@ https://www.youtube.com/watch?v=_d38g1tpLd8&list=PLrCZzMib1e9rZohs_FJg8MK52Ey494
                 retry of a slow request overloads the backend
                 reject requests which we won`t be able to process
                 exponential backoff + jitter on client
-    }
-    
-
 } 
 ///// Lecture 15: modern data structures {
     - streaming nature of data processing, no random access, uncontrollable incoming rate

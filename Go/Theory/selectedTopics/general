@@ -1,4 +1,4 @@
-- atmomic
+- atomic
 - asm вставки
 - rate limiter => docker is better for limitation of resources of a machine
 - http packet has proxy functionality

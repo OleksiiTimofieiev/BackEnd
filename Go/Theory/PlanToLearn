@@ -1,6 +1,6 @@
 core: {
-  - https://www.youtube.com/watch?v=qEGQbbD3VVI
   - https://www.youtube.com/watch?v=2fxNbhy2gt0
+  - epoll, kqueue
   - templates
   - profiling
   - tracing
@@ -8,6 +8,7 @@ core: {
   - tests
   - hash functions
   - GC
+  - fast http vs std lib
 }
 
 infrastructure: {
@@ -26,7 +27,6 @@ infrastructure: {
   - http/https protocol, session, jwt tokens
   - web protocols: polling, websocket
   - ACID transactions
-  - CAP theorem
   - MySQL vs NoSQL
   - patterns of microservices
   - шина сообщений
@@ -65,8 +65,6 @@ infrastructure: {
   - why we need code generation in go
   - Project with microservices on docker aws kubernetes 
   - Code generation 
-  - Closures
-  - CAP theorem
   - SQL vs NoSQL
   - Очереди сообщений
   - Docker compose

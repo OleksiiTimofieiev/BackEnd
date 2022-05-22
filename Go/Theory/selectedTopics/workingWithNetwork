@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=qEGQbbD3VVI
+
+- lowing the calls to GC increaces the latency of the process functionality (read all heap)
+- http framework gin: min overhead on std http server
+- labstack/echo - http framework
+- fast http (fasthttp uses pool === sync.Pool): quicker then std lib: 56% of time working with nerwotk, in std - 37% => allocation is the key, better to reduce sys calls

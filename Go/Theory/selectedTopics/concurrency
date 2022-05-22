@@ -8,3 +8,7 @@
 - sync.Cond == conditional variable => broadcast method
 - waitGroup, errgroup.Group, run.Group
 - recursive mutex
+- go tool trace <runtime/trace>
+- go has cooperative concurreny
+- runtime.Go +-= scheduler
+- goroutine state: runs, runnable, blocked(sys call, IO, channel operations)
