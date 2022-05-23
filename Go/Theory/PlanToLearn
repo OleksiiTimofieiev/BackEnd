@@ -1,26 +1,23 @@
 core: {
-  - https://www.youtube.com/watch?v=2fxNbhy2gt0
-  - epoll, kqueue
+  - GC: https://www.youtube.com/watch?v=bMujSVMarqY
   - templates
-  - profiling
+  - profiling, pprof
   - tracing
-  - pprof
   - tests
-  - hash functions
-  - GC
-  - fast http vs std lib
+  - hash functions == how map works in go
+  - check that last std has:
+          - no generics == check it
+        - code generation = check it
 }
 
 infrastructure: {
+  - https://www.youtube.com/watch?v=PmAyjFaC3zQ
   - how docker and virtualization works
-  - structure of http packet
   - проблема 10/100 тысяч соединений
-  - работа с сетью в го практики
   - structure of HTTP packet/request
   - session & cookies
   - ping: https://www.youtube.com/watch?v=weHRbig_wEU
   - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
-  - cockies and sessions
   - effective go
   - html/css/javascript/DOM model/Local storage/How requests go
   - protocol buffer
@@ -29,10 +26,8 @@ infrastructure: {
   - ACID transactions
   - MySQL vs NoSQL
   - patterns of microservices
-  - шина сообщений
   - https://www.youtube.com/watch?v=S_1YfTfuWmo
   - gRPC
-  - good vs bad in go
   - Docker, CI/Cd, AWS/GCP/Azure
   - https://www.youtube.com/watch?v=Uojy57I-xP0
   - Dockerfile, Docker compose
@@ -71,7 +66,7 @@ infrastructure: {
   - Mongo / SQL in project 
   - https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
   - gracefull shutdown with context
-  - Pool of coroutines 
+  - Pool of goroutines 
   - Покрытие тестами
   - delve
   - java GC

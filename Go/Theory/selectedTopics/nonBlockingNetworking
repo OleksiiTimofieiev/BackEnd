@@ -1,0 +1,16 @@
+- accept == get connection with a client
+fork
+thread
+------ big overhead for the above (~1000 connections) <= stack (memory), switch context (additional thing in scheduler table)
+O_NONBLOCK - do not block the call on the file descriptor
+=> EAGAIN (check error until data received)
+
+------ register event in the kernel
+register event => sleep => wakeup the process
+events: ready to read/write from/to the descriptor, signal, timeout
+realisation:
+- select (FD_ISSET)/poll == O(n)
+- kQueue/epoll == list of events of the correspondent type
+
+
+----- fiber

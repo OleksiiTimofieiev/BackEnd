@@ -1,0 +1,29 @@
+cons:
+- no generics == check it
+- code generation = check it
+- managing the dependencies [dep, vgo=versions are stable]
+- no exceptions
+- duckTypeTypisation == not directly can be seen that the object inherits from the interface
+- embedded types
+- interface == only headers
+- reflection
+- debugger == delve
+
+pros:
+- compiled
+- close to hardware (close to native scalar types)
+- escape analysis - to choose where to locate variable: to heap or stack
+- cgo (use binary files), asm is included
+- debugging and profiling: cpu, mem, mutex, goroutine, 
+- race detector, 
+- code coverage, 
+- tests
+- linters
+- runtime is written on go
+- sync pritives
+- channels
+- deploy == very fast compilation, static binary
+- gopher.js
+- WebAssembly
+- crossplatform
+
