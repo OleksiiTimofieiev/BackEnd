@@ -1,0 +1,12 @@
+Lecture 1: {
+    - IP (level 3) == how and where send the data
+    - TCP (level 4) == transport layer
+}
+
+Lecture 2: Network security and remote access {
+    - two author authentification => vpn
+    - network access to avoid third party computer to connect to the network
+    - specification of behaviour of the network device
+    - each wireless device is to be banned to connect automatically
+    - password for wi-fi (AES, WPA2)
+}

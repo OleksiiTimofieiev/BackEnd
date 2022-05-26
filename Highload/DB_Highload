@@ -36,6 +36,6 @@
     Partition Tolerance (связь разорвана, все о.к.)
     - Replication:
     sync, async, semi-sync
-    M/S, M/M
+    M/S, M/M (problems - conflicts of replication)
     statement based, row-based, mixed
     how data being checked by replica: push, pull
