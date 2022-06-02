@@ -1,6 +1,8 @@
+- runs concurrently => low latency
+- short pause times
 - stack == LIFO
 - algo = mark and swear
-- mark:
+- mark (mark-and-sweep == run->mark->sweep):
 white
 grey
 black
@@ -8,7 +10,7 @@ black
 - runtime.GC() || pacer: size of heap *2 => call GC; GOGO var to set
 stop the world => safe-point in goroutines => finish of resource cleaning
 - data fragmentation, no configuring
-- is being concurrent
+- is being concurrent 
 - stops 2 times for GC
 - way out:
 increase GOGC

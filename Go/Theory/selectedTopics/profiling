@@ -1,0 +1,11 @@
+- dynamic analysis of the program on real environment
+- checking metrics
+- report
+- blockings
+- profiler == program that visualizes the report
+- profile == report
+- pprog has filters to be used
+- blocking: lock/unlock, blocking, cpu, ram
+packages:
+- golang.org/doc/diagnostics
+- runtime/pprof || net/http/pprof === uses protobuf

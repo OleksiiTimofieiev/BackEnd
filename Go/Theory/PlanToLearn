@@ -1,19 +1,20 @@
 core: {
-  - GC: https://www.youtube.com/watch?v=bMujSVMarqY
   - templates
-  - profiling, pprof
-  - tracing
   - tests
-  - hash functions == how map works in go
   - check that last std has:
-          - no generics == check it
-        - code generation = check it
+    - no generics in std== check it
+    - code generation in std = check it
 }
 
 infrastructure: {
+  - frontend vs backend server
+  - https://www.youtube.com/watch?v=CvT1v7xiRS0
+  - types of servers in backend
   - https://www.youtube.com/watch?v=PmAyjFaC3zQ
   - how docker and virtualization works
   - проблема 10/100 тысяч соединений
+  - https://www.youtube.com/watch?v=39e1vAGD3hg
+  - https://www.youtube.com/watch?v=nRCXS6PUr5c
   - structure of HTTP packet/request
   - session & cookies
   - ping: https://www.youtube.com/watch?v=weHRbig_wEU

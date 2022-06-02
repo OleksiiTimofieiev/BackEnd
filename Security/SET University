@@ -1,6 +1,7 @@
 Lecture 1: {
     - IP (level 3) == how and where send the data
     - TCP (level 4) == transport layer
+    - Application Layer == Browser
 }
 
 Lecture 2: Network security and remote access {
@@ -9,4 +10,20 @@ Lecture 2: Network security and remote access {
     - specification of behaviour of the network device
     - each wireless device is to be banned to connect automatically
     - password for wi-fi (AES, WPA2)
+}
+
+Lecture 3: Browser security {
+    - Security(zero day vulnerability, etc.): {
+        hacked executable (download via marketing spam, etc.)
+        components(renders, 3d, javascript, etc.)
+        plugins(additional system to the browser) => native code can be executed on your system
+        malvertising (adware) - click -> plugins -> rewriting registers, etc.
+        scripts of browser (activex, java, javascript)
+        can be checked via www.virustotal.com for known viruses
+        block automatic installation
+    }
+    - Privacy: {
+        
+    }
+
 }

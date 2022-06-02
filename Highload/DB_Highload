@@ -39,3 +39,8 @@
     M/S, M/M (problems - conflicts of replication)
     statement based, row-based, mixed
     how data being checked by replica: push, pull
+    - MySQL:
+    Transaction journal
+    Replication:
+        State based
+        Row based
