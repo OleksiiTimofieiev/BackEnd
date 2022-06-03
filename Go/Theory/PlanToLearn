@@ -10,19 +10,18 @@ infrastructure: {
   - frontend vs backend server
   - https://www.youtube.com/watch?v=CvT1v7xiRS0
   - types of servers in backend
+  - ajax
   - https://www.youtube.com/watch?v=PmAyjFaC3zQ
   - how docker and virtualization works
-  - проблема 10/100 тысяч соединений
   - https://www.youtube.com/watch?v=39e1vAGD3hg
   - https://www.youtube.com/watch?v=nRCXS6PUr5c
-  - structure of HTTP packet/request
   - session & cookies
   - ping: https://www.youtube.com/watch?v=weHRbig_wEU
   - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
   - effective go
   - html/css/javascript/DOM model/Local storage/How requests go
   - protocol buffer
-  - http/https protocol, session, jwt tokens
+  - session, jwt tokens
   - web protocols: polling, websocket
   - ACID transactions
   - MySQL vs NoSQL
@@ -58,7 +57,6 @@ infrastructure: {
   - Rabbit-MQ and connected 
   - Aws 
   - kubernetes
-  - why we need code generation in go
   - Project with microservices on docker aws kubernetes 
   - Code generation 
   - SQL vs NoSQL
@@ -73,7 +71,6 @@ infrastructure: {
   - java GC
   - backend protocols
   - DB & connections
-  - data structures for highload
   - RAID
 }
 

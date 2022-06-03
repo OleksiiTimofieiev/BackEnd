@@ -1,0 +1,38 @@
+Hyper Text Transfer Protocol
+
+method  -> path     -> protocol
+GET     -> /.../    -> HTTP 1.1
+
+Headers {
+- General:
+    request URL
+    request method
+    status code
+    remote address
+- Response:
+    server
+    date
+    content-length
+    ...
+- Request:
+    Cookies
+    Content-Type
+    Content-Length
+    Authorization (maybe kind of token)
+    User_agent (environment)
+    Referrer
+}
+
+Status Codes {
+    1xx - informational
+    2xx - success (200, 201)
+    3xx - redirect (301, 304)
+    4xx - client error (400, 401, 404)
+    5xx - server error (500)
+}
+
+Versions {
+    vers 1.1 - step by step
+    vers 2 - request/response multiplexing
+}
+
