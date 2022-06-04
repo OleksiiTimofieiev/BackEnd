@@ -1,0 +1,3 @@
+- short polling (periodic requests)
+- long polling (connection keeps open even if data is not available currently) == one call request => bad: keeping connection
+- web sockets (opening a stable connection pipe which is being bidirectional), bad: connection being used in all times

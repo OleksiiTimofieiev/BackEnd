@@ -5,6 +5,10 @@ core: {
     - no generics in std== check it
     - code generation in std = check it
 }
+docker: {
+  - Dockerfile, Docker compose
+  - difference beetween Docker and Virtual Machine
+}
 
 infrastructure: {
   - frontend vs backend server
@@ -12,7 +16,6 @@ infrastructure: {
   - types of servers in backend
   - ajax
   - https://www.youtube.com/watch?v=PmAyjFaC3zQ
-  - how docker and virtualization works
   - https://www.youtube.com/watch?v=39e1vAGD3hg
   - https://www.youtube.com/watch?v=nRCXS6PUr5c
   - session & cookies
@@ -28,16 +31,11 @@ infrastructure: {
   - patterns of microservices
   - https://www.youtube.com/watch?v=S_1YfTfuWmo
   - gRPC
-  - Docker, CI/Cd, AWS/GCP/Azure
   - https://www.youtube.com/watch?v=Uojy57I-xP0
-  - Dockerfile, Docker compose
-  - difference beetween Docker and Virtual Machine
   - Security: XSS, SQL injections, keeping passwords, keeping secrets
-  - websockets
   - authentification mechanisms
   - reverse proxy
   - CLI go
-  - session in web: what for and how
   - when to use each type of database: in memory/not in memory
   - testing a web server
   - transactions/transactional behaviour
@@ -58,7 +56,6 @@ infrastructure: {
   - Aws 
   - kubernetes
   - Project with microservices on docker aws kubernetes 
-  - Code generation 
   - SQL vs NoSQL
   - Очереди сообщений
   - Docker compose
@@ -69,7 +66,6 @@ infrastructure: {
   - Покрытие тестами
   - delve
   - java GC
-  - backend protocols
   - DB & connections
   - RAID
 }

@@ -1,0 +1,7 @@
+- pre-fork
+- select if limited to 1024 fd (possibly: 10 fork x 1024 FD_SET)
+- poll == listen for the events,O(n), listen for most active optimization
+- epoll/kqueue/libevent
+- http://www.kegel.com/c10k.html
+- https://www.youtube.com/watch?v=dEHZb9JsmOU
+- https://www.youtube.com/watch?v=vyPzHBKa88w
