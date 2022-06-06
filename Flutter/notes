@@ -1,0 +1,10 @@
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/15311806#overview
+
+1. Introduction {
+    - UI as code: build widget tree
+    - embrace platform differences
+    - one codebase
+    - everything is a widget. even main app (please, render a button here, etc.)
+    - does not use platform primitives: flutter directly controls every pixel of the screeen
+}
+

@@ -11,29 +11,24 @@ docker: {
 }
 
 infrastructure: {
-  - frontend vs backend server
+  - learn nginx/apache
+  - meet with senior backend developer
   - https://www.youtube.com/watch?v=CvT1v7xiRS0
-  - types of servers in backend
   - ajax
   - https://www.youtube.com/watch?v=PmAyjFaC3zQ
   - https://www.youtube.com/watch?v=39e1vAGD3hg
   - https://www.youtube.com/watch?v=nRCXS6PUr5c
-  - session & cookies
   - ping: https://www.youtube.com/watch?v=weHRbig_wEU
   - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
   - effective go
   - html/css/javascript/DOM model/Local storage/How requests go
   - protocol buffer
-  - session, jwt tokens
-  - web protocols: polling, websocket
-  - ACID transactions
-  - MySQL vs NoSQL
+  - jwt tokens
   - patterns of microservices
   - https://www.youtube.com/watch?v=S_1YfTfuWmo
   - gRPC
   - https://www.youtube.com/watch?v=Uojy57I-xP0
   - Security: XSS, SQL injections, keeping passwords, keeping secrets
-  - authentification mechanisms
   - reverse proxy
   - CLI go
   - when to use each type of database: in memory/not in memory
@@ -41,12 +36,9 @@ infrastructure: {
   - transactions/transactional behaviour
   - system Design
   - databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
-  - check tooling
   - sql injections
-  - cache misses, how cache works, cache contention
   - БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
   - Executor tracing
-  - Perfomance measurement
   - Kafka: streams API
   - Highload couroutines patterns
   - Go-Kit
@@ -62,11 +54,10 @@ infrastructure: {
   - Mongo / SQL in project 
   - https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
   - gracefull shutdown with context
-  - Pool of goroutines 
+  - Pool of goroutines
   - Покрытие тестами
   - delve
   - java GC
-  - DB & connections
   - RAID
 }
 
