@@ -13,7 +13,6 @@ docker: {
 infrastructure: {
   - learn nginx/apache
   - meet with senior backend developer
-  - https://www.youtube.com/watch?v=CvT1v7xiRS0
   - ajax
   - https://www.youtube.com/watch?v=PmAyjFaC3zQ
   - https://www.youtube.com/watch?v=39e1vAGD3hg
@@ -25,7 +24,6 @@ infrastructure: {
   - protocol buffer
   - jwt tokens
   - patterns of microservices
-  - https://www.youtube.com/watch?v=S_1YfTfuWmo
   - gRPC
   - https://www.youtube.com/watch?v=Uojy57I-xP0
   - Security: XSS, SQL injections, keeping passwords, keeping secrets
