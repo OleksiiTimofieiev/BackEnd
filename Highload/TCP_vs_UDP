@@ -1,0 +1,9 @@
+- RTT == ping
+- bandwidth == пропускная способность сети
+- 4 TCP connections are faster then one
+
+- HTTP 2.0: binary, multiplexing (api and picture for example), prioretization, download can be stopped, server push
+
+TCP:
+- sendbuffer
+- bandwidth = buffer size / RTT = 128Kb * 8 / 0.25 = 4 Mbit/sec

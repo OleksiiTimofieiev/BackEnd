@@ -1,10 +1,13 @@
 core: {
-  - templates
-  - tests
+  - https://www.youtube.com/watch?v=uCSMU8xF1dc&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=7&t=237s
+  - https://www.youtube.com/watch?v=C9wQIYqWPiA&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=7
+  - https://www.youtube.com/watch?v=jeEd8eiMwpY
+  - gracefull shutdown with context
   - check that last std has:
-    - no generics in std== check it
-    - code generation in std = check it
+  - no generics in std== check it
+  - code generation in std = check it
 }
+
 docker: {
   - Dockerfile, Docker compose
   - difference beetween Docker and Virtual Machine
@@ -12,30 +15,25 @@ docker: {
 
 infrastructure: {
   - learn nginx/apache
+  - databases and go videos on youtube
   - meet with senior backend developer
   - ajax
-  - https://www.youtube.com/watch?v=PmAyjFaC3zQ
-  - https://www.youtube.com/watch?v=39e1vAGD3hg
-  - https://www.youtube.com/watch?v=nRCXS6PUr5c
+  - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
+  - index https://www.youtube.com/watch?v=39e1vAGD3hg
   - ping: https://www.youtube.com/watch?v=weHRbig_wEU
   - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
   - effective go
   - html/css/javascript/DOM model/Local storage/How requests go
   - protocol buffer
   - jwt tokens
-  - patterns of microservices
   - gRPC
-  - https://www.youtube.com/watch?v=Uojy57I-xP0
   - Security: XSS, SQL injections, keeping passwords, keeping secrets
   - reverse proxy
   - CLI go
-  - when to use each type of database: in memory/not in memory
   - testing a web server
   - transactions/transactional behaviour
   - system Design
-  - databases: https://www.youtube.com/watch?v=xBtKd_kLOVk&list=PLrCZzMib1e9oZMYOjhvDbh_Y3VW7mQnEW&index=3
   - sql injections
-  - БД: https://www.youtube.com/watch?v=iho3_zq4tik&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=6
   - Executor tracing
   - Kafka: streams API
   - Highload couroutines patterns
@@ -50,10 +48,7 @@ infrastructure: {
   - Очереди сообщений
   - Docker compose
   - Mongo / SQL in project 
-  - https://www.youtube.com/playlist?list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I
-  - gracefull shutdown with context
   - Pool of goroutines
-  - Покрытие тестами
   - delve
   - java GC
   - RAID
