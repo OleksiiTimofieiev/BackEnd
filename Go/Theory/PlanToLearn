@@ -1,4 +1,7 @@
 core: {
+  - https://www.youtube.com/watch?v=ryJOS-8hmQo
+  - hash table data structure and collisions
+  - ordered vs uordered map
   - check that last std has:
   - no generics in std== check it
   - code generation in std = check it
@@ -55,10 +58,11 @@ projects: {
 }
 
 random video: {
-  - https://www.youtube.com/watch?v=5_9x7czHJOM&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=31
+  - https://www.youtube.com/watch?v=-AMjfTQUWCk
   - https://www.youtube.com/watch?v=F_moPIR-cNU&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=5
   - https://www.youtube.com/watch?v=82CyWPpjNNY&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=9
   - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
   - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
   - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
+  - https://www.youtube.com/watch?v=MBfjQBDZqt8
 }
