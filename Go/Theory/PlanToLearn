@@ -1,8 +1,4 @@
 core: {
-  - https://www.youtube.com/watch?v=uCSMU8xF1dc&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=7&t=237s
-  - https://www.youtube.com/watch?v=C9wQIYqWPiA&list=PLrCZzMib1e9q-X5V9pTM6J0AemRWseM7I&index=7
-  - https://www.youtube.com/watch?v=jeEd8eiMwpY
-  - gracefull shutdown with context
   - check that last std has:
   - no generics in std== check it
   - code generation in std = check it
@@ -56,4 +52,13 @@ infrastructure: {
 
 projects: {
   - https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
+}
+
+random video: {
+  - https://www.youtube.com/watch?v=5_9x7czHJOM&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=31
+  - https://www.youtube.com/watch?v=F_moPIR-cNU&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=5
+  - https://www.youtube.com/watch?v=82CyWPpjNNY&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=9
+  - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
+  - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
+  - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
 }
