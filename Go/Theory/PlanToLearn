@@ -1,15 +1,18 @@
 core: {
-  - https://www.youtube.com/watch?v=ryJOS-8hmQo
-  - hash table data structure and collisions
-  - ordered vs uordered map
+  - testing
   - check that last std has:
   - no generics in std== check it
   - code generation in std = check it
+  - strong questions for interview on interfaces< what is empty interface
 }
 
 docker: {
   - Dockerfile, Docker compose
   - difference beetween Docker and Virtual Machine
+}
+
+interview: {
+  - https://www.youtube.com/watch?v=ryJOS-8hmQo&t=1s
 }
 
 infrastructure: {
@@ -31,7 +34,6 @@ infrastructure: {
   - CLI go
   - testing a web server
   - transactions/transactional behaviour
-  - system Design
   - sql injections
   - Executor tracing
   - Kafka: streams API
@@ -47,7 +49,6 @@ infrastructure: {
   - Очереди сообщений
   - Docker compose
   - Mongo / SQL in project 
-  - Pool of goroutines
   - delve
   - java GC
   - RAID
