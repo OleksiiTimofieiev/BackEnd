@@ -6,3 +6,10 @@
 - AWS IoT
 - CloudWatch events
 - SNS -> simple notification service
+
+---
+
+- blueprint
+- hello-world
+- triggers, test event can be configured
+- added a user in IAM

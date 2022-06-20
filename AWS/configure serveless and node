@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm install -g serverless
+
+serverless config credentials --provider aws --key AKIA5ASEGN527ZVPZIUM --secret 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 --profile serverless-admin
