@@ -6,5 +6,26 @@ https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/
     - one codebase
     - everything is a widget. even main app (please, render a button here, etc.)
     - does not use platform primitives: flutter directly controls every pixel of the screeen
+    - flutter is a bunch of widget == widget is being building block
+    - widget may contain other widgets
+    - main app == widget
+    - widget tree
 }
 
+2. {
+    - repo: flutter_complete_guide
+    - flutter create <project name>
+    - flutter packages get    
+    - flutter run
+    - .idea : configs of android studio
+    - build: output of a flutter app
+    - lib -> main.dart == entry point
+    - pubspec.yaml == dependencies file
+    - build method returns the Widget object
+    - widgets: 
+    output & input = visible (Text(), Card())
+    layout & control = invisible (row, column, ListView)
+    
+    statefull(widget has internal state) & stateless
+    - setState calls build method to signal rerender necessity
+}
