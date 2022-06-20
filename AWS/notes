@@ -1,0 +1,8 @@
+- pay for execution
+- API Gateway provides gateway to REST API functions
+- Kinesis == real-time streaming of data
+- DynamoDB == NoSQL database
+- AWS S3 == store big files for a long time
+- AWS IoT
+- CloudWatch events
+- SNS -> simple notification service
