@@ -13,3 +13,6 @@
 - hello-world
 - triggers, test event can be configured
 - added a user in IAM
+- https://gitlab.com/users/nanuchi/projects
+- install jdk@11
+- mvn package => build package
