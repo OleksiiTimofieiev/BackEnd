@@ -13,7 +13,3 @@
 - hello-world
 - triggers, test event can be configured
 - added a user in IAM
-- https://gitlab.com/users/nanuchi/projects
-- install jdk@11
-- mvn package => build package
-- sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk18.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
