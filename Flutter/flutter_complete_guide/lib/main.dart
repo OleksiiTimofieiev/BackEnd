@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_complete_guide/answer.dart';
+import './question.dart';
 
 // void main() {
 //   runApp(MyApp());
@@ -10,17 +12,17 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return MyAppState();
+    return _MyAppState();
   }
 }
 
 // Persistent, data not being reset
-class MyAppState extends State<MyApp> {
-  var questionIndex = 0;
+class _MyAppState extends State<MyApp> {
+  var _questionIndex = 0;
 
-  void answerQuestion() {
-    setState((){
-      questionIndex = questionIndex + 1; 
+  void _answerQuestion() {
+    setState(() {
+      _questionIndex = _questionIndex + 1;
     });
     print('Answer Chosen');
   }
@@ -41,16 +43,10 @@ class MyAppState extends State<MyApp> {
         ),
         body: Column(
           children: <Widget>[
-            Text(questions.elementAt(questionIndex)),
-            RaisedButton(child: Text('Answer 1'), onPressed: answerQuestion),
-            RaisedButton(
-                child: Text('Answer 2'),
-                onPressed: () {
-                  //
-                  print('Answer 2');
-                }),
-            RaisedButton(
-                child: Text('Answer 3'), onPressed: () => print("Answer 3")),
+            Question(questions.elementAt(_questionIndex)),
+            Answer(_answerQuestion),
+            Answer(_answerQuestion),
+            Answer(_answerQuestion),
           ],
         ),
       ),

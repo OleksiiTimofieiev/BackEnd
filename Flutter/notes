@@ -1,5 +1,8 @@
 https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/15311806#overview
 
+Documentation:
+https://docs.flutter.dev/development/ui/widgets
+
 1. Introduction {
     - UI as code: build widget tree
     - embrace platform differences
