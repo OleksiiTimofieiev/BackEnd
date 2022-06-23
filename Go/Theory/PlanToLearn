@@ -15,6 +15,8 @@ plan: {
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
     - internet protocols & network infrastructure: http, https, etc.
+    - in the end refresh with coursera course
+    - what different std bring
   };
 
   - august: {
