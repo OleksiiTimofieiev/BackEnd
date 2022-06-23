@@ -1,68 +1,78 @@
-core: {
-  - testing
-  - check that last std has:
-  - no generics in std== check it
-  - code generation in std = check it
-  - strong questions for interview on interfaces< what is empty interface
-}
+plan: {
+  - june & july: {
+    - syntax and language aspects:
+      https://www.youtube.com/watch?v=pHl9r3B2DFI&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=3
+    - working with databases:
+      https://itvdn.com/ru/subscriptions
+    - use docker: {
+      - https://www.youtube.com/watch?v=n9uCgUzfeRQ&t=28s
+      - Dockerfile, Docker compose
+      - difference beetween Docker and Virtual Machine
+    }
+    - memory and gc: otus
+    - check that last std has:
+    - no generics in std== check it
+    - code generation in std = check it
+    - strong questions for interview on interfaces< what is empty interface
+    - internet protocols & network infrastructure: http, https, etc.
+  };
 
-docker: {
-  - Dockerfile, Docker compose
-  - difference beetween Docker and Virtual Machine
+  - august: {
+    - working with infrastructure: {
+      - check what is required in vacancies
+      - algorithm course
+      - kubernetes, queue services, kafka, AWS, other stuff
+      - learn nginx/apache
+      - ajax
+      - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
+      - index https://www.youtube.com/watch?v=39e1vAGD3hg
+      - ping: https://www.youtube.com/watch?v=weHRbig_wEU
+      - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
+      - effective go
+      - html/css/javascript/DOM model/Local storage/How requests go
+      - protocol buffer
+      - jwt tokens
+      - gRPC
+      - Security: XSS, SQL injections, keeping passwords, keeping secrets
+      - CLI go
+      - testing a web server
+      - transactions/transactional behaviour
+      - sql injections
+      - Executor tracing
+      - Kafka: streams API
+      - Highload couroutines patterns
+      - Go-Kit
+      - memory model otus
+      - typical interview questions
+      - Rabbit-MQ and connected 
+      - Aws 
+      - kubernetes
+      - Project with microservices on docker aws kubernetes 
+      - SQL vs NoSQL
+      - Очереди сообщений
+      - Docker compose
+      - Mongo / SQL in project 
+      - delve
+      - java GC
+      - RAID
+    }
+    - databases: {
+      - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
+      - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
+      - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
+      - https://www.youtube.com/watch?v=MBfjQBDZqt8
+    }
+  };
 }
 
 interview: {
   - https://www.youtube.com/watch?v=ryJOS-8hmQo&t=1s
 }
 
-infrastructure: {
-  - learn nginx/apache
-  - databases and go videos on youtube
-  - meet with senior backend developer
-  - ajax
-  - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-  - index https://www.youtube.com/watch?v=39e1vAGD3hg
-  - ping: https://www.youtube.com/watch?v=weHRbig_wEU
-  - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
-  - effective go
-  - html/css/javascript/DOM model/Local storage/How requests go
-  - protocol buffer
-  - jwt tokens
-  - gRPC
-  - Security: XSS, SQL injections, keeping passwords, keeping secrets
-  - reverse proxy
-  - CLI go
-  - testing a web server
-  - transactions/transactional behaviour
-  - sql injections
-  - Executor tracing
-  - Kafka: streams API
-  - Highload couroutines patterns
-  - Go-Kit
-  - memory model otus
-  - typical interview questions
-  - Rabbit-MQ and connected 
-  - Aws 
-  - kubernetes
-  - Project with microservices on docker aws kubernetes 
-  - SQL vs NoSQL
-  - Очереди сообщений
-  - Docker compose
-  - Mongo / SQL in project 
-  - delve
-  - java GC
-  - RAID
-}
 
 projects: {
+  - https://www.youtube.com/watch?v=mBLpAx06l44&t=2565s
   - https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
 }
 
-random video: {
-  - https://www.youtube.com/watch?v=F_moPIR-cNU&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=5
-  - https://www.youtube.com/watch?v=82CyWPpjNNY&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=9
-  - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
-  - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
-  - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
-  - https://www.youtube.com/watch?v=MBfjQBDZqt8
-}
+
