@@ -1,0 +1,9 @@
+Basic types: {
+    - machine representation == RAM == more faster then Java and Python
+    - go money for financial calculations
+    - strict types, types have to be casted before any operation related to other type
+    - boolean is not able to be converted to int or vice-versa
+    - no pointer manipulation
+    - Error() => nil or non-nil
+    - initialized by zero or correspondent type during variable declaration: nil, zero, etc., all members get zeroed for aggregated types
+}
