@@ -17,6 +17,8 @@ plan: {
     - internet protocols & network infrastructure: http, https, etc.
     - in the end refresh with coursera course
     - what different std bring
+    - event-driven approach in code
+    - pattern of program flow organisation
   };
 
   - august: {
