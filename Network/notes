@@ -1,0 +1,2 @@
+- http => data can be read by a third-party
+- https => data can not be read by a third-party
