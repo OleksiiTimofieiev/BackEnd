@@ -1,2 +1,12 @@
 - http => data can be read by a third-party
 - https => data can not be read by a third-party
+
+- symmetcric: same key used, AES
+- hash == verify integrity of data => during transfer was not changed
+- MD5 => 128 bits == obsolete => one way hash; md5 == console
+- most popular: sha-256 => shasum,shasum -a 256 || 512 == console
+- HMAC == data + secret key
+
+- assymetric: RSA
+- private(keeps in a secret) and public key => signing data, encription
+- encryption: only owner of the private key can decrypt the data encrypted by the public key of the owner
