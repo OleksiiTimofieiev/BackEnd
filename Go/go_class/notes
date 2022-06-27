@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=nxWqANttAdA&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=5
+
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
     - go money for financial calculations
@@ -6,4 +8,11 @@ Basic types: {
     - no pointer manipulation
     - Error() => nil or non-nil
     - initialized by zero or correspondent type during variable declaration: nil, zero, etc., all members get zeroed for aggregated types
+}
+
+Strings: {
+    - byte == unit8
+    - rune == int32
+    - string == immutable sequence of characters
+    - passed by reference
 }
