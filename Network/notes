@@ -1,3 +1,5 @@
+Lesson: 
+
 - http => data can be read by a third-party
 - https => data can not be read by a third-party
 
@@ -10,3 +12,17 @@
 - assymetric: RSA
 - private(keeps in a secret) and public key => signing data, encription
 - encryption: only owner of the private key can decrypt the data encrypted by the public key of the owner
+- signaturing: hash on the data -> encrypt with private key of the owner -> encrypted hash sent along with the data -> decrypt with public key
+
+- PKI: public key infrastructure
+- CA -> intermidiate CA
+- certificate: file with data [
+  - owner
+  - issuer
+  - signature of CA
+  - public key
+]
+- openssl genrsa -aes256
+- openssl genrsa -aes256 -out private.pem
+- openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+- openssl genrsa 4096
