@@ -1,0 +1,11 @@
+- apache -> context change
+- nginx -> one process => one thread => several file descriptors => lib event 
+
++:
+no context change
+-:
+no call stack, kinda reactive programming
+handler can be spoiled(CPU overuse, ReDoS) => all events may be blocked
+if handler exits, whole queue may be lost
+
+event loop == libuv

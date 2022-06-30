@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=nxWqANttAdA&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=5
+https://www.youtube.com/watch?v=qpHLhmoV3BY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=7
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -15,4 +15,17 @@ Strings: {
     - rune == int32
     - string == immutable sequence of characters
     - passed by reference
+}
+
+Array, Slice, Map {
+    - [4]int => array
+    - []int => slice
+    - arrays are passed by value
+    - slice has a descriptor which point to an adress in memory, len, capacity
+    - slice: append function changes address of the slice
+    - for Map => std creates hash table in background
+    - Maps are passed by reference; no coping, updates are O.K.; type used for the key must have defined == & != (not slice, map or func)
+    - capacity in Map not supported
+    - Maps have a special two-result lookup function: ok, true || 0, false
+    - nil is type; specifically -> zero type
 }

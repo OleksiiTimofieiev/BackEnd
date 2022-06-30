@@ -1,0 +1,15 @@
+requirements:
+- nothing can`t be lost
+- publish/subscribe == kafka
+- at least once delivery == syncronous write/read(do not move offset until all customers read)
+- read once more for several days (timestamp)
+- schemas on events
+- dirrenet data centers
+
+schema:
+services - API - service data-bus - storage 
+
+- KAFKA as storage => service data bus
+- methods: produce/consume, offset (oldest, newest, timestamp)
+- http/rpc => statefull
+- websocket => stateless, one connect per clien/service
