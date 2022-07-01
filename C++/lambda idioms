@@ -1,0 +1,3 @@
+- introduced in C++11
+- lambda => compiler => type of lambda name with call operator '()'
+- noexception, mutable, [[nodiscard]]

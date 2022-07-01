@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=qpHLhmoV3BY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=7
+https://www.youtube.com/watch?v=dqEtGT-dxoY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=8
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -28,4 +28,12 @@ Array, Slice, Map {
     - capacity in Map not supported
     - Maps have a special two-result lookup function: ok, true || 0, false
     - nil is type; specifically -> zero type
+}
+
+Control statements, declaration, types: {
+    - range 
+    - outer: mark to exit the loop
+    - switch case: cases break automatically
+    - before main : func init() <= at the start of the package
+    - _ operation
 }

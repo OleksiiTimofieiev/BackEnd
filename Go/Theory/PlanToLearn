@@ -19,9 +19,10 @@ plan: {
     - what different std bring
     - event-driven approach in code
     - pattern of program flow organisation
-    - scheduler: https://www.youtube.com/watch?v=u6bMwbb7ato
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
     https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
+    - hash map collision
+    - потоковые видео
   };
 
   - august: {
@@ -64,6 +65,7 @@ plan: {
       - RAID
       - redis: https://www.youtube.com/watch?v=-vbhFpJMQ5w
       - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
+      - http versions: 1,2,3?
     }
     - databases: {
       - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
