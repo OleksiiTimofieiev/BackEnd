@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=dqEtGT-dxoY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=8
+https://www.youtube.com/watch?v=wj0hUjRHkPs&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=9
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -36,4 +36,11 @@ Control statements, declaration, types: {
     - switch case: cases break automatically
     - before main : func init() <= at the start of the package
     - _ operation
+}
+
+Input/Output: {
+    -P/f/s...printf
+    - bufio => buffer I/O scanners
+    - io/ioutil => read entyre fyle to memory/writing out
+    - strconv
 }
