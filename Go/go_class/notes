@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=wj0hUjRHkPs&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=9
+https://www.youtube.com/watch?v=pHl9r3B2DFI&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=11
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -43,4 +43,25 @@ Input/Output: {
     - bufio => buffer I/O scanners
     - io/ioutil => read entyre fyle to memory/writing out
     - strconv
+}
+
+Function, parameters, defer: {
+    - first class objects
+    - function withing a function is possible
+    - formal -> actual parameters
+    - array passed by cope, slice by reference
+    - * => pass by reference
+    - defer called before return
+}
+
+Closures: {
+    - func that returns Function
+    - return &b -> escape analysis -> will live beyond scope of the function
+    - return of anonymous function
+    - inner function gets a reference to outer arguments 
+    - pass function as an argument
+}
+
+Slices in detail: {
+    - 
 }

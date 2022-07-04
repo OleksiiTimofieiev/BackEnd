@@ -1,7 +1,6 @@
 plan: {
   - june & july: {
     - syntax and language aspects:
-      https://www.youtube.com/watch?v=nxWqANttAdA&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=5
     - working with databases:
       https://itvdn.com/ru/subscriptions
     - use docker: {
@@ -14,13 +13,11 @@ plan: {
     - no generics in std== check it
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
-    - internet protocols & network infrastructure: http, https, etc.
     - in the end refresh with coursera course
-    - what different std bring
     - event-driven approach in code
     - pattern of program flow organisation
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
-    https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
+    - design patterns: https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
     - hash map collision
     - потоковые видео
   };
