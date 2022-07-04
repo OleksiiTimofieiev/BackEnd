@@ -1,0 +1,8 @@
+- Wall -Wextra -Wconversion -Werror /W4 /WX
+- clang tidy
+- forward declarations in headers
+- ninja vs make on linux
+- clang-format
+- UI -> Qt Widgets
+- HTTP => Boost::Asio: Boost::Beast ==> http, websocket client(per message deflate), coroutines
+- boost::serialization => recusive tree use
