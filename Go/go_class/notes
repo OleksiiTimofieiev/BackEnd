@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=pHl9r3B2DFI&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=11
+https://www.youtube.com/watch?v=0m6iFd9N_CY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=14
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -28,6 +28,7 @@ Array, Slice, Map {
     - capacity in Map not supported
     - Maps have a special two-result lookup function: ok, true || 0, false
     - nil is type; specifically -> zero type
+    - 
 }
 
 Control statements, declaration, types: {
@@ -60,8 +61,4 @@ Closures: {
     - return of anonymous function
     - inner function gets a reference to outer arguments 
     - pass function as an argument
-}
-
-Slices in detail: {
-    - 
 }

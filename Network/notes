@@ -11,6 +11,8 @@ Lesson: 25
 - HMAC == data + secret key
 
 - assymetric: RSA
+- slow encryption
+- bi-directional data encryption requires RSA key pairs on both sides
 - private(keeps in a secret) and public key => signing data, encription
 - encryption: only owner of the private key can decrypt the data encrypted by the public key of the owner
 - signaturing: hash on the data -> encrypt with private key of the owner -> encrypted hash sent along with the data -> decrypt with public key
@@ -27,3 +29,15 @@ Lesson: 25
 - openssl genrsa -aes256 -out private.pem
 - openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 - openssl genrsa 4096
+
+- ssl/tls == cryptographic protocols {
+  - used in https
+  - tls using symmetric key
+  - tls session:
+  after tcp session established
+  negotiate cipher suite (list of supported suited) == Client Hello
+  web server sends certificate == Server Hello [choosen cipher suite]
+  verify server certificate
+  generate symmetric key for data encryption
+  send/recieve encrypted data
+}
