@@ -41,3 +41,7 @@ Lesson: 25
   generate symmetric key for data encryption
   send/recieve encrypted data
 }
+
+- TLS => Diffie-Hellman key exchange algo:
+ - no key exchange => symmetric keys on both sides
+ - noone can generate the same key == one way function
