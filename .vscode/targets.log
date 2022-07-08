@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul  7 13:24:23 2022
+# Make data base, printed on Fri Jul  8 10:49:50 2022
 
 # Variables
 
@@ -26,8 +26,6 @@ DESKTOP_SESSION = ubuntu
 XDG_SESSION_CLASS = user
 # environment
 XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -67,8 +65,6 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 MANAGERPID = 1920
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
@@ -91,8 +87,6 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-VSCODE_LOG_STACK = false
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
 INVOCATION_ID = 830d219fe9994a78bad8b6af30d56214
@@ -105,13 +99,11 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7102
+GIO_LAUNCHED_DESKTOP_FILE_PID = 60190
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
-# environment
-VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /home/user/Desktop/BackEnd
 # default
@@ -129,7 +121,7 @@ HOME = /home/user
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/user/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/user/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LOGNAME = user
 # environment
@@ -154,8 +146,6 @@ QT_IM_MODULE = ibus
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eea73d90-285a-4957-9e21-88f2bdc470c8.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -177,7 +167,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-16068fa4-1.68.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-16068fa4-1.69.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -223,9 +213,9 @@ LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 7102
+VSCODE_PID = 60190
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=18/128=14%
+# Load=101/1024=10%, Rehash=0, Collisions=17/123=14%
 
 # Pattern-specific Variable Values
 
@@ -290,8 +280,7 @@ GNUmakefile:
 
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
- 
 # Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Thu Jul  7 13:24:23 2022
+# Finished Make data base on Fri Jul  8 10:49:50 2022
 
  

@@ -14,16 +14,17 @@ plan: {
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
     - in the end refresh with coursera course
-    - event-driven approach in code
-    - pattern of program flow organisation
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
     - design patterns: https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
     - hash map collision
     - потоковые видео
+
   };
 
   - august: {
     - working with infrastructure: {
+      - event-driven approach in code => kafka projects
+      - microservices
       - check what is required in vacancies
       - algorithm course
       - kubernetes, queue services, kafka, AWS, other stuff
