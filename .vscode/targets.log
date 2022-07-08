@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul  5 09:43:57 2022
+# Make data base, printed on Thu Jul  7 13:24:23 2022
 
 # Variables
 
@@ -47,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:57535
+JOURNAL_STREAM = 8:56513
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -67,7 +69,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 5058
+MANAGERPID = 1920
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,7 +85,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/lwo1-lhp-A06107:@/tmp/.ICE-unix/5463,unix/lwo1-lhp-A06107:/tmp/.ICE-unix/5463
+SESSION_MANAGER = local/lwo1-lhp-A06107:@/tmp/.ICE-unix/2207,unix/lwo1-lhp-A06107:/tmp/.ICE-unix/2207
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -93,7 +95,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 11fcf0b12b9c406cb811e799e90624ef
+INVOCATION_ID = 830d219fe9994a78bad8b6af30d56214
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -103,7 +105,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 328327
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7102
 # automatic
 %F = $(notdir $%)
 # environment
@@ -115,7 +117,7 @@ PWD = /home/user/Desktop/BackEnd
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 5425
+SSH_AGENT_PID = 2169
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -153,7 +155,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e2901129-083a-4e56-bed3-c49beef9b91a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-eea73d90-285a-4957-9e21-88f2bdc470c8.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -221,7 +223,7 @@ LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 328327
+VSCODE_PID = 7102
 # variable set hash-table stats:
 # Load=106/1024=10%, Rehash=0, Collisions=18/128=14%
 
@@ -289,9 +291,7 @@ GNUmakefile:
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
  
-make: *** No rule to make target 'all'.  Stop.
-
 # Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Tue Jul  5 09:43:57 2022
+# Finished Make data base on Thu Jul  7 13:24:23 2022
 
  

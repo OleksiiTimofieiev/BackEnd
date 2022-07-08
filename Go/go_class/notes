@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=0m6iFd9N_CY&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=14
+https://www.youtube.com/watch?v=Q-uy0FS6RwU&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=15
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -61,4 +61,18 @@ Closures: {
     - return of anonymous function
     - inner function gets a reference to outer arguments 
     - pass function as an argument
+}
+
+Structs, struct tags, JSON: {
+    - type ... struct {...}
+    - passed by value unless pointer passed
+}
+
+Reference and value semantics: {
+    - pointer => shared, not copied
+    - value => not shared, copied
+    - pointers: smth that can be copied, huge size of an object, null,
+    waitGroup, Mutex    
+    - value: stack allocation
+
 }
