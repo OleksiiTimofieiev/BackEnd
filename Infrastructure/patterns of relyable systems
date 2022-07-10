@@ -45,3 +45,13 @@ cyrcuit breaker : {
 rich client: {
   - some calculation to be done on client => kinda small lib with part of that logic
 }
+
+other patterns: {
+  - health check
+  - exponential backoff
+  - caching and failover caching
+  - dynamic configuration
+  - failover
+  - blue-green/canary deploy
+   -
+}
