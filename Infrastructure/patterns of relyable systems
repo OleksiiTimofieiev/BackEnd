@@ -1,0 +1,47 @@
+https://www.youtube.com/watch?v=YlXJMCdssAI
+
+- timeout:
+repeat request with limit on repeat quantyties
+client timeout
+exponential backoff
+HTTP-header <retry after>
+indempotent key for request == ключи индемпотентномти
+
+- deadline:
+client deadline limit - X-Deadline
+deadline propagation
+one retry wait / total wait time
+different wait time for different dependencies
+set dedline according to 99 percentile
+
+rate limiting => равномерно размазать запросы: {
+  client/server side: {
+    parallel requests
+    quoting the traffic
+    too-many request std header
+  }
+
+  burst limiting: {
+    limit of spike requests
+    quantity
+  }
+
+  different limits for different clients
+
+  examples: {
+    token bucket
+    leaky bucket
+    fixed window
+    sliding window
+  }
+}
+
+system degradation
+
+cyrcuit breaker : {
+  - remember when system becomes normal: timeout, traffic limit - small steps to check that system is in a good state
+}
+
+rich client: {
+  - some calculation to be done on client => kinda small lib with part of that logic
+}
