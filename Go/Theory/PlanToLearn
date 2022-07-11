@@ -17,12 +17,14 @@ plan: {
     - design patterns: https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
     - hash map collision
     - потоковые видео
+    - https://www.youtube.com/watch?v=uQmK9FhzG9U
     - https://www.youtube.com/watch?v=NCA6k_a2_i0
 
   };
 
   - august: {
     - working with infrastructure: {
+
       - event-driven approach in code => kafka projects
       - microservices
       - check what is required in vacancies
