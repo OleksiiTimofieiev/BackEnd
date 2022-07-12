@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 11 15:36:33 2022
+# Make data base, printed on Tue Jul 12 13:04:39 2022
 
 # Variables
 
@@ -43,7 +45,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/bin/dbus-update-activation-environment
+_ = /usr/share/code/code
 # environment
 JOURNAL_STREAM = 8:56513
 # environment
@@ -73,7 +75,7 @@ VSCODE_CWD = /home/user
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
@@ -97,7 +99,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 234416
+GIO_LAUNCHED_DESKTOP_FILE_PID = 292966
 # automatic
 %F = $(notdir $%)
 # environment
@@ -179,8 +181,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = uk_UA.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -213,9 +213,9 @@ LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 228087
+VSCODE_PID = 292966
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=17/124=14%
+# Load=101/1024=10%, Rehash=0, Collisions=17/123=14%
 
 # Pattern-specific Variable Values
 
@@ -281,8 +281,6 @@ GNUmakefile:
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Mon Jul 11 15:36:33 2022
+# Finished Make data base on Tue Jul 12 13:04:39 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-
