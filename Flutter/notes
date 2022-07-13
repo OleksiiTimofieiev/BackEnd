@@ -3,6 +3,10 @@ https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/
 Documentation:
 https://docs.flutter.dev/development/ui/widgets
 
+Usefull commands:
+- flutter run --release to upload to the device
+- confige IOS env: open ios/Runner.xcworkspace/  -> Target -> Signing & Capabilities
+
 How to organize a widget tree and data is the core of the framework from the developers side of view
 
 1. Introduction {
@@ -14,7 +18,9 @@ How to organize a widget tree and data is the core of the framework from the dev
     - flutter is a bunch of widget == widget is being building block
     - widget may contain other widgets
     - main app == widget
-    - widget tree
+    - widget tree == static configuration
+    - elment tree == life cycle
+    - paint == renders objects tree
 }
 
 2. {
