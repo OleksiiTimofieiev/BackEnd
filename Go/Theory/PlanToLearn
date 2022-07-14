@@ -1,5 +1,5 @@
 plan: {
-  - june & july: {
+  - june - august: {
     - https://www.sohamkamani.com/golang/options-pattern/
     - pipelines in golang
     - working with databases:
@@ -18,6 +18,7 @@ plan: {
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
     - design patterns: https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
     - hash map collision
+    - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
     - https://www.youtube.com/watch?v=H7b8GGJxpMk
     - https://www.youtube.com/watch?v=NCA6k_a2_i0
@@ -27,7 +28,7 @@ plan: {
     - https://www.youtube.com/watch?v=6HaSNt9tpko&list=PLH-XmS0lSi_yY4rQCIZyx5Np57zc77OyE
   };
 
-  - august: {
+  - september: {
     - working with infrastructure: {
 
       - event-driven approach in code => kafka projects
