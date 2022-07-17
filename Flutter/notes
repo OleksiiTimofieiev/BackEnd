@@ -1,11 +1,13 @@
 https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/15311806#overview
 
 Documentation:
-https://docs.flutter.dev/development/ui/widgets
+- https://docs.flutter.dev/development/ui/widgets
+- pub.dev => packages that may be installed for Dart
 
 Usefull commands:
 - flutter run --release to upload to the device
 - confige IOS env: open ios/Runner.xcworkspace/  -> Target -> Signing & Capabilities
+- pubspec.yaml = manage dependencies of the project
 
 How to organize a widget tree and data is the core of the framework from the developers side of view
 
@@ -43,10 +45,20 @@ How to organize a widget tree and data is the core of the framework from the dev
 
 Widgets: {
     - App/Page setup: MaterialApp/CupertinoApp || Scaffold/CupertinoPageScaffold
-    - Layout: Container, Row, Column
+    - Layout (widgets of this type can be combined): 
+        Container => takes exactly on type of widget, rich styling options, flexible width/height, perfect for custom styling & alignment
+        [Row, Column]: unlimited child widgets, alignment but not styling, takes by default full available heigh/width, sit next/above to each other 
     - Row/Column children: flexible/expanded
     - Content containers: Stack/Card
     - Repeat elements: ListView, GridView, ListTile
     - Content type: Text, Image, Icon
     - UserInput: TextField, RaisedButton/FlatButton, GestureDetector, InkWell
+}
+
+Features of Dart: {
+    - string interpolation syntax
+}
+
+Flutter aspects: {
+    - not all widgets have size constraints: listView => ListView.builder() == only load what is visible => memory optimizations
 }

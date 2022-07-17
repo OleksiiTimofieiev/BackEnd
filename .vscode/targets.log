@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 14 11:31:59 2022
+# Make data base, printed on Sun Jul 17 14:18:44 2022
 
 # Variables
 
@@ -45,9 +45,9 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/bin/dbus-update-activation-environment
+_ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:48071
+JOURNAL_STREAM = 8:56467
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -65,7 +65,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-MANAGERPID = 5064
+MANAGERPID = 1842
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -75,13 +75,13 @@ VSCODE_CWD = /home/user
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/lwo1-lhp-A06107:@/tmp/.ICE-unix/5352,unix/lwo1-lhp-A06107:/tmp/.ICE-unix/5352
+SESSION_MANAGER = local/lwo1-lhp-A06107:@/tmp/.ICE-unix/2127,unix/lwo1-lhp-A06107:/tmp/.ICE-unix/2127
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -89,7 +89,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = b62798c9642f44ecb52eb702abc8708a
+INVOCATION_ID = 0fd659d7861c4bbf8f27899dc869d7ce
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -99,7 +99,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 785968
+GIO_LAUNCHED_DESKTOP_FILE_PID = 13132
 # automatic
 %F = $(notdir $%)
 # environment
@@ -109,7 +109,7 @@ PWD = /home/user/Desktop/BackEnd
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 5313
+SSH_AGENT_PID = 2089
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -181,8 +181,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = uk_UA.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
@@ -215,9 +213,9 @@ LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 780663
+VSCODE_PID = 13132
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=17/124=14%
+# Load=101/1024=10%, Rehash=0, Collisions=17/123=14%
 
 # Pattern-specific Variable Values
 
@@ -225,9 +223,9 @@ VSCODE_PID = 780663
 
 # Directories
 
-# . (device 66309, inode 5439792): 19 files, no impossibilities.
+# . (device 66309, inode 5439792): 18 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -277,12 +275,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 217 B / avg = 8 B
-# current buf: size = 8162 B / used = 217 B / count = 27 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 210 B / avg = 8 B
+# current buf: size = 8162 B / used = 210 B / count = 26 / avg = 8 B
 
-# strcache performance: lookups = 30 / hit rate = 10%
+# strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Thu Jul 14 11:31:59 2022
+# Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Sun Jul 17 14:18:44 2022
 
  

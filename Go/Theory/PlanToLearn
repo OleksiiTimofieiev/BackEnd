@@ -1,5 +1,6 @@
 plan: {
   - june - august: {
+    - GC
     - https://www.sohamkamani.com/golang/options-pattern/
     - pipelines in golang
     - working with databases:
@@ -9,7 +10,6 @@ plan: {
       - Dockerfile, Docker compose
       - difference beetween Docker and Virtual Machine
     }
-    - memory and gc: otus
     - check that last std has:
     - no generics in std== check it
     - code generation in std = check it
@@ -20,9 +20,6 @@ plan: {
     - hash map collision
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
-    - https://www.youtube.com/watch?v=H7b8GGJxpMk
-    - https://www.youtube.com/watch?v=NCA6k_a2_i0
-    - https://www.youtube.com/watch?v=I3QedJ2dEJw
     - https://www.youtube.com/watch?v=hEC8CX8Drac
     - https://www.youtube.com/watch?v=F0Zif5Enbgc
     - https://www.youtube.com/watch?v=6HaSNt9tpko&list=PLH-XmS0lSi_yY4rQCIZyx5Np57zc77OyE
@@ -30,7 +27,9 @@ plan: {
 
   - september: {
     - working with infrastructure: {
-
+      - security in web development
+      - https://www.youtube.com/watch?v=hTfxc4qcCC0
+      - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
       - event-driven approach in code => kafka projects
       - microservices
       - check what is required in vacancies
