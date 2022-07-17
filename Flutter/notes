@@ -40,3 +40,13 @@ How to organize a widget tree and data is the core of the framework from the dev
     statefull(widget has internal state) & stateless
     - setState calls build method to signal rerender necessity
 }
+
+Widgets: {
+    - App/Page setup: MaterialApp/CupertinoApp || Scaffold/CupertinoPageScaffold
+    - Layout: Container, Row, Column
+    - Row/Column children: flexible/expanded
+    - Content containers: Stack/Card
+    - Repeat elements: ListView, GridView, ListTile
+    - Content type: Text, Image, Icon
+    - UserInput: TextField, RaisedButton/FlatButton, GestureDetector, InkWell
+}
