@@ -1,0 +1,56 @@
+- purposes:
+dispatching the tasks (kind of balancer)
+planning of execution (sometimes peak, sometimes - low)
+resource planning: replication, reliability, microservices communication
+communication beetween different businesses
+
+Queue - communication infrastructure == one-to-one, one-to-many, request-response
+
+cloud and broker solutions: RabbitMQ, Kafka
+
+Apache Kafka:
+- replicated sharded log
+- FIFO (log can not be chaneged)
+- quantity of consumers are limited
+- can be rerun
+- integration to Apacke ecosystem
+- use: streaming data, log, metrics, audit, data replication
+
+RabbitMQ:
+- protocols: AMQP, MQTT, STOMP
+- priority, background, delayed tasks
+- no limitation on consumers
+- storage: memory, disk, replication, quorum
+- easy to learn. complex in reliability
+- use: pub,sub broker; communication for microservices==message bus
+
+Managed Cloude Queue:
+- reliable, automatic scaling
+- stateless protocol
+- standard API
+- minimum cost with low consumption
+- use: services in the cloud, S3-Lambda communication
+
+NATS:
+- fast reliable stateless communication
+- high performance and scalability
+- using JetStream -> streaming, RAFT cluster
+- use: communication in distributed systems
+
+Problems:
+- algorithms: 
+FIFO, 
+LIFO, 
+Best Effort (message can be brought back to the queue - if some consumer doesn`t work), 
+QoS
+- prioritization
+- subqueue 
+- retry, background, delay
+- dead letter queue
+- starvation
+- throughtput
+- perfomance
+- scalability
+- latency
+- undefined behavioiur on the network
+- graceful shutdown

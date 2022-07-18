@@ -10,8 +10,10 @@ plan: {
       - Dockerfile, Docker compose
       - difference beetween Docker and Virtual Machine
     }
+    - fastest protocols for microservices communication
     - check that last std has:
     - no generics in std== check it
+    - streaming architecture
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
     - in the end refresh with coursera course
@@ -20,9 +22,10 @@ plan: {
     - hash map collision
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
-    - https://www.youtube.com/watch?v=hEC8CX8Drac
     - https://www.youtube.com/watch?v=F0Zif5Enbgc
     - https://www.youtube.com/watch?v=6HaSNt9tpko&list=PLH-XmS0lSi_yY4rQCIZyx5Np57zc77OyE
+    - https://www.youtube.com/watch?v=O0iIADHgBVc
+    - https://www.youtube.com/watch?v=9eeUZMD99Ug&list=PLH-XmS0lSi_zjgirkPa82JT2YykFcBasq&index=12
   };
 
   - september: {

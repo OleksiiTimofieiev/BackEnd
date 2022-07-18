@@ -41,6 +41,9 @@ How to organize a widget tree and data is the core of the framework from the dev
     
     statefull(widget has internal state) & stateless
     - setState calls build method to signal rerender necessity
+    - context == package of meta-information which can be used
+    - widget => to pass ctx beetween classes
+    - theme => use own custom theme in MyApp main class; theme.of(context)
 }
 
 Widgets: {
@@ -61,4 +64,10 @@ Features of Dart: {
 
 Flutter aspects: {
     - not all widgets have size constraints: listView => ListView.builder() == only load what is visible => memory optimizations
+}
+
+Learn: {
+    - flutter diagrams/charts:
+    https://www.youtube.com/watch?v=GwDMwnELTP4
+    https://www.youtube.com/watch?v=VJxPp7-2nGk
 }
