@@ -36,7 +36,7 @@ rate limiting => равномерно размазать запросы: {
   }
 }
 
-system degradation
+system degradation: soft & hard limits
 
 cyrcuit breaker : {
   - remember when system becomes normal: timeout, traffic limit - small steps to check that system is in a good state

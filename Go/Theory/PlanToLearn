@@ -1,6 +1,7 @@
 plan: {
   - june - august: {
     - GC
+    - concurrency patterns
     - https://www.sohamkamani.com/golang/options-pattern/
     - pipelines in golang
     - working with databases:
@@ -22,15 +23,13 @@ plan: {
     - hash map collision
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
-    - https://www.youtube.com/watch?v=F0Zif5Enbgc
-    - https://www.youtube.com/watch?v=6HaSNt9tpko&list=PLH-XmS0lSi_yY4rQCIZyx5Np57zc77OyE
-    - https://www.youtube.com/watch?v=O0iIADHgBVc
-    - https://www.youtube.com/watch?v=9eeUZMD99Ug&list=PLH-XmS0lSi_zjgirkPa82JT2YykFcBasq&index=12
-    - https://www.youtube.com/watch?v=MLS6L0QaiC4
+    - https://www.youtube.com/watch?v=Rl4jGw-9_Wg
   };
 
   - september: {
     - working with infrastructure: {
+      - autherithation golang
+      - https://www.youtube.com/watch?v=c4_5rqvmDFU
       - security in web development
       - https://www.youtube.com/watch?v=hTfxc4qcCC0
       - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
