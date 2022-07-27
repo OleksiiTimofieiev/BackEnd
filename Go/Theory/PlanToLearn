@@ -8,6 +8,7 @@ plan: {
       https://itvdn.com/ru/subscriptions
     - use docker: {
       - https://www.youtube.com/watch?v=n9uCgUzfeRQ&t=28s
+      - https://www.youtube.com/watch?v=USbPCBi_d4U
       - Dockerfile, Docker compose
       - difference beetween Docker and Virtual Machine
     }
@@ -19,15 +20,16 @@ plan: {
     - strong questions for interview on interfaces< what is empty interface
     - in the end refresh with coursera course
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
-    - design patterns: https://www.youtube.com/watch?v=i6KeRa4WvZA&list=PLGN1AjiJJv0kDpyO_anVzv5I4v6Kmxtwz&index=1
     - hash map collision
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
-    - https://www.youtube.com/watch?v=Rl4jGw-9_Wg
+    - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
   };
 
   - september: {
     - working with infrastructure: {
+      - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
+      - indexes in db
       - autherithation golang
       - https://www.youtube.com/watch?v=c4_5rqvmDFU
       - security in web development

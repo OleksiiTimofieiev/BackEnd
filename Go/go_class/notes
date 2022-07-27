@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=DtXNSE3Yejg&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=28
+https://www.youtube.com/watch?v=oIxXp0OgK_0&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=33
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -75,4 +75,9 @@ Reference and value semantics: {
     waitGroup, Mutex    
     - value: stack allocation
 
+}
+
+Error management: {
+    - any concrete type with Error() string can represent an error
+    - custom types may be implemented
 }
