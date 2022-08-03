@@ -1,4 +1,14 @@
+https://www.youtube.com/watch?v=vEmi_cKgDlE&list=PLhgRAQ8BwWFa7ulOkX0qi5UfVizGD_-Rc&index=14
+
 - sudo apt-get install nginx
 - sudo systemctl stop/reload nginx 
 - context || directives
 - location blocks == перехват запроса, sample /greet || = /greet(full match)
+- workers == quantity of the CPU cores (auto, lproc, lscpu)
+- ulimit -n == amount of file descriptors
+- dynamic models are available == ./configure --help | grep "dynamic"
+- expires => to have cache on browser side
+- gzip == compression of the content
+- limits:
+parallel connections
+simultaneous connctions

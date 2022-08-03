@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=oIxXp0OgK_0&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=33
+https://www.youtube.com/watch?v=PIPfNIWVbc8&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=38
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -80,4 +80,18 @@ Reference and value semantics: {
 Error management: {
     - any concrete type with Error() string can represent an error
     - custom types may be implemented
+}
+
+Static analysis == Linting: {
+    - format the code = go fmt
+    - fix the imports = go imports
+    - look for issues = go lint
+    - code issues     = go vet
+    - go const
+    - gosec = security issues
+    - ineffasign = ineffective assignments
+    - gocyclo = 
+    - deadcode, unsused, varcheck, unconvert
+    - all in one == golangci-lint
+    - pre-commit hook in system version control
 }

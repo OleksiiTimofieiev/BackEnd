@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=_uZQtRyF6Eg&t=3248s
+
+- docker ps -a == all containers
+- docker images
+- docker run <image>
+- docker run -it <image>
+- docker container prune == remove inactive containers
+
+--- samples of usage:
+
+- docker run nginx
+- docker ps -> see opened port/s 
+- docker run -d nginx -> run in detached state => id of container will be published to the shell
+- docker container inspect <hash of container <- docker ps>| grep -i ipaddress-> see details about the container -> ip address can be found
+- docker stop <name_of_container>
+- docker exec -it <name_of_container/id> <name_of_process> => for example bash
+- docker run -d --name my_nginx nginx
+- docker run -p 8080:80 nginx => open and pass port to docker
+- docker run -v ${PWD}:/usr/share/nginx/html nginx => adding a volume
+- docker run -it --rm busybox => remove after container was stopped
+
+--- Dockerfile:
+- dockerfile == used to create own docker image
+- usually located in the root of the project
+- dockerfile contains instructions for image creation
+- name and tag of the new image can be customized
+- containers can be built with a new image
+- docker build . -t my-calendar:4.1.3
+
+instructions: {
+    - FROM <base_image>
+    - WORKDIR /app => app dir will be created, will be a current dir in container
+    - COPY . . => copy all files from the current dir to workdir
+    - CMD [ "python" , "main.py" ] => run command
+}
