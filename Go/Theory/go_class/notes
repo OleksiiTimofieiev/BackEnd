@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=PIPfNIWVbc8&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=38
+https://www.youtube.com/watch?v=HfCsfuVqpcM&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=39
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
@@ -94,4 +94,9 @@ Static analysis == Linting: {
     - deadcode, unsused, varcheck, unconvert
     - all in one == golangci-lint
     - pre-commit hook in system version control
+}
+
+Testing: {
+    - *_test.go with TestXXXX function => go test ./...
+    - tests are not to be run if code was not changed since last run
 }

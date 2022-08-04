@@ -7,7 +7,6 @@ plan: {
     - working with databases:
       https://itvdn.com/ru/subscriptions
     - use docker: {
-      - docker in go: https://www.youtube.com/watch?v=Utf-A4rODH8
       - https://www.youtube.com/watch?v=CgakPXHO29o
     }
     - fastest protocols for microservices communication
@@ -24,10 +23,13 @@ plan: {
     - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
     - https://www.youtube.com/watch?v=TIAkt9csksI
     - https://www.youtube.com/watch?v=U7No68hiJ4M
+    - https://www.youtube.com/watch?v=LEnXBueFBzk
+    - https://www.youtube.com/watch?v=Bt1ZA82SF4o
   };
 
   - september: {
     - working with infrastructure: {
+      - https://www.youtube.com/watch?v=ttebJcN5bgQ
       - interview questions about microservices
       - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
       - indexes in db
