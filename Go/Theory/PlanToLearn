@@ -1,14 +1,12 @@
 plan: {
   - june - august: {
+    - secure connections: https://www.youtube.com/watch?v=kxKLYDLzuHA
     - GC
     - concurrency patterns
     - https://www.sohamkamani.com/golang/options-pattern/
     - pipelines in golang
     - working with databases:
       https://itvdn.com/ru/subscriptions
-    - use docker: {
-      - https://www.youtube.com/watch?v=CgakPXHO29o
-    }
     - fastest protocols for microservices communication
     - check that last std has:
     - no generics in std== check it
@@ -21,64 +19,93 @@ plan: {
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
     - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
-    - https://www.youtube.com/watch?v=TIAkt9csksI
-    - https://www.youtube.com/watch?v=U7No68hiJ4M
+    - goroutines: how to finish them, avoid memory leaks, typical errors, etc.
     - https://www.youtube.com/watch?v=LEnXBueFBzk
-    - https://www.youtube.com/watch?v=Bt1ZA82SF4o
+    - monitoring: some REST book has it
+    - think over architecture for the project
+    - async task queue in go
+    - job queue
+    - api gateway
   };
 
   - september: {
-    - working with infrastructure: {
-      - https://www.youtube.com/watch?v=ttebJcN5bgQ
-      - interview questions about microservices
-      - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
-      - indexes in db
-      - autherithation golang
-      - https://www.youtube.com/watch?v=c4_5rqvmDFU
-      - security in web development
-      - https://www.youtube.com/watch?v=hTfxc4qcCC0
-      - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
-      - event-driven approach in code => kafka projects
-      - microservices
-      - check what is required in vacancies
-      - algorithm course
-      - kubernetes, queue services, kafka, AWS, other stuff
-      - learn nginx/apache
-      - ajax
-      - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-      - index https://www.youtube.com/watch?v=39e1vAGD3hg
-      - ping: https://www.youtube.com/watch?v=weHRbig_wEU
-      - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
-      - effective go
-      - html/css/javascript/DOM model/Local storage/How requests go
-      - protocol buffer
-      - jwt tokens
-      - gRPC
-      - Security: XSS, SQL injections, keeping passwords, keeping secrets
-      - CLI go
-      - testing a web server
-      - transactions/transactional behaviour
-      - sql injections
-      - Executor tracing
-      - Kafka: streams API
-      - Highload couroutines patterns
-      - Go-Kit
-      - memory model otus
-      - typical interview questions
-      - Rabbit-MQ and connected 
-      - Aws 
-      - kubernetes
-      - Project with microservices on docker aws kubernetes 
-      - SQL vs NoSQL
-      - Очереди сообщений
-      - Docker compose
-      - Mongo / SQL in project 
-      - delve
-      - java GC
-      - RAID
-      - redis: https://www.youtube.com/watch?v=-vbhFpJMQ5w
-      - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
-      - http versions: 1,2,3?
+    - authentication / authorization flows &amp; best practices
+    - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
+    - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
+    - знания Linux
+    - знания Git, Git Flow
+    - опыт построения микросервисной архитектуры
+    - знание сетевых протоколов и сетевого стека
+    - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
+    - patterns of microservices
+    - https://www.youtube.com/watch?v=ttebJcN5bgQ
+    - interview questions about microservices
+    - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
+    - indexes in db
+    - autherithation golang
+    - https://www.youtube.com/watch?v=c4_5rqvmDFU
+    - security in web development
+    - https://www.youtube.com/watch?v=hTfxc4qcCC0
+    - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
+    - event-driven approach in code => kafka projects
+    - microservices
+    - check what is required in vacancies
+    - algorithm course
+    - kubernetes, queue services, kafka, AWS, other stuff
+    - learn nginx/apache
+    - ajax
+    - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
+    - index https://www.youtube.com/watch?v=39e1vAGD3hg
+    - ping: https://www.youtube.com/watch?v=weHRbig_wEU
+    - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
+    - effective go
+    - html/css/javascript/DOM model/Local storage/How requests go
+    - protocol buffer
+    - jwt tokens
+    - gRPC
+    - Security: XSS, SQL injections, keeping passwords, keeping secrets
+    - CLI go
+    - testing a web server
+    - transactions/transactional behaviour
+    - sql injections
+    - Executor tracing
+    - Kafka: streams API
+    - Highload couroutines patterns
+    - Go-Kit
+    - memory model otus
+    - typical interview questions
+    - Rabbit-MQ and connected 
+    - Aws 
+    - kubernetes
+    - Project with microservices on docker aws kubernetes 
+    - SQL vs NoSQL
+    - Очереди сообщений
+    - Docker compose
+    - Mongo / SQL in project 
+    - delve
+    - java GC
+    - RAID
+    - redis: https://www.youtube.com/watch?v=-vbhFpJMQ5w
+    - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
+    - http versions: 1,2,3?
+    -  Monitoring, alerting approaches
+    - Common attacks types (OWASP)
+    - Understanding of network interactions:
+    - protocols
+    - conventions (e.g. REST, RPC)
+    - authentication and authorization flows
+    - standards and practices (e.g. oAuth, JWT)
+    - Excellent knowledge and experience in Golang (more than 5 years)
+    - Practical commercial experience with:
+    - REST API development
+    - Web application frameworks, Testing frameworks, ORM
+    - RDBMS (e.g MySQL, PostgreSQL)
+    - Key-value storages (e.g. Redis, Memcached)
+    - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
+    - Certifications on:
+      Cloud computing platforms (AWS, GCP, Microsoft Azure)
+      Understanding of orchestration and containerisation (e.g. Kubernetes, Swarm)
+      Knowledge in Deployment patterns
     }
     - databases: {
       - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
@@ -95,6 +122,7 @@ interview: {
 
 
 projects: {
+  - planning and budget with microservices
   - https://www.youtube.com/watch?v=mBLpAx06l44&t=2565s
   - https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
 }

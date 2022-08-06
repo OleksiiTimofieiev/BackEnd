@@ -1,4 +1,10 @@
-https://www.youtube.com/watch?v=HfCsfuVqpcM&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=39
+https://www.youtube.com/watch?v=Si0rAE8yT9g&list=PLoILbKo9rG3skRCj37Kn5Zj803hhiuRK6&index=42
+
+build: {
+    -   CGO_ENABLED=0 go build -a tags netgo,osusergo \
+        -ldflags "-extldflags '-static' -s -w" \
+        -o lister .
+}
 
 Basic types: {
     - machine representation == RAM == more faster then Java and Python
