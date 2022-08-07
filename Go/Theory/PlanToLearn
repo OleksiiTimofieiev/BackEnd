@@ -1,6 +1,7 @@
 plan: {
   - june - august: {
     - api gateway: https://www.youtube.com/watch?v=k6kiNivraJ8
+    - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - secure connections: https://www.youtube.com/watch?v=kxKLYDLzuHA
     - GC
     - concurrency patterns
