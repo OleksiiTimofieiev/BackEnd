@@ -1,5 +1,6 @@
 plan: {
   - june - august: {
+    - api gateway: https://www.youtube.com/watch?v=k6kiNivraJ8
     - secure connections: https://www.youtube.com/watch?v=kxKLYDLzuHA
     - GC
     - concurrency patterns
@@ -25,10 +26,13 @@ plan: {
     - think over architecture for the project
     - async task queue in go
     - job queue
-    - api gateway
+    - https://www.youtube.com/watch?v=Pw8fVBRS4jA
   };
 
   - september: {
+    - api gateway implementation
+    - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
+    - microservice patterns/architecture
     - authentication / authorization flows &amp; best practices
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы

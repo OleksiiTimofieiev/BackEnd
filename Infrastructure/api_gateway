@@ -1,0 +1,13 @@
+- client -> api_gateway (AGW) -> business_logic/service
+- usual functions:
+transparent proxy (HTTP-X_Forwarde for to see not only local IP)
+web application firewall (request analysis for security issues in requests)
+quotes (limiting amout of requests to service/delaying incomnig requests => service hopefully will no fail)
+tracing (for debug)
+routing&balancing
+service_discovery (control of services and infrastructure)
+authorization (to avoid on service level)
+logging (analitics, statistics, debugging, monitoring)
+protocols
+...
+- 
