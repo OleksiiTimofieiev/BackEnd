@@ -1,5 +1,7 @@
 plan: {
   - june - august: {
+    - api gateway: https://www.youtube.com/watch?v=k6kiNivraJ8
+    - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - GC
     - concurrency patterns
     - https://www.sohamkamani.com/golang/options-pattern/
@@ -26,9 +28,13 @@ plan: {
     - job queue
     - api gateway
     - secure go: https://www.youtube.com/watch?v=SN8fRR5TiTA
+    - https://www.youtube.com/watch?v=Pw8fVBRS4jA
   };
 
   - september: {
+    - api gateway implementation
+    - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
+    - microservice patterns/architecture
     - authentication / authorization flows &amp; best practices
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
