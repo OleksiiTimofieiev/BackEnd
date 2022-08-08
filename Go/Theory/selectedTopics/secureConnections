@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=kxKLYDLzuHA
+
+- CA == certificate authority => to believe in public key
+- TLS == transport layer security
+- public/private key
+- private can sign key, public key can be used to verify signatyre
+- create a certificate signing request:
+openssl req -key private-key -new -out csr

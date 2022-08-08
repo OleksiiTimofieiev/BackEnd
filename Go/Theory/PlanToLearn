@@ -1,6 +1,5 @@
 plan: {
   - june - august: {
-    - secure connections: https://www.youtube.com/watch?v=kxKLYDLzuHA
     - GC
     - concurrency patterns
     - https://www.sohamkamani.com/golang/options-pattern/
@@ -26,6 +25,7 @@ plan: {
     - async task queue in go
     - job queue
     - api gateway
+    - secure go: https://www.youtube.com/watch?v=SN8fRR5TiTA
   };
 
   - september: {
