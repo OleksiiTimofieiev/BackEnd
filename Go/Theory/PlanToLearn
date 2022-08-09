@@ -28,6 +28,7 @@ plan: {
     - job queue
     - api gateway
     - secure go: https://www.youtube.com/watch?v=SN8fRR5TiTA
+    - secure dependencies: https://www.youtube.com/watch?v=5E9QOuop5lo
     - https://www.youtube.com/watch?v=Pw8fVBRS4jA
   };
 
