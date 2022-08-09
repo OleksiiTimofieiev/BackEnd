@@ -7,3 +7,20 @@ https://www.youtube.com/watch?v=kxKLYDLzuHA
 - create a certificate signing request:
 openssl req -key private-key -new -out csr
 - mTLS == mutually authenticated TLS
+
+https://www.youtube.com/watch?v=MwsW3X7dPtM
+
+- date being kept in the browser
+- by default http is stateless
+- types of authorization:
+basic == not a https, very simple via pair of login_username, use case: routers, modems, console of local/internal accessibility;
+
+cookies == small data saved on client side via server, on each request such data will be passed; state of the current user;
+cookies have domain for a specific server(server == domain) => server segregation.
+Attributes: 
+name=value
+expires
+domain
+path
+secure => to be sent via https ?
+httponly => not accessable via javascript
