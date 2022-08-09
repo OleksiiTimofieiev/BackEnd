@@ -1,6 +1,5 @@
 plan: {
   - june - august: {
-    - api gateway: https://www.youtube.com/watch?v=k6kiNivraJ8
     - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - GC
     - concurrency patterns
@@ -27,9 +26,9 @@ plan: {
     - async task queue in go
     - job queue
     - api gateway
-    - secure go: https://www.youtube.com/watch?v=SN8fRR5TiTA
     - secure dependencies: https://www.youtube.com/watch?v=5E9QOuop5lo
     - https://www.youtube.com/watch?v=Pw8fVBRS4jA
+    - https://www.youtube.com/watch?v=kRJ4Xx4jEBk
   };
 
   - september: {
