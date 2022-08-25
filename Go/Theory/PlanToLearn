@@ -1,9 +1,9 @@
 plan: {
   - june - august: {
+    - https://www.youtube.com/watch?v=MrV0DqTqpFU
+    - https://www.youtube.com/watch?v=R6tUNpRpdnY
     - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - GC
-    - concurrency patterns
-    - https://www.sohamkamani.com/golang/options-pattern/
     - pipelines in golang
     - working with databases:
       https://itvdn.com/ru/subscriptions
@@ -19,19 +19,16 @@ plan: {
     - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
     - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
-    - goroutines: how to finish them, avoid memory leaks, typical errors, etc.
     - https://www.youtube.com/watch?v=LEnXBueFBzk
     - monitoring: some REST book has it
     - think over architecture for the project
     - async task queue in go
     - job queue
     - api gateway
-    - secure dependencies: https://www.youtube.com/watch?v=5E9QOuop5lo
-    - https://www.youtube.com/watch?v=Pw8fVBRS4jA
-    - https://www.youtube.com/watch?v=kRJ4Xx4jEBk
   };
 
   - september: {
+    - database migrations
     - api gateway implementation
     - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
@@ -42,6 +39,7 @@ plan: {
     - знания Git, Git Flow
     - опыт построения микросервисной архитектуры
     - знание сетевых протоколов и сетевого стека
+    - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
     - patterns of microservices
     - https://www.youtube.com/watch?v=ttebJcN5bgQ
@@ -68,6 +66,7 @@ plan: {
     - html/css/javascript/DOM model/Local storage/How requests go
     - protocol buffer
     - jwt tokens
+    - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     - gRPC
     - Security: XSS, SQL injections, keeping passwords, keeping secrets
     - CLI go

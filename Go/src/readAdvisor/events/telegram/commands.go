@@ -2,18 +2,23 @@ package telegram
 
 import (
 	"errors"
+	"fmt"
+	"log"
+	"net/url"
+	"os"
+	"strconv"
+	"strings"
+
 	"readAdvisor/clients/telegram"
 	"readAdvisor/lib/e"
 	"readAdvisor/storage"
-	"log"
-	"net/url"
-	"strings"
+	"time"
 )
 
 const (
-	RndCmd   = "/rnd"
-	HelpCmd  = "/help"
-	StartCmd = "/start"
+	RndCmd     = "/rnd"
+	HelpCmd    = "/help"
+	StartCmd   = "/start"
 )
 
 func (p *Processor) doCmd(text string, chatID int, username string) error {
@@ -32,10 +37,33 @@ func (p *Processor) doCmd(text string, chatID int, username string) error {
 		return p.sendHelp(chatID)
 	case StartCmd:
 		return p.sendHello(chatID)
+
 	default:
 		return p.tg.SendMessage(chatID, msgUnknownCommand)
 	}
 
+}
+
+func (p *Processor) savePeeData(chatID int, username string, quantity int) error {
+	//TODO: create separate folder
+	year, month, day := time.Now().Date()
+	fmt.Println("Year   :", year)
+	fmt.Println("Month  :", month)
+	fmt.Println("Day    :", day)
+	fileName := "files_storage/" + username + "/"+strconv.Itoa(day) + "_" + month.String() + "_" + strconv.Itoa(year)
+	fmt.Println(fileName)
+
+	if err := fileExists(fileName); !err {
+	fmt.Println("here")
+
+		createFile(fileName)
+	}
+
+	if err := p.tg.SendMessage(chatID, msgSaved); err != nil {
+		return err
+	}
+
+	return nil
 }
 
 func (p *Processor) savePage(chatID int, pageURL string, username string) (err error) {
@@ -107,4 +135,21 @@ func isAddCmd(text string) bool {
 func isURL(text string) bool {
 	u, err := url.Parse(text)
 	return err == nil && u.Host != ""
+}
+
+func fileExists(filename string) bool {
+	info, err := os.Stat(filename)
+	if os.IsNotExist(err) {
+		return false
+	}
+	return !info.IsDir()
+}
+
+func createFile(filename string) {
+	file, err := os.Create(filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println("File created successfully")
+	defer file.Close()
 }
