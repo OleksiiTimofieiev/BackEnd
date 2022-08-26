@@ -1,15 +1,18 @@
 plan: {
   - june - august: {
-    - https://www.youtube.com/watch?v=MrV0DqTqpFU
-    - https://www.youtube.com/watch?v=R6tUNpRpdnY
     - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
-    - GC
+    - https://www.youtube.com/watch?v=CseYwoLjBb0
     - pipelines in golang
     - working with databases:
       https://itvdn.com/ru/subscriptions
     - fastest protocols for microservices communication
     - check that last std has:
     - no generics in std== check it
+    - microservices: {
+      https://www.youtube.com/watch?v=xuH81XGWeGQ
+      https://www.youtube.com/watch?v=9QTsXLB6Al8
+      https://www.youtube.com/watch?v=j6ow-UemzBc
+    }
     - streaming architecture
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface

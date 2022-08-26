@@ -1,0 +1,6 @@
+- types of SAGA(data consistency solution) implementation:
+1. Choreography == event based
+2. Orchestration == command based
+
+data consistency:
+https://www.youtube.com/watch?v=YPbGW3Fnmbc

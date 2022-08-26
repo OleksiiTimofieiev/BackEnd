@@ -1,6 +1,6 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/user/Desktop/BackEnd'
-make: Leaving directory '/home/user/Desktop/BackEnd'
+make: Entering directory '/home/olekdsii/Desktop/BackEnd'
+make: Leaving directory '/home/olekdsii/Desktop/BackEnd'
  
 make: *** No targets specified and no makefile found.  Stop.
 

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug 23 10:52:23 2022
+# Make data base, printed on Fri Aug 26 08:39:29 2022
 
 # Variables
 
@@ -25,6 +25,8 @@ DESKTOP_SESSION = ubuntu
 # environment
 XDG_SESSION_CLASS = user
 # environment
+SNAP_COMMON = /var/snap/code/common
+# environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
@@ -33,107 +35,131 @@ IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
+XAUTHORITY = /run/user/1001/gdm/Xauthority
 # environment
 GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/user/Desktop/BackEnd
+CURDIR := /home/olekdsii/Desktop/BackEnd
 # makefile
 SHELL = /bin/sh
 # environment
+SNAP_DATA = /var/snap/code/105
+# environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:63526
+JOURNAL_STREAM = 8:55548
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
 # makefile
 MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-USERNAME = user
+USERNAME = olekdsii
 # environment
 MAKELEVEL := 0
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+_ = /snap/code/105/usr/share/code/code
 # environment
-MANAGERPID = 2250
+MANAGERPID = 1863
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = uk_UA.UTF-8
 # environment
-VSCODE_CWD = /home/user
+VSCODE_CWD = /home/olekdsii
 # environment
-GOPROXY = https://proxy.golang.org,direct
+GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/home/user/arm-toolchain/bin:/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/olekdsii/.local/bin:/home/olekdsii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
 # environment
-GJS_DEBUG_OUTPUT = stderr
+SESSION_MANAGER = local/LWO1-LHP-A10432:@/tmp/.ICE-unix/2085,unix/LWO1-LHP-A10432:/tmp/.ICE-unix/2085
 # environment
-SESSION_MANAGER = local/lwo1-lhp-A06107:@/tmp/.ICE-unix/2536,unix/lwo1-lhp-A06107:/tmp/.ICE-unix/2536
+XDG_RUNTIME_DIR = /run/user/1001
 # environment
-XDG_RUNTIME_DIR = /run/user/1000
+GDK_PIXBUF_MODULE_FILE = /home/olekdsii/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-GOPATH = /home/user/Desktop/BackEnd/Go/
+SNAP = /snap/code/105
+# environment
+SNAP_VERSION = e4503b30
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
+DISABLE_WAYLAND = 1
+# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 45c7f3e2d4354a848c421bedb83dd60e
+INVOCATION_ID = f0d182d11daa40fbb918c64be689c697
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = 
 # environment
+PARENT_WINDOW_ID = 0
+# environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 339467
+GIO_LAUNCHED_DESKTOP_FILE_PID = 81442
 # automatic
 %F = $(notdir $%)
 # environment
 DISPLAY = :0
 # environment
-PWD = /home/user/Desktop/BackEnd
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/olekdsii/Desktop/BackEnd
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2498
+SSH_AGENT_PID = 2046
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
-GOMODCACHE = /home/user/Desktop/BackEnd/Go/pkg/mod
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/user
+HOME = /home/olekdsii
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/user/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CLI = 1
 # environment
-LOGNAME = user
+VSCODE_CODE_CACHE_PATH = /home/olekdsii/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+LOGNAME = olekdsii
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
 # automatic
 +F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/olekdsii/snap/code/common
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -142,6 +168,8 @@ GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 LC_TIME = uk_UA.UTF-8
+# environment
+SNAP_REAL_HOME = /home/olekdsii
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -149,13 +177,17 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
+SNAP_USER_DATA = /home/olekdsii/snap/code/105
+# environment
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # default
 MAKE_VERSION := 4.2.1
 # environment
-USER = user
+USER = olekdsii
+# environment
+SNAP_REVISION = 105
 # environment
 LC_MONETARY = uk_UA.UTF-8
 # makefile
@@ -166,6 +198,8 @@ XDG_CURRENT_DESKTOP = Unity
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LC_TELEPHONE = uk_UA.UTF-8
+# environment
+GIO_USE_VFS = local
 # default
 MAKE_COMMAND := make
 # default
@@ -173,7 +207,11 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-16068fa4-1.70.2-main.sock
+LANGUAGE = en_US:
+# environment
+VSCODE_IPC_HOOK = /run/user/1001/vscode-63852ed6-1.70.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -191,19 +229,23 @@ QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
 # environment
+SNAP_COOKIE = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
+# environment
 LC_NUMERIC = uk_UA.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
 LC_MEASUREMENT = uk_UA.UTF-8
 # environment
-LC_ALL = C
+SNAP_NAME = code
 # environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+LC_ALL = C
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
+# environment
+SNAP_REEXEC = 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
@@ -219,9 +261,9 @@ LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 339467
+VSCODE_PID = 81492
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=18/126=14%
+# Load=125/1024=12%, Rehash=0, Collisions=21/147=14%
 
 # Pattern-specific Variable Values
 
@@ -229,7 +271,7 @@ VSCODE_PID = 339467
 
 # Directories
 
-# . (device 66309, inode 5439792): 18 files, no impossibilities.
+# . (device 64769, inode 8657602): 18 files, no impossibilities.
 
 # 18 files, no impossibilities in 1 directories.
 
@@ -250,6 +292,7 @@ all:
 Makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
+ 
 #  File has been updated.
 #  Failed to be updated.
 
@@ -286,8 +329,7 @@ GNUmakefile:
 
 # strcache performance: lookups = 29 / hit rate = 10%
 # hash-table stats:
- 
 # Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Tue Aug 23 10:52:23 2022
+# Finished Make data base on Fri Aug 26 08:39:29 2022
 
  
