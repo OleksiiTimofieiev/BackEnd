@@ -1,18 +1,13 @@
 plan: {
   - june - august: {
-    - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - https://www.youtube.com/watch?v=CseYwoLjBb0
+    - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - pipelines in golang
     - working with databases:
       https://itvdn.com/ru/subscriptions
     - fastest protocols for microservices communication
     - check that last std has:
     - no generics in std== check it
-    - microservices: {
-      https://www.youtube.com/watch?v=xuH81XGWeGQ
-      https://www.youtube.com/watch?v=9QTsXLB6Al8
-      https://www.youtube.com/watch?v=j6ow-UemzBc
-    }
     - streaming architecture
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
@@ -25,12 +20,12 @@ plan: {
     - https://www.youtube.com/watch?v=LEnXBueFBzk
     - monitoring: some REST book has it
     - think over architecture for the project
-    - async task queue in go
-    - job queue
-    - api gateway
+    - https://www.youtube.com/watch?v=CseYwoLjBb0
   };
 
   - september: {
+    - CI/CD
+    - kubernetes
     - database migrations
     - api gateway implementation
     - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
@@ -40,6 +35,7 @@ plan: {
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
     - знания Linux
     - знания Git, Git Flow
+    - deployment patterns
     - опыт построения микросервисной архитектуры
     - знание сетевых протоколов и сетевого стека
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23

@@ -4,3 +4,36 @@
 
 data consistency:
 https://www.youtube.com/watch?v=YPbGW3Fnmbc
+
+Decomposition:
+- Decompose by business capability (service == segragated sole business process)
+- Strangler Pattern (move old component to microservice and degraded it eventually)
+- Bulkhead Pattern (work independently)
+- Sidecar => provide support for parent application
+
+Integration:
+- API Gateway pattern (single entry point for a group of clients/microservices, reverse proxy)
+- Aggregator: single call to aggregator reflects in child services
+- Proxy:
+- Gateway Routing
+- Chained microservices
+- Branch
+
+Databases:
+- shared database
+- CQRS == command and query resibility segragation
+- event sourcing pattern
+- SAGA = sequence of the local transactions accross microservices, next event triggered by previous one
+
+Observability:
+- Log aggregation pattern
+- metrics
+- distibuted tracing
+- heath check
+
+Cross-Cutting Concerns:
+- external configuration
+- service discovery
+- circuit breaker: for some invalid state in microservices processing
+- blue-green deployment: blue == idle, if something wrong to blue
+- canary deployment: for small part, then to all
