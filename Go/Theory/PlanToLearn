@@ -1,6 +1,5 @@
 plan: {
   - june - august: {
-    - https://www.youtube.com/watch?v=CseYwoLjBb0
     - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
     - pipelines in golang
     - working with databases:
@@ -8,22 +7,21 @@ plan: {
     - fastest protocols for microservices communication
     - check that last std has:
     - no generics in std== check it
-    - streaming architecture
     - code generation in std = check it
     - strong questions for interview on interfaces< what is empty interface
     - in the end refresh with coursera course
     - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
     - hash map collision
-    - https://dev.to/mauriciolinhares/gof-design-patterns-that-still-make-sense-in-go-27k5
     - потоковые видео
     - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
-    - https://www.youtube.com/watch?v=LEnXBueFBzk
     - monitoring: some REST book has it
     - think over architecture for the project
-    - https://www.youtube.com/watch?v=CseYwoLjBb0
+    https://www.youtube.com/watch?v=i1nhAYR51ok
   };
 
   - september: {
+    - web site infrastructure
+    - patterns of microservices: SQRS, ...
     - CI/CD
     - kubernetes
     - database migrations
@@ -46,7 +44,6 @@ plan: {
     - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
     - indexes in db
     - autherithation golang
-    - https://www.youtube.com/watch?v=c4_5rqvmDFU
     - security in web development
     - https://www.youtube.com/watch?v=hTfxc4qcCC0
     - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
