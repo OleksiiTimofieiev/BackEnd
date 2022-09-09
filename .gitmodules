@@ -1,0 +1,3 @@
+[submodule "Go/src/ReadAdvisor"]
+	path = Go/src/ReadAdvisor
+	url = https://github.com/OleksiiTimofieiev/ReadAdvisor.git
