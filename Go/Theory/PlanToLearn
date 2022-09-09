@@ -1,14 +1,18 @@
 plan: {
   - june - august: {
+    - https://www.youtube.com/watch?v=BY-vMrMgWe0
+    - indexes: https://www.youtube.com/watch?v=-5_U5liPNTU
+
     - working with databases:
     https://itvdn.com/ru/subscriptions
-    indexes: https://www.youtube.com/watch?v=-5_U5liPNTU
+
     - security:
     https://www.youtube.com/watch?v=XITdZEjbqeo&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=3
   };
 
   - september: {
     - think about possible app
+    - https://www.youtube.com/watch?v=Ea3aoACnbEk
     - API OAUTH token
     - think over architecture for the project
     - monitoring: some REST book has it
