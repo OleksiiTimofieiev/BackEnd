@@ -1,0 +1,61 @@
+https://www.youtube.com/watch?v=t7GiWN2muEE&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=3
+
+- static:
+configuration files == manifest files
+source code
+binary code
+resources
+- dynamic analysis:
+logs
+IPC
+Trafic
+File system
+
+Methology: OWASP
+
+Android:
+*.APK => android package file == zip archive
+build and signing (Google Play App Signing==confirmation of the developer, self-signing, loss of the certificate == loss of the app)
+
+IPC:
+Content Providers
+Services: long operation without UI
+Broadcasts
+Intents: Activity, Service, Broadcast
+Shared Memory
+
+Permissions:
+Normal-0
+Dangerous-1
+Signature-2(best one)
+SystemOrSygnature-3
+
+File system:
+Access for app and root
+Directory deletes with app
+
+
+Connection:
+Android.NetworkSecurity:
+Debug,TLS,Pinning of sertificates
+
+SecretCodes
+Better to avoid SD Cards, WebView (XSS)
+Backup
+---------------------------------------------
+IOS:
+*.IPA => iPhone application == zip
+build and signed(Certificate is being provided by apple)
+
+IPC(more safe):
+mach ports == connection channel beetween services
+
+Permissions:
+Entitlements
+
+Connection:
+IOS.AppTransportSecurity
+
+KeyChain, KeyStore, TrustZone
+Injection
+SecureSockets

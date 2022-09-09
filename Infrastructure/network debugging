@@ -1,0 +1,13 @@
+- ping (icmp==internet control message protocol):
+initial connectivity test (to eliminate kind of firewall or some other obstacles)
+
+- netcat == read from and write to newtwork connections using tcp or udp:
+check format of the request or checking if traffic reacing a destination
+port scanning and file transfer, etd.
+
+- tcpdump == utility to capture network traffic
+no GUI
+
+- wireshark == tool to analyze what was captured by tcpdump or other
+has a GUI
+analyze packets in real time or analyze uploaded file

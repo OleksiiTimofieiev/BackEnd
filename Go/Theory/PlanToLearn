@@ -1,25 +1,18 @@
 plan: {
   - june - august: {
-    - masterclass: https://www.youtube.com/playlist?list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE
-    - pipelines in golang
     - working with databases:
-      https://itvdn.com/ru/subscriptions
-    - fastest protocols for microservices communication
-    - check that last std has:
-    - no generics in std== check it
-    - code generation in std = check it
-    - strong questions for interview on interfaces< what is empty interface
-    - in the end refresh with coursera course
-    - cache: https://www.youtube.com/watch?v=KlDWmTcyXdA
-    - hash map collision
-    - потоковые видео
-    - refresh possible tricky questions: interfaces, channels, concurrency, nerworking, etc.;
-    - monitoring: some REST book has it
-    - think over architecture for the project
-    https://www.youtube.com/watch?v=i1nhAYR51ok
+    https://itvdn.com/ru/subscriptions
+    indexes: https://www.youtube.com/watch?v=-5_U5liPNTU
+    - security:
+    https://www.youtube.com/watch?v=XITdZEjbqeo&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=3
   };
 
   - september: {
+    - think about possible app
+    - API OAUTH token
+    - think over architecture for the project
+    - monitoring: some REST book has it
+    - highload patterns in golang
     - web site infrastructure
     - patterns of microservices: SQRS, ...
     - CI/CD

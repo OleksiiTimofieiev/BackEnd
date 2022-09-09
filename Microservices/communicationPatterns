@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=ksRCq0BJef8&t=377s
+
+poll vs event
+
+response:
+- sync
+- async (AMQP, MQTT, STOMP) == brokers as an example
+
+receivers:
+- one
+- multiple => async

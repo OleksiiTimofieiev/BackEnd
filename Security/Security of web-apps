@@ -1,0 +1,10 @@
+server-side vulnerabilities:
+- logical (no access groups, huge or unsafe functionality, logic of the unit)
+GET /messages/123 HTTP/1.0 == Insecure Direct  Object Reference => chnging 123 not users messages can be obtained; if no authentification/authorization
+- errors in expluatations
+- errors in realization:
+injections: SQL, command, insecure deserialization
+race conditions
+open information, open redirects
+not safe cryptographi
+binary threats
