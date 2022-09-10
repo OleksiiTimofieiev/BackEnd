@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=i1nhAYR51ok&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=5
+
+DDoS: ddosmon.net
+25% - tcp attacks
+1/8 => syn_flood
+75% - udp, amplifing flood == src==address of a victim:
+SSDP = multicast/unicast, home router
+Memcache: clear cash of DNS, accept only address from my network
+WPS/WPA/WPA2

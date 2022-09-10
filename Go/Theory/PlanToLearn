@@ -1,7 +1,8 @@
 plan: {
-  - june - august: {
+  - september: {
     - https://www.youtube.com/watch?v=BY-vMrMgWe0
     - indexes: https://www.youtube.com/watch?v=-5_U5liPNTU
+    - index https://www.youtube.com/watch?v=39e1vAGD3hg
 
     - working with databases:
     https://itvdn.com/ru/subscriptions
@@ -11,6 +12,7 @@ plan: {
   };
 
   - september: {
+    - как устроена хеш-таблица
     - think about possible app
     - https://www.youtube.com/watch?v=Ea3aoACnbEk
     - API OAUTH token
@@ -25,7 +27,6 @@ plan: {
     - api gateway implementation
     - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
-    - authentication / authorization flows &amp; best practices
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
     - знания Linux
@@ -39,7 +40,6 @@ plan: {
     - https://www.youtube.com/watch?v=ttebJcN5bgQ
     - interview questions about microservices
     - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
-    - indexes in db
     - autherithation golang
     - security in web development
     - https://www.youtube.com/watch?v=hTfxc4qcCC0
@@ -52,7 +52,6 @@ plan: {
     - learn nginx/apache
     - ajax
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-    - index https://www.youtube.com/watch?v=39e1vAGD3hg
     - ping: https://www.youtube.com/watch?v=weHRbig_wEU
     - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
     - effective go
