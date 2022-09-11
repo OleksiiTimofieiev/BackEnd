@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=i1nhAYR51ok&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=4
+
+- physical access
+- cryptography
+- updates
+- authentification
+- know whats running
+
+MFA == multi factored authentification:
+HOTP: sh.secret counter
+TOTP: sh.secret time
+U2F: private key
+
+ssh: key in file system
+pin: to be generated on device
+pam (pluggable auth modules): libraries for authentification
+backdoor is necessary
+
+several user exploit one ssh-agent:
+SOCKET, Key, etc.
+
+MFA:
+- good works on perimeter
+- hand with instruments
+- other inconviniences
+
+Containerisation:
+- app which uses options of kernel core
+
+- cgroup ограничение и изоляция ресурсов
+- namespaces изоляция процессов
+- capabilities управление привилегиями
+- seccomp фильтрация системных вызовов
+- apparmor фильтраци привелегий, системных вызовов, доступа обьектов ОС
+
+- container by default can be root 
+- docker authentification plugin
+
+Sudo:
+- sudo == program
+- do not controls behaviour of the command
+- sudo has configs

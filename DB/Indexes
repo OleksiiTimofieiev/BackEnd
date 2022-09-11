@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=-5_U5liPNTU
+
+A separate data structure to speed up the operations:
+- search: WHERE [field][operator][value]
+- unique
+- sorting, gourping, joins: ORDER BY [field] [ASC|DESC] || [field][operator][value][ASC|DESC]
+
+Not always usefull:
+- small selectivity for correspondent types of data
+- huge costs:
+storage in RAM
+calculation count - long delivery, counting during insert of index
+huge memory and access fragmentation
+
+Indexes can be monitored
+Index may not be used by DB
+
+Index to work:
+- Должен совпадать оператор и типы аргументов
+- Должен быть валиден во время использования
+- Важен порядок полей
+- план с его использованием оптимален (cost based optimized in PostgresSQL)
