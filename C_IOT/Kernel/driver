@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=pIUTaMKq0Xc&t=198s
+
+- piece of abstraction for the piece of hardware
+- on UNIX , a file is the most common abstraction to communicate with a device
+
+user space: file -> kernal: device driver -> hardware   
+
+device nodes are on of the inerfaces that could be used for user access == /dev [char,block devices]
+
+For char driver:
+allocate device device number - creating a lin from device driver to the noe
+implement file operation(read,write,open,ioctl,etc.)
+register char driver in kernel
+
+Possible ways to talk to the hardware:
+Port I/O
+Memory mapped I/O == MMIO (most commonly used)
+
+Talking to MMIO device:
+request access to MMI registers == request_mem_region()
+mac physical address to memory address == ioremap()
+kernel api to read/write => readl/writel()
+
+Framoworks will be used:
+ls /sys/class/led
+
+GPIOLIB

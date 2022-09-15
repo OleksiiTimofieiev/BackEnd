@@ -1,0 +1,16 @@
+https://www.youtube.com/watch?v=xPlmRSWqSso
+
+1. secure by design: sanitaze input, OWASP Top 10
+2. scan dependencies: snyk, jfrog xray
+3. https everywhere: certbot, ssllabls, GraphQL vs REST
+4. access and identity tokens
+5. encrypt and protect secrets == kms == key management service
+6. slow down attackers
+7. use docker rootless mode
+8. time-based security
+9. scan docker and k8 configurations
+
+https://www.youtube.com/watch?v=LCCcQP0AMnk
+
+Monolith:
+- identification(login and password) -> session coockie

@@ -1,5 +1,6 @@
 plan: {
-  - september: {
+  - 1: {
+    - caching strategies
     - index https://www.youtube.com/watch?v=39e1vAGD3hg
     https://www.youtube.com/watch?v=aZjYr87r1b8
     - monitoring
@@ -9,11 +10,13 @@ plan: {
     вопросы по БД
 
     - security:
-    https://www.youtube.com/watch?v=XITdZEjbqeo&list=PLdJo1XilUTZPOJ1kSnoKheT7YSygP9FIO&index=3
+    https://www.youtube.com/watch?v=Ai8HlkI7Mm4
   };
 
-  - september: {
-    https://www.youtube.com/watch?v=YPbGW3Fnmbc&t=15s
+  - 2: {
+    - тестирование веб-приложений
+    - https://www.youtube.com/watch?v=1qm8eqGYKX0
+    - https://www.youtube.com/watch?v=YPbGW3Fnmbc&t=15s
     - SQL for highload
     - как устроена хеш-таблица
     - think about possible app
