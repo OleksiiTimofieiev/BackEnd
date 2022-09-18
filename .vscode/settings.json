@@ -1,4 +1,5 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "${workspaceFolder}/Flutter/wallet_tutorial/windows/flutter"
 }

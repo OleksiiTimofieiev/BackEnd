@@ -1,6 +1,5 @@
 plan: {
   - 1: {
-    - caching strategies
     - index https://www.youtube.com/watch?v=39e1vAGD3hg
     https://www.youtube.com/watch?v=aZjYr87r1b8
     - monitoring
@@ -14,6 +13,7 @@ plan: {
   };
 
   - 2: {
+    - https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_
     - тестирование веб-приложений
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
     - https://www.youtube.com/watch?v=YPbGW3Fnmbc&t=15s

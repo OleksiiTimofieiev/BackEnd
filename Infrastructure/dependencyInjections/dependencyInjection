@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=pTwtcP5QglI&t=1451s
+
+- initialisation:
+add to constructor
+setters
+- injection via options
+
+- Uber Dig:
+dependency injection container
+kinda singleton usage
+
+- google wire:
+can work with any type of Go
+code generation
+suits for huge apps according to google
+
+- pass interfaces: duck typisation
+
+Testing:
+- monkey patching
+- mocking

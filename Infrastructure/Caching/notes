@@ -1,0 +1,14 @@
+Redis: https://www.youtube.com/watch?v=x5GGLrTuQCA
+
+- GET
+- SET
+- EX == expire
+- KEYS *
+- FIFO QUEUE
+- pipeline or single batch
+- set if not exists
+
+https://www.youtube.com/watch?v=KlDWmTcyXdA&t=369s
+
+- duplicate supression 
+- channel monitor

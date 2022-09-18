@@ -14,3 +14,8 @@ https://www.youtube.com/watch?v=LCCcQP0AMnk
 
 Monolith:
 - identification(login and password) -> session coockie
+- usually there is some middleware which handles sessions (coockie from the request headers)
+- how to keep passwords:
+no plain
+better to use hash + salt [PBKDF2, BCrypt]
+- passwords to send via https
