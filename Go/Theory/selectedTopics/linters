@@ -1,0 +1,4 @@
+- linter: static code analysis for the flat bugs
+- go vet <...>, errcheck, golint, gosec
+- speed up code review
+- code quality => no unused functions, etc.

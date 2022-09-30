@@ -1,0 +1,4 @@
+- atomicity: all transaction not be reflected partially, not successfull -> rollback
+- consistency: согласованность БД
+- isolation: parallel transaction should not effect each other
+- durability: data should not be lost in any case

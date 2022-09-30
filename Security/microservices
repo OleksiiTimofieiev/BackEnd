@@ -18,4 +18,15 @@ Monolith:
 - how to keep passwords:
 no plain
 better to use hash + salt [PBKDF2, BCrypt]
-- passwords to send via https
+passwords to send via https
+Headers: HttpOnly, Secure, SameSity
+- PAKE== password-authentificated key agreement
+- identification via external provider: google, github, etc.:
+OATH2, SAML, OpenID Connect
+
+- Microservices:
+seperate service
+auth proxy => oauth2 proxy
+
+- Token-based sessions:
+all data necessary data are in the token

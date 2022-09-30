@@ -52,3 +52,5 @@ func turnout(Quit <- chan int,InA,InB, OutA,OutB chan int) {
 
 - channels pass around copies,
 passing pointers can create race conditions,
+
+https://habr.com/ru/post/682618/

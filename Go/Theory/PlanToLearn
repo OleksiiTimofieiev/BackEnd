@@ -1,57 +1,37 @@
 plan: {
   - 1: {
-    - index https://www.youtube.com/watch?v=39e1vAGD3hg
-    https://www.youtube.com/watch?v=aZjYr87r1b8
-    - monitoring
     - working with databases:
-    https://www.youtube.com/watch?v=gDDrpL75LJY
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
-    вопросы по БД
-
-    - security:
-    https://www.youtube.com/watch?v=Ai8HlkI7Mm4
+    index: https://www.youtube.com/watch?v=39e1vAGD3hg
+    index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
+    - ACID transactions: https://www.youtube.com/watch?v=j_dlLbUtlBw
   };
 
   - 2: {
+    - вопросы по БД on interview
+    - вопросы по конструкциям языка
     - https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_
     - тестирование веб-приложений
+    - CORS
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
-    - https://www.youtube.com/watch?v=YPbGW3Fnmbc&t=15s
     - SQL for highload
-    - как устроена хеш-таблица
-    - think about possible app
-    - https://www.youtube.com/watch?v=Ea3aoACnbEk
-    - API OAUTH token
-    - think over architecture for the project
     - monitoring: some REST book has it
-    - highload patterns in golang
-    - web site infrastructure
-    - patterns of microservices: SQRS, ...
-    - CI/CD
-    - kubernetes
+    - kubernetes intro: https://www.youtube.com/watch?v=yI37GPp06uc 
     - database migrations
-    - api gateway implementation
     - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
-    - знания Linux
     - знания Git, Git Flow
     - deployment patterns
     - опыт построения микросервисной архитектуры
-    - знание сетевых протоколов и сетевого стека
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
     - patterns of microservices
-    - https://www.youtube.com/watch?v=ttebJcN5bgQ
     - interview questions about microservices
     - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
-    - autherithation golang
     - security in web development
-    - https://www.youtube.com/watch?v=hTfxc4qcCC0
-    - https://www.youtube.com/watch?v=vZ6QdMNYqvQ
     - event-driven approach in code => kafka projects
-    - microservices
     - check what is required in vacancies
     - algorithm course
     - kubernetes, queue services, kafka, AWS, other stuff
@@ -63,7 +43,6 @@ plan: {
     - effective go
     - html/css/javascript/DOM model/Local storage/How requests go
     - protocol buffer
-    - jwt tokens
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     - gRPC
     - Security: XSS, SQL injections, keeping passwords, keeping secrets
@@ -79,30 +58,18 @@ plan: {
     - typical interview questions
     - Rabbit-MQ and connected 
     - Aws 
-    - kubernetes
     - Project with microservices on docker aws kubernetes 
-    - SQL vs NoSQL
-    - Очереди сообщений
-    - Docker compose
-    - Mongo / SQL in project 
     - delve
     - java GC
     - RAID
     - redis: https://www.youtube.com/watch?v=-vbhFpJMQ5w
     - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
     - http versions: 1,2,3?
-    -  Monitoring, alerting approaches
+    - Monitoring, alerting approaches
     - Common attacks types (OWASP)
     - Understanding of network interactions:
     - protocols
     - conventions (e.g. REST, RPC)
-    - authentication and authorization flows
-    - standards and practices (e.g. oAuth, JWT)
-    - Excellent knowledge and experience in Golang (more than 5 years)
-    - Practical commercial experience with:
-    - REST API development
-    - Web application frameworks, Testing frameworks, ORM
-    - RDBMS (e.g MySQL, PostgreSQL)
     - Key-value storages (e.g. Redis, Memcached)
     - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
