@@ -1,0 +1,5 @@
+- sudo apt-get install build-essential kmod
+- sudo apt-get update
+- apt-cache search linux-headers-`uname -r`
+- sudo lsmod
+- sudo journalctl --since "1 hour ago" | grep kernel

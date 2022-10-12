@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=8jbx8O3wuLg&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=2
+
+- acloud guru
+
+Infrastructure and services:
+- different regions and availability zones==isolated data center (minimum 2 in a region)
+- EC2 == elastic compute cloud == virtual server
+- Elastic Load Balancing (elastic == can be changed)
+- Beanstalck == DevOps infrastructure
+- CloudFront == Endpoints(mini servers == caching of the site content)
+- CloudWatch = monitoring of the resource used (infrastructure or etc.)
+- S3 == Simple Storage Service (kinda dropbox)
+- Glacier == archiving of data
+- EFS == elastic file system == shared disk that can be mounted to different servers
+- CloudFormation = Infrastructure in code
+- OpsWorks - 9kinda ansible, uses chefe
+- RDS == relation data system (Postgres, MySQL, SQLExpress, Aurora)
+- DynamoDB == NoSQL database
+- Redshift == system for analysis of the big data
+- EMR == elastic map reduce
+- IAM == identity access manager (kinda active directory => permission, auzorithation, etc.)
+- VPC == virtual private cloud (subnets, routing, firewall)
+- Route53 == DNS server
+- SES == e-mail
+- SNS == simple notification service
+- SQS == queue service
+
+IAM:
+- created group and user
+- link: https://894569967477.signin.aws.amazon.com/console

@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=dm_oid1HVfQ&list=RDLV3UUklsDdIsc&index=6
+
+- описание болезни
+- SEEK
+- SCAN == O(n) == look at each page
+- ввод-вывод/процессор/блокировки
+- смена индекса == снижает время обновления
+- try to reduce index

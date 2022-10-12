@@ -1,10 +1,16 @@
 plan: {
   - 1: {
+    - оптимизация SQL запросов
+    - gophercon profiling
+
     - working with databases:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
+    
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
-    - ACID transactions: https://www.youtube.com/watch?v=j_dlLbUtlBw
+
+    транзакции
+    indexes: https://www.youtube.com/watch?v=HubezKbFL7E
   };
 
   - 2: {
@@ -70,7 +76,6 @@ plan: {
     - Understanding of network interactions:
     - protocols
     - conventions (e.g. REST, RPC)
-    - Key-value storages (e.g. Redis, Memcached)
     - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
       Cloud computing platforms (AWS, GCP, Microsoft Azure)

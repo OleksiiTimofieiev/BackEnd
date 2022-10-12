@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=BVEcbifDrMk&list=PLDWZ5uzn69exbERujDiGxOadne_nkibSo&index=13
+
+- tags & versioning
+- dependencies:
+static library
+go mod
+vendoring: reproducable builds
+docker
+
+- config:
+store in environment
+Vault = secrets manager
+document config
+
+- go embed for assets
