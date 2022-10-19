@@ -30,3 +30,6 @@ auth proxy => oauth2 proxy
 
 - Token-based sessions:
 all data necessary data are in the token
+
+HTTPS:
+https://www.youtube.com/watch?v=fBb63pHt_fk

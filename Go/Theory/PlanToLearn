@@ -1,5 +1,7 @@
 plan: {
   - 1: {
+    - cookies: https://www.alexedwards.net/blog/working-with-cookies-in-go
+    - https://medium.com/higher-order-functions/go-worker-pool-the-concurrency-powerhouse-2dc7971f4f15
     - оптимизация SQL запросов
     - gophercon profiling
 
@@ -11,14 +13,13 @@ plan: {
 
     транзакции
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
+    - микросервисы: https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_
   };
 
   - 2: {
     - вопросы по БД on interview
     - вопросы по конструкциям языка
-    - https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_
     - тестирование веб-приложений
-    - CORS
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
     - SQL for highload
     - monitoring: some REST book has it
@@ -30,7 +31,6 @@ plan: {
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
     - знания Git, Git Flow
     - deployment patterns
-    - опыт построения микросервисной архитектуры
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
     - patterns of microservices

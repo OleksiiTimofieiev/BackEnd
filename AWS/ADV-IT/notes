@@ -1,4 +1,4 @@
-https://www.youtube.com/watch?v=8jbx8O3wuLg&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=2
+https://www.youtube.com/watch?v=UuJcSaA9H6s&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=11
 
 - acloud guru
 
@@ -28,3 +28,4 @@ Infrastructure and services:
 IAM:
 - created group and user
 - link: https://894569967477.signin.aws.amazon.com/console
+- tool to manage rights on the resources available
