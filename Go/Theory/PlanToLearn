@@ -5,6 +5,7 @@ plan: {
     - оптимизация SQL запросов
     - gophercon profiling
 
+
     - working with databases:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
     
@@ -14,9 +15,12 @@ plan: {
     транзакции
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     - микросервисы: https://www.youtube.com/watch?v=VzBGi_n65iU&list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_
+    - sync collection
+    - hash map
   };
 
   - 2: {
+    - https://www.youtube.com/watch?v=xELwRx6sLYY
     - вопросы по БД on interview
     - вопросы по конструкциям языка
     - тестирование веб-приложений
