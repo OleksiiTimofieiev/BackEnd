@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=k9wgLT4H2VM&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=14
+
+- kinda shared drive
+- fast storage
+- data archiving
+- big data analitics
+- static web sites
+- 99,99 % availability
+- 99,99999999999 % durability
+- use: backup, recovery
+- max file == 5 TB
+- max one PUT == 5 GB
+- MultiPart upload available
+- types of storage:
+standard
+infrequent access
+reduced redundancy
+glacier => archiving of the huge data, no momental access(3-5 hours to receive data approximately)
+
+- bucket containes data
+- permissions can be managed: public, private, etc.
+- versioning == kinda git functionality
+- cross-region replication
+- static web hosting
