@@ -1,9 +1,5 @@
 plan: {
   - 1: {
-
-    - sync collection
-    - hash map
-
     - databases intro:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
     
@@ -11,10 +7,10 @@ plan: {
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
-  
   };
 
   - 2: {
+    - deployment on AWS
     - GraphQL, gRPC, and GoLang: a match made in heaven: https://www.youtube.com/watch?v=xELwRx6sLYY
     - тестирование веб-приложений
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
@@ -78,7 +74,7 @@ plan: {
       Understanding of orchestration and containerisation (e.g. Kubernetes, Swarm)
       Knowledge in Deployment patterns
     }
-    - databases: {
+    - databases after main course: {
       - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
       - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
       - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
@@ -86,7 +82,9 @@ plan: {
     }
     - interview preparation: {
       - вопросы по БД on interview
+      - typical question for the containers/collections/context/sync package/
       - вопросы по конструкциям языка
+      - https://www.youtube.com/watch?v=ryJOS-8hmQo&t=6430s
       - https://www.youtube.com/watch?v=ryJOS-8hmQo&t=1s
     }
   };

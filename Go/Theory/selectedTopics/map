@@ -1,3 +1,11 @@
 https://www.youtube.com/watch?v=P_SXTUiA-9Y&t=1490s
 
 - hash func == способ равномерного распределения по бакетам
+
+https://www.youtube.com/watch?v=P_SXTUiA-9Y&t=178s
+
+- hash func == способ равномерного распределения по бакетам
+- hash func returns bucket == bucket = hash(key)
+- used:
+unsafe.Pointers
+type descriptor => hash, equal, copy

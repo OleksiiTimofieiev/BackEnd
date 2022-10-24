@@ -1,1 +1,11 @@
-https://www.youtube.com/watch?v=E6gQy_55-AA&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=16
+https://www.youtube.com/watch?v=nZUSFlLfKzk&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=18
+
+- EC2 == elastic compute cloud
+- type of servers:
+on demand => $/hour
+spot => more lower price (possibly remaining instances from on demand)
+reserved
+scheduled (daily, weekly, monthly)
+dedicated hosts (full ownership of the server)
+AMI (kinda golden copy of the instance) == amazon machine image
+security group == firewall rules
