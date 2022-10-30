@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=YiCCD5DPry8
+
+- too many open file: any resource in the system is a file
+ulimit -a
+- lib:
+gobwas/ws

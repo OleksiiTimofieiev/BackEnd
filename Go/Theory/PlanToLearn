@@ -1,5 +1,6 @@
 plan: {
   - 1: {
+    https://www.youtube.com/watch?v=cFJkLfujOts
     - databases intro:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
     
@@ -10,8 +11,12 @@ plan: {
   };
 
   - 2: {
+    - best polling and websocket practices:
+    https://www.youtube.com/watch?v=9dMcEfl-wyI
+    https://www.youtube.com/watch?v=1tNfKI03qRU
+    https://www.youtube.com/watch?v=eP_02zkwM5Y&t=2561s
+    https://www.youtube.com/watch?v=OsXjDZ52dyQ
     - deployment on AWS
-    - GraphQL, gRPC, and GoLang: a match made in heaven: https://www.youtube.com/watch?v=xELwRx6sLYY
     - тестирование веб-приложений
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
     - SQL for highload
@@ -22,7 +27,6 @@ plan: {
     - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
-    - знания Git, Git Flow
     - deployment patterns
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
@@ -40,7 +44,6 @@ plan: {
     - ping: https://www.youtube.com/watch?v=weHRbig_wEU
     - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
     - effective go
-    - html/css/javascript/DOM model/Local storage/How requests go
     - protocol buffer
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     - gRPC

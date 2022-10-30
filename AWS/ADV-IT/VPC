@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=sA9We2Gl4eI&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB96k9&index=28
+
+
+- VPC == virtual private cloud
+- CIDR blocks(Classless Inter-Domain Routing): ip space available
+- public subnet == direct access to internet (RDP/SSH/etc.)
+- private subnet == no open access => no public ip
+- database subnet
+- route table == for every subnet (redirecting through path of routers)
+- internet gateway => VPC has access to internet
+- NAT gateway => all instances can go to internet, no public access
+- NAT instance (Network Address Translation - это механизм в сетях TCP/IP, позволяющий изменять IP адрес в заголовке пакета, проходящего через устройство)
+- Security Group for instances (kinda open ports)
+- Network access control list == possibility to block ip address
+- bastion host == jump box == kinda intermidiary service
+- VPC flow logs
+- VPN Gateway
+- VPC peering

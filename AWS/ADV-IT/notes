@@ -6,6 +6,7 @@ Infrastructure and services:
 - different regions and availability zones==isolated data center (minimum 2 in a region)
 - EC2 == elastic compute cloud == virtual server
 - Elastic Load Balancing (elastic == can be changed)
+- Auto Scaling Group => horizontal scaling
 - Beanstalck == DevOps infrastructure
 - CloudFront == Endpoints(mini servers == caching of the site content)
 - CloudWatch = monitoring of the resource used (infrastructure or etc.)
