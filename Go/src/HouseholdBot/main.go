@@ -24,12 +24,23 @@ func processCommand(bot *tgbotapi.BotAPI, command string, update tgbotapi.Update
 				log.Panic(err)
 			}
 		} else if command == "not_available_today" {
-			msg := tgbotapi.NewMessage(update.Message.Chat.ID,
-				energyOutOfService[int(time.Now().Weekday())])
+			day := int(time.Now().Weekday())
+			if day != 7 {
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID,
+					energyOutOfService[day])
 
-			if _, err := bot.Send(msg); err != nil {
-				log.Panic(err)
+				if _, err := bot.Send(msg); err != nil {
+					log.Panic(err)
+				}
+			} else {
+				msg := tgbotapi.NewMessage(update.Message.Chat.ID,
+					energyOutOfService[0])
+
+				if _, err := bot.Send(msg); err != nil {
+					log.Panic(err)
+				}
 			}
+
 		} else if command == "not_available_week" {
 			var sb strings.Builder
 
