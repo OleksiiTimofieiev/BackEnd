@@ -2,6 +2,7 @@ package main
 
 import (
 	// "fmt"
+
 	"log"
 	"strings"
 	"time"
@@ -64,13 +65,13 @@ var energyOutOfService [7]string
 func main() {
 	bot, err := tgbotapi.NewBotAPI(botToken)
 
-	energyOutOfService[1] = "Понеділок: 6-10, 15-19\n"
-	energyOutOfService[2] = "Вівторок: 0-4, 9-13, 18-22\n"
-	energyOutOfService[3] = "Середа: 3-7, 12-16, 21-24\n"
-	energyOutOfService[4] = "Четвер: 0-1, 6-10, 15-19\n"
-	energyOutOfService[5] = "П'ятниця: 0-4, 9-13, 18-22\n"
-	energyOutOfService[6] = "Суббота: 3-7, 12-16, 21-24\n"
-	energyOutOfService[0] = "Неділя: 0-1, 6-10, 15-19"
+	energyOutOfService[1] = "Понеділок: 6-9, 15-18\n"
+	energyOutOfService[2] = "Вівторок: 0-3, 9-12, 18-21\n"
+	energyOutOfService[3] = "Середа: 3-6, 12-15, 21-23\n"
+	energyOutOfService[4] = "Четвер: 0-1, 6-9, 15-18\n"
+	energyOutOfService[5] = "П'ятниця: 0-3, 9-12, 18-21\n"
+	energyOutOfService[6] = "Суббота: 3-6, 12-15, 21-23\n"
+	energyOutOfService[0] = "Неділя: 0-1, 6-9, 15-18"
 
 	if err != nil {
 		log.Panic(err)
