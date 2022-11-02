@@ -60,10 +60,15 @@ func processCommand(bot *tgbotapi.BotAPI, command string, update tgbotapi.Update
 	}
 }
 
+// find device on network: ssh orangepi@172.20.10.3
+
 var energyOutOfService [7]string
 
 func main() {
 	bot, err := tgbotapi.NewBotAPI(botToken)
+	if err != nil {
+		log.Panic(err)
+	}
 
 	energyOutOfService[1] = "Понеділок: 6-9, 15-18\n"
 	energyOutOfService[2] = "Вівторок: 0-3, 9-12, 18-21\n"
@@ -73,17 +78,12 @@ func main() {
 	energyOutOfService[6] = "Суббота: 3-6, 12-15, 21-23\n"
 	energyOutOfService[0] = "Неділя: 0-1, 6-9, 15-18"
 
-	if err != nil {
-		log.Panic(err)
-	}
-
 	bot.Send(tgbotapi.NewSetMyCommands(
-		// tgbotapi.BotCommand{Command: "help", Description: "status => чи є електрика"},
 		tgbotapi.BotCommand{Command: "status", Description: "Перевірити наявність електоренергіЇ"},
 		tgbotapi.BotCommand{Command: "not_available_today", Description: "План відключень на сьогодні"},
 		tgbotapi.BotCommand{Command: "not_available_week", Description: "План відключень на тиждень"}))
 
-	bot.Debug = false
+	bot.Debug = true
 
 	u := tgbotapi.NewUpdate(0)
 	u.Timeout = 60
