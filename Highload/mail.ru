@@ -27,4 +27,23 @@ calculations may take full core when 10000 connections or more
 - configs: /etc/sysctl.conf
 
 http:
-- 
+- hints of web optimization:
+lesser requests
+cache static files
+use gzip
+do not use unnecessary redirects
+reduce DNS requests
+reduce scripts in CSS
+long requests to AJAX or iframe
+- request-response protocol:
+conditional get -> expires not send requests within some period
+all static with expires
+- headers:
+q == priority
+accept-ranges
+connection==keep-alive
+- server params(nginx)
+cache
+anti-cache (fresh data, counting static requests)
+- redirects:
+response headers -> location
