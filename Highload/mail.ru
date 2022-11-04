@@ -47,3 +47,15 @@ cache
 anti-cache (fresh data, counting static requests)
 - redirects:
 response headers -> location
+- coockies:
+are sent with each request for the corresponding domain
+50 per domain
+limit: 4 Kb pee one
+session_id -> redis on backend
+
+- js and css are being compiled before execution
+- reccomendation ultimo = one file js ==> browser will render the site faster 
+
+- 3d party:
+P3Policy
+TNS

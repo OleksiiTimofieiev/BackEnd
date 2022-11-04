@@ -10,6 +10,7 @@ plan: {
   };
 
   - 2: {
+    - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
     https://www.youtube.com/watch?v=1tNfKI03qRU
