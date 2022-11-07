@@ -59,3 +59,28 @@ session_id -> redis on backend
 - 3d party:
 P3Policy
 TNS
+
+Scaling:
+- TCO == total cost of ownership
+- Load balancer algos:
+random
+round-robin
+weighted round-robin
+least connections
+least response time
+load balansed
+
+Round-robin DNS:
+- for one domain - several IP addresses
+- moving list in one element - resolve for the same domain with different IPs
+- easy to configure
+geo-based DNS
+
+RAM:
+- speed of obtaining data => caching is a typical way
+- lscpu
+- cat /proc/cpuinfo
+- dmidecode => to speed up use dma
+- NUMO == non unifor memory access (different types of memory is accessible with different speed)
+- modern NIC writes to memory avoiding the CPU, directly to RAM
+- 
