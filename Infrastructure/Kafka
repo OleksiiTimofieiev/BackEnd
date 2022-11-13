@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=BtmYjTO1EpI&list=PPSV
+
+- message broker for big data
+- more reliable then rabbitMq ?
+- producer -> broker -> consumer [zookeeper]
+- topic: array list
+- replication: master slave, write only to leader
+- master maydie, and leader will be chosen -> async replication == some loss of data,
+clean || unclean leader election
+data will always be lost
+leader even may be chosen if all is ok
+- leader change without a loss:
+request.required.acks = 1
+request.required.acks = -1 => successfull write to all specific partitions
+min.insync.replicas.per.topic = 2
+some small overhead of producer,
+way out:
+incync.replicas = 2
+replication factor = 3
+- offset:
+earliest - latest
+how to save offset is main for the consumer
+at least once
+exactly once -> to save data in offsets in kafka atomically
+- not always correctly distrubetes nodes
+- better to monitor:
+disks, network, scaling, leader selection, partition deferred, response time

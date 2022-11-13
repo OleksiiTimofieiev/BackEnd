@@ -3,3 +3,6 @@ https://www.youtube.com/watch?v=4NOVYddMN-k&list=PLg5SS_4L6LYsxrZ_4xE_U95AtGsIB9
 - serverless technology
 - elastic computation used. automatic autoscaling
 - event management
+
+- API gateway: kinda front door to lambda function
+- API key for protection (passed with headers of the request)

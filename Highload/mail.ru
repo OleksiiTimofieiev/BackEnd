@@ -83,4 +83,19 @@ RAM:
 - dmidecode => to speed up use dma
 - NUMO == non unifor memory access (different types of memory is accessible with different speed)
 - modern NIC writes to memory avoiding the CPU, directly to RAM
-- 
+- read speed should be optimezed -> prefetch, block read
+- workset of cache is small, plan program with caching aspects
+
+Disk subsystem:
+- most of time wasted - finding the cell
+- SATA == for logs
+- SAS == for DB
+- SSD == cache
+- RAID == redundant array of independent disks [software/hardware]
+- Ext4 vs XFS
+- DB also has llimitation (read, write, transactions, connections)
+- JOINs are better on replica
+
+Achitecture points:
+- front, backend
+- rating of requests == kinda prioritization

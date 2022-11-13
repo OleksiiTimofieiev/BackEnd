@@ -1,5 +1,10 @@
 plan: {
   - 1: {
+    hadoop
+    store procedures
+    search requests
+    cache invalidation
+    garbage collector
     - databases intro:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
     

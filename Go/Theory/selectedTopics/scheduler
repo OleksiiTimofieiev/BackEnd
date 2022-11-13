@@ -2,3 +2,8 @@
 - GMP planning evolution: -> socket -> fork -> thread -> select -> epoll/boost::asio(subscribe on event in future) -> go fiber
 - epoll -> event-driven approach
 - goroutine change on blocking event, system call, GC
+
+https://www.youtube.com/watch?v=wQpC99Xu1U4&t=2413s
+
+- FIFO global run queue for execution
+- distrubuted run queue => 256 goroutine for local runqueue

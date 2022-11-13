@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=hcHKOqMGd-c&list=PPSV
+
+- so much effective as maybe complex in development
+- consistency is hard to achieve -> transations
+- refactoring beetweeen modules
+- preserve modularity
+- multiple platforms
+- monolith is simplier to develop: integration, deployment but complexity
+- the older - more complex to decompose monolith
+- domain driven model of the team
+- DRY == don`t repeat yourself
+- testing complexity, ways out:
+dummy/mock
+starting services with data (docker/docker compose)
+debugging proxy (Fiddler)
+dummy/mock microservices
+- logging complexity, ways out:
+ElasticSearch + Logstash + Kibana
+ElasticSearch + Fluentd + Kibana
+Loggly, Papertrail
+stdout + dockerlogs
+- высокая ремонтопригодность
+- вхождение в контекст ускоряеется
+- изменение в одном редко задевают другой микросервис
+- preferably stateless -> high reliability:
+healthcheck + monitoring => fast restart
