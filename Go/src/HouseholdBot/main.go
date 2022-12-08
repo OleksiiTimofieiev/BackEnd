@@ -64,6 +64,8 @@ func processCommand(bot *tgbotapi.BotAPI, command string, update tgbotapi.Update
 
 var energyOutOfService [7]string
 
+
+
 func main() {
 	bot, err := tgbotapi.NewBotAPI(botToken)
 	if err != nil {
