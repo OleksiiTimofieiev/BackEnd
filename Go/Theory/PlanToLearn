@@ -1,17 +1,20 @@
 plan: {
   - 1: {
-    hadoop
+
+    - databases intro:
+    https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
+
+
     store procedures
     search requests
     cache invalidation
-    garbage collector
-    - databases intro:
-    https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
-    
+    garbage collector    
     - оптимизация SQL запросов
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
+
+    benefits from nginx
   };
 
   - 2: {
@@ -62,19 +65,16 @@ plan: {
     - Highload couroutines patterns
     - Go-Kit
     - memory model otus
-    - typical interview questions
+    - typical interview questions: ACID, CAP-theorem
     - Rabbit-MQ and connected 
-    - Aws 
     - Project with microservices on docker aws kubernetes 
     - delve
     - java GC
-    - RAID
-    - redis: https://www.youtube.com/watch?v=-vbhFpJMQ5w
+    - python JIT compiler and correspondent problems.
     - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
     - http versions: 1,2,3?
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
-    - Understanding of network interactions:
     - protocols
     - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
