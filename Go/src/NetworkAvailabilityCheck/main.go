@@ -4,8 +4,6 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-
-	// "log"
 	"net/http"
 	"net/url"
 	"os/exec"
@@ -13,16 +11,18 @@ import (
 	"strconv"
 	"strings"
 	"time"
-	// tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 )
 
 const (
-	botToken          = "5963358002:AAHwHrtf0i464xW0O0nuk2MVhoEagNCiaeU"
+	botToken          = ""
 	linuxCmd          = "iwgetid"
 	linuxArgs         = "--raw"
 	checkPeriod       = 15
 	sendMessageMethod = "sendMessage"
 	tgBotHost         = "api.telegram.org"
+	otimofie          = 1462377126
+	ntimofie          = 988002557
+	msg               = "Інтернет працює"
 )
 
 type Client struct {
@@ -130,7 +130,7 @@ func IsOnline() bool {
 	client := http.Client{
 		Timeout: timeout,
 	}
-	_, err := client.Get("https://googlcom")
+	_, err := client.Get("https://google.com")
 
 	if err != nil {
 		return false
@@ -143,40 +143,23 @@ func main() {
 	status := false
 	prevStatus := false
 
-	// bot, err := tgbotapi.NewBotAPI(botToken)
-	// if err != nil {
-	// 	log.Panic(err)
-	// }
-
 	tg := New(tgBotHost, botToken)
 
 	for {
 		status = IsOnline()
-		networkName := getNetworkName()
+
 		if prevStatus != status {
 			prevStatus = status
 
 			if status {
-				fmt.Println("Connected !!")
-				fmt.Println(networkName)
-
-				err := tg.SendMessage(1462377126, "Інтернет працює")
+				err := tg.SendMessage(otimofie, msg)
 				if err != nil {
 					fmt.Println(err)
 				}
-				err = tg.SendMessage(988002557, "Інтернет працює")
+				err = tg.SendMessage(ntimofie, msg)
 				if err != nil {
 					fmt.Println(err)
 				}
-				// msg := tgbotapi.NewMessage(1462377126, "Інтернет працює")
-				// msg2 := tgbotapi.NewMessage(988002557, "Інтернет працює")
-
-				// if _, err := bot.Send(msg); err != nil {
-				// 	log.Panic(err)
-				// }
-				// if _, err := bot.Send(msg2); err != nil {
-				// 	log.Panic(err)
-				// }
 			}
 		}
 		time.Sleep(checkPeriod * time.Second)
