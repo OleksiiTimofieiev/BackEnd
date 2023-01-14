@@ -2,10 +2,9 @@
 
 
 - Linux Embedded:
-https://www.youtube.com/watch?v=VMDyebKT5c4&t=2088s == BLE
 https://www.youtube.com/watch?v=c10wAKWpjts == I2C
 https://www.youtube.com/watch?v=dDMNNDTzjQ0 == wifi
-https://www.youtube.com/watch?v=AdPxeGHIZ74
+https://www.youtube.com/watch?v=AdPxeGHIZ74 == kernel intro
 
 - C++:
 https://itvdn.com/ru/video/cplspls-advanced/cplspls-pattern
@@ -13,8 +12,16 @@ https://youtu.be/JGhAgd2a_Ck
 
 random:
 
+- udemy: refresh RTOS
 
 aws-iot:
 
 kernel:
 https://habr.com/ru/company/ruvds/blog/681880/
+
+Plan:
+- Boost::ASIO
+- Qt
+- FOTA
+- BLE
+- WIFI

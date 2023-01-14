@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=xexKj1dZII0
+
+- static_cast == kinda adaptable if you do not know which cast to use
+- reinterpret_cast == bytes of one type to bytes of other types, types:
+pointer to pointer, only watch on data at a new point
+- const_cast == overlap const
+- C style cast
+- dynamic_cast = cast for classes
+- rule of three

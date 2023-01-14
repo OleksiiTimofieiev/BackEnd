@@ -1,0 +1,3 @@
+- = delete; forbid creation constructor/destructor of a specific type
+- copy constructor (use of shallow copy) => copy instance of the other class; some UB is possible;
+- 

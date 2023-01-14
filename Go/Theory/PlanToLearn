@@ -18,6 +18,7 @@ plan: {
   };
 
   - 2: {
+    - оптимизация запросов к БД
     - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
@@ -31,7 +32,7 @@ plan: {
     - monitoring: some REST book has it
     - kubernetes intro: https://www.youtube.com/watch?v=yI37GPp06uc 
     - database migrations
-    - https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
+    - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
@@ -49,8 +50,6 @@ plan: {
     - learn nginx/apache
     - ajax
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-    - ping: https://www.youtube.com/watch?v=weHRbig_wEU
-    - traceroute: https://www.youtube.com/watch?v=G05y9UKT69s
     - effective go
     - protocol buffer
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
@@ -62,7 +61,6 @@ plan: {
     - sql injections
     - Executor tracing
     - Kafka: streams API
-    - Highload couroutines patterns
     - Go-Kit
     - memory model otus
     - typical interview questions: ACID, CAP-theorem

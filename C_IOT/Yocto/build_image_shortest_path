@@ -1,0 +1,8 @@
+https://bootlin.com/blog/yocto-project-quickest-instructions-to-generate-beaglebone-images/
+
+- sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint3 xterm python3-subunit mesa-common-dev zstd liblz4-tool -y
+- git clone -b kirkstone https://git.yoctoproject.org/git/poky
+- source poky/oe-init-build-env
+- MACHINE="beaglebone-yocto" bitbake core-image-minimal
+- cd tmp/deploy/images/beaglebone-yocto
+- dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/mmcblk0 bs=4M

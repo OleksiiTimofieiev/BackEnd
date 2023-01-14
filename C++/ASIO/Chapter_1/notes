@@ -1,4 +1,0 @@
-- IP + Port number == endpoint
-- active and passive socket:
-active - start connection or data transfer
-passive - wait to initiate the connection

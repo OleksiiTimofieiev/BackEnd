@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=_Pg6mb8H8fk&list=PPSV
+
+- done-channel:
+all is done
+panic
+terminated (done channel to stop the routine)
+- finished-channel: wait for sub-processes to finish
+- or/Recursive channel
+- errors: <-chan Result
+- pipeline (конвеєр): in->[]->[]->[]->out
+- fun in - fun out: [] -> [[],[],[]] -> []
+- tee-channel, bridging: copy messages to other channels
+- queue: {
+  channel can be buffered or not
+}
+- worker pool; limit the amount of work for CPU
+- queue + worker pool;
+- cascade context: root triggers all child routines to terminate
+- errgroup.Group => errgroup.WithContext
+- heartbeaat
+- rate limiting -> token bucket
+- 

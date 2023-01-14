@@ -1,0 +1,8 @@
+https://coursehunter.net/course/c-russia-2022-konferenciya-dlya-c-razrabotchikov?lesson=51
+
+- vector instructions (working with several registers at one time):
+SIMD(intel SSE, AVX, arm NEON, SVE)
+conveyer
+several instructions in one tact
+great access to different levels of the memory
+cores and such stuff

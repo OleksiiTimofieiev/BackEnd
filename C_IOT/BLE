@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=VMDyebKT5c4&t=2088s == BLE
+
+- bluetooth low energy
+- go lib available
+- GAP (profile): central, peripheral, observer
+- GATT == generic attribute
+- bluetoothd (dbus interface used)
+- bluetoothctl == command line interface
+- btmon
+- blueZ lib commonly used
