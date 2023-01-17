@@ -6,3 +6,22 @@ https://bootlin.com/blog/yocto-project-quickest-instructions-to-generate-beagleb
 - MACHINE="beaglebone-yocto" bitbake core-image-minimal
 - cd tmp/deploy/images/beaglebone-yocto
 - dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/mmcblk0 bs=4M
+
+adding ssh:
+https://wiki.yoctoproject.org/wiki/Cookbook:Example:Adding_packages_to_your_OS_image
+
+usefull:
+- working with core-image-minimal
+- bitbake-layers show-recipes *aws*
+- ls meta*/recipes*/images/*.bb
+- https://github.com/sleepnumberlabs/meta-fuzion/blob/master/recipes-core/images/fuzion-image.bb
+
+SDK:
+- MACHINE="beaglebone-yocto" bitbake core-image-minimal -c populate_sdk
+- https://docs.yoctoproject.org/2.1/sdk-manual/sdk-manual.html#the-cross-development-toolchain
+
+<!-- TODO: -->
+- create custom image
+- add ssh
+- add dhcp rule
+- flash the wic image
