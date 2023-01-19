@@ -15,6 +15,7 @@ usefull:
 - bitbake-layers show-recipes *aws*
 - ls meta*/recipes*/images/*.bb
 - https://github.com/sleepnumberlabs/meta-fuzion/blob/master/recipes-core/images/fuzion-image.bb
+- sudo dd bs=4M if=tisdk-default-image-am64xx-evm.wic of=/dev/sdx status=progress && sync
 
 SDK:
 - MACHINE="beaglebone-yocto" bitbake core-image-minimal -c populate_sdk

@@ -1,0 +1,9 @@
+- https://www.youtube.com/watch?v=MK-NZ4hN7rs
+
+- suitable for the things we iterate over sequentially
+- contiguous seqvence of elements
+- strings, arrays, linked list
+- min, max, longest, shortest, contained in string
+- calculate something: average, max => calculate and record some value
+- window: fixed or dynamic length
+- hashmap can be usefull in combination
