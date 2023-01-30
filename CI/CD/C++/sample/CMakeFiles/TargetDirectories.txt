@@ -1,0 +1,3 @@
+/home/olekdsii/Desktop/BackEnd/CI/CD/C++/sample/CMakeFiles/rebuild_cache.dir
+/home/olekdsii/Desktop/BackEnd/CI/CD/C++/sample/CMakeFiles/edit_cache.dir
+/home/olekdsii/Desktop/BackEnd/CI/CD/C++/sample/CMakeFiles/app.dir

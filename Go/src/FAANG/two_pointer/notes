@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=2wVjt3yhGwg
+
+- strings, arrays
+- needs to be order in some way
+-O(n logn) or O(n)
+- opposite directional
+- equi-derectional: one slow-runner, other is fast runner
+- good for sorted input

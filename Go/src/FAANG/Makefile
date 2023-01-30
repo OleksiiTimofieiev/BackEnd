@@ -1,4 +1,4 @@
-default:
+default: init
 	@ go run main.go
 
 init:

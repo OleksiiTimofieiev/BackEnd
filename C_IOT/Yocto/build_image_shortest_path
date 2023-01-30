@@ -26,3 +26,7 @@ SDK:
 - add ssh
 - add dhcp rule
 - flash the wic image
+
+
+AWS:
+-  aws --region <region> iot describe-endpoint --endpoint-type "iot:Data-ATS"
