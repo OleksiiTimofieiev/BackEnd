@@ -1,0 +1,7 @@
+- SELECT
+- FROM
+- WHERE
+- symbol * == all
+- JOIN
+
+- SELECT "item1", "item2" FROM table

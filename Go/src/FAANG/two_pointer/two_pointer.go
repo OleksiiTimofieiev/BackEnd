@@ -109,3 +109,22 @@ func Intersect(nums1 []int, nums2 []int) []int {
 
 	return result
 }
+
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+func RemoveDuplicates(nums []int) int {
+	j := 1
+
+	prev := nums[0]
+
+	for i := 1; i < len(nums); i++ {
+		if prev != nums[i] {
+			j++
+			nums[j-1] = nums[i]
+		}
+		prev = nums[i]
+	}
+	for i := j; i < len(nums); i++ {
+		nums[i] = '_'
+	}
+	return j
+}

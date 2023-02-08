@@ -4,8 +4,8 @@ https://www.youtube.com/watch?v=BtmYjTO1EpI&list=PPSV
 - more reliable then rabbitMq ?
 - producer -> broker -> consumer [zookeeper]
 - topic: array list
-- replication: master slave, write only to leader
-- master maydie, and leader will be chosen -> async replication == some loss of data,
+- replication: master slave, write only to leader, async delivered to slave
+- master may die, and leader will be chosen -> async replication == some loss of data,
 clean || unclean leader election
 data will always be lost
 leader even may be chosen if all is ok

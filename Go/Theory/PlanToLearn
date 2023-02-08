@@ -19,6 +19,7 @@ plan: {
 
   - 2: {
     - оптимизация запросов к БД
+    - kafka
     - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
@@ -36,7 +37,6 @@ plan: {
     - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
-    - deployment patterns
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
     - patterns of microservices
@@ -67,13 +67,13 @@ plan: {
     - Rabbit-MQ and connected 
     - Project with microservices on docker aws kubernetes 
     - delve
-    - java GC
     - python JIT compiler and correspondent problems.
     - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
     - http versions: 1,2,3?
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
     - protocols
+    - Paxos, Raft
     - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
       Cloud computing platforms (AWS, GCP, Microsoft Azure)

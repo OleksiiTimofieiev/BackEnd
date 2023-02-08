@@ -35,9 +35,12 @@ func main() {
 	fmt.Println("GetMaxSumSubArrayOfSizeKM2: ", two_pointer.GetMaxSumSubArrayOfSizeKM2([]int{1, 10, -1, -2, 7, 3, -1, 7}, 4))
 	fmt.Println("MaxArea: ", two_pointer.MaxArea([]int{1, 8, 6, 2, 5, 4, 8, 3, 7}))
 	fmt.Println("Intersect: ", two_pointer.Intersect([]int{1, 1, 2, 2}, []int{1, 2, 1, 2}))
+	fmt.Println("RemoveDuplicates: ", two_pointer.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
+	fmt.Println("RemoveDuplicates: ", two_pointer.RemoveDuplicates([]int{1,1,2}))
+
 
 	// --- merge intervals ---
 	logger("Merge Intervals")
 	fmt.Println("RemoveCoveredIntervals: ", merge_intervals.RemoveCoveredIntervals([][]int{{1, 4}, {3, 6}, {2, 8}}))
-	fmt.Println("Merge: ",merge_intervals.Merge([][]int{{1, 4}, {3, 6}, {2, 8}}))
+	fmt.Println("Merge: ", merge_intervals.Merge([][]int{{1, 4}, {3, 6}, {2, 8}}))
 }
