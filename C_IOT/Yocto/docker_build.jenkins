@@ -12,7 +12,7 @@ pipeline {
         stage("create docker image") {
             steps {
                 echo " ============== start building image =================="
-                dir ('C_IOT/Yocto/DockerBuild/Dockerfile') {
+                dir ('C_IOT/Yocto/DockerBuild') {
                 	sh 'docker build . '
                 }
             }
