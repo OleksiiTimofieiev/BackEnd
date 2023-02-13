@@ -17,6 +17,11 @@ pipeline {
                     sh 'sudo docker run --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest '
                 }
             }
+            steps {
+                echo " ============== start building distro =================="
+                sh 'sudo docker run --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest '
+                }
+            }
         }
     }
 }
