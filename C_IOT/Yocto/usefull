@@ -7,6 +7,14 @@ https://bootlin.com/blog/yocto-project-quickest-instructions-to-generate-beagleb
 - cd tmp/deploy/images/beaglebone-yocto
 - dd if=core-image-minimal-beaglebone-yocto.wic of=/dev/mmcblk0 bs=4M
 
+Layers:
+- git clone https://github.com/OleksiiTimofieiev/meta-otimofie.git
+- git clone -b kirkstone https://github.com/aws4embeddedlinux/meta-aws.git
+- git clone -b kirkstone https://github.com/openembedded/meta-openembedded.git
+
+
+
+
 adding ssh:
 https://wiki.yoctoproject.org/wiki/Cookbook:Example:Adding_packages_to_your_OS_image
 
@@ -16,6 +24,7 @@ usefull:
 - ls meta*/recipes*/images/*.bb
 - https://github.com/sleepnumberlabs/meta-fuzion/blob/master/recipes-core/images/fuzion-image.bb
 - sudo dd bs=4M if=tisdk-default-image-am64xx-evm.wic of=/dev/sdx status=progress && sync
+- recipetool create -N bmp280i2cTest -V 1.00 https://github.com/hubshuffle/cmake-hello-world.git
 
 SDK:
 - MACHINE="beaglebone-yocto" bitbake core-image-minimal -c populate_sdk
@@ -28,19 +37,22 @@ AWS:
 
 Driver:
 - build/local.conf
-    MACHINE = "beaglebone-yocto"
+    MACHINE = "beaglebone-yocto" => ENV in docker
     KERNEL_MODULE_AUTOLOAD += " otimofie_driver"
     INHERIT += "rm_work" ==> Adding this statement deletes the work directory used for building 
     a recipe once the recipe is built. For more information on “rm_work”, 
     see the rm_work class in the Yocto Project Reference Manual.
 
     PARALLEL_MAKE = "-j 4"
+    IMAGE_FSTYPES = "wic"
 
 Layers:
-- bitbake-layers create-layer meta-otimofie
-- bitbake-layers add-layer ../meta-otimofie from build directory
-- bitbake-layers add-layer ../meta-openembedded/meta-oe from build directory
-- bitbake-layers add-layer ../meta-openembedded/meta-aws from build directory
+- bitbake-layers add-layer ../meta-openembedded/meta-oe
+- bitbake-layers add-layer ../meta-otimofie
+- bitbake-layers add-layer ../meta-openembedded/meta-python
+- bitbake-layers add-layer ../meta-openembedded/meta-networking
+- bitbake-layers add-layer ../meta-aws
+- bitbake-layers add-layer ../meta-openembedded/meta-webserver
 
 
 NFS[https://www.youtube.com/watch?v=SpYTsRk3Dkk]:
@@ -58,9 +70,5 @@ on client:
 - mkdir /mnt/drivers
 - mount
 - mount -t nfs 192.168.8.109:/home/olekdsii/Desktop/BackEnd/C_IOT/Yocto/nfs /mnt/drivers
-
 - umount /mnt/drivers
-
-
-
 
