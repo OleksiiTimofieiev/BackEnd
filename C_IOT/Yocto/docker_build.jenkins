@@ -20,7 +20,6 @@ pipeline {
         stage("create distro") {
             steps {
                 echo " ============== start building distro =================="
-                sh 'mkdir -p '
                 sh 'sudo docker run bbb-image:latest'
             }
         }
