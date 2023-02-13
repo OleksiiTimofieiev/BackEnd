@@ -20,7 +20,9 @@ pipeline {
         stage("create distro") {
             steps {
                 echo " ============== start building distro =================="
-                sh 'sudo docker run bbb-image:latest'
+                dir ('C_IOT/Yocto/DockerBuild') {
+                    sh 'sudo docker run --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest '
+                }
             }
         }
     }
