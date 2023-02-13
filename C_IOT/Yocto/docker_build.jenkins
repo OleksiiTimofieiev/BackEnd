@@ -13,7 +13,7 @@ pipeline {
             steps {
                 echo " ============== start building image =================="
                 dir ('C_IOT/Yocto/DockerBuild') {
-                	sh 'sudo docker build --no-cache --build-arg "host_uid=1001" --build-arg "host_gid=1001" --tag "bbb-image:latest" .'
+                	sh 'sudo docker build --no-cache --build-arg "host_uid=$(id -u)" --build-arg "host_gid=$(id -g)" --tag "bbb-image:latest" .'
                 }
             }
         }
@@ -21,7 +21,7 @@ pipeline {
             steps {
                 echo " ============== start building distro =================="
                 dir ('C_IOT/Yocto/DockerBuild') {
-                    sh 'sudo docker run --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest '
+                    sh 'sudo docker run bbb-image:latest'
                 }
             }
         }
