@@ -14,6 +14,7 @@ pipeline {
                 echo " ============== start building image =================="
                 dir ('C_IOT/Yocto/DockerBuild') {
                 	sh 'sudo docker build --no-cache --build-arg "host_uid=$(id -u)" --build-arg "host_gid=$(id -g)" --tag "bbb-image:latest" .'
+                    sh 'sudo docker run -it --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest '
                 }
             }
         }
