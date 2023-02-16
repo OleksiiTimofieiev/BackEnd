@@ -1,0 +1,3 @@
+- sudo mkdir -p /etc/prometheus/
+- cp prometheus.yml /etc/prometheus/
+- sudo docker compose up prometheus

@@ -2,7 +2,7 @@ build image:
 sudo docker build --no-cache --build-arg "host_uid=$(id -u)" --build-arg "host_gid=$(id -g)" --tag "bbb-image:latest" .
 
 build distribution:
-sudo docker run -it --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest /bin/bash
+sudo docker run --security-opt seccomp=unconfined -it --rm -v $PWD/yocto/output:/home/bbb/yocto/output bbb-image:latest
 
 delete all except one:
 sudo docker image prune -a --force --filter "label!=bbb-image"

@@ -1,23 +1,24 @@
 plan: {
   - 1: {
-
     - databases intro:
     https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
 
-
-    store procedures
-    search requests
-    cache invalidation
-    garbage collector    
+    cache invalidation  
     - оптимизация SQL запросов
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
-
-    benefits from nginx
   };
 
-  - 2: {
+  - 2: databases after main course: {
+      - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
+      - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
+      - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
+      - https://www.youtube.com/watch?v=MBfjQBDZqt8
+    }
+
+  - 3: {
+    - benefits from nginx
     - оптимизация запросов к БД
     - kafka
     - nginx
@@ -36,7 +37,6 @@ plan: {
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
-    - опыт работы с MySQL/PostgreSQL, умение писать оптимальные запросы
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
     - patterns of microservices
@@ -46,16 +46,12 @@ plan: {
     - event-driven approach in code => kafka projects
     - check what is required in vacancies
     - algorithm course
-    - kubernetes, queue services, kafka, AWS, other stuff
-    - learn nginx/apache
     - ajax
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - effective go
-    - protocol buffer
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     - gRPC
     - Security: XSS, SQL injections, keeping passwords, keeping secrets
-    - CLI go
     - testing a web server
     - transactions/transactional behaviour
     - sql injections
@@ -80,13 +76,8 @@ plan: {
       Understanding of orchestration and containerisation (e.g. Kubernetes, Swarm)
       Knowledge in Deployment patterns
     }
-    - databases after main course: {
-      - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
-      - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
-      - https://www.youtube.com/watch?v=Uojy57I-xP0&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=27
-      - https://www.youtube.com/watch?v=MBfjQBDZqt8
-    }
-    - interview preparation: {
+
+  - 4: interview preparation: {
       - вопросы по БД on interview
       - typical question for the containers/collections/context/sync package/
       - вопросы по конструкциям языка

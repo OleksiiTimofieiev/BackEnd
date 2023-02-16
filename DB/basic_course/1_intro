@@ -2,7 +2,7 @@ https://www.youtube.com/watch?v=SfYaAQ9-RnE&list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zG
 
 Types of DB keys:
 - primary
-- surrogate == incremented value for an example
+- surrogate == auto increment for an example
 - foreign
 
 Migration - process of coming to new DB schema

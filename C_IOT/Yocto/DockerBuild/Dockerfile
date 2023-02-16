@@ -20,7 +20,7 @@ RUN apt-get update && apt-get -y install gawk wget git-core \
     diffstat unzip texinfo gcc-multilib build-essential \
     chrpath socat cpio python2 python3 python3-pip \
     python3-pexpect xz-utils debianutils iputils-ping \
-    libsdl1.2-dev xterm tar locales zstd liblz4-tool file
+    libsdl1.2-dev xterm tar locales zstd liblz4-tool file vim
 
 # By default, Ubuntu uses dash as an alias for sh. Dash does not support the source command
 # needed for setting up the build environment in CMD. Use bash as an alias for sh.
@@ -76,7 +76,7 @@ WORKDIR $BUILD_OUTPUT_DIR
 
 ENV MACHINE="beaglebone-yocto"
 #TODO: TEMPLATECONF
-# ENV TEMPLATECONF=$BUILD_INPUT_DIR/$PROJECT/sources/meta-$PROJECT/custom
+# ENV TEMPLATECONF=$BUILD_INPUT_DIR/sources/meta-otimofie/custom
 
 CMD source $BUILD_INPUT_DIR/sources/poky/oe-init-build-env \
 && bitbake-layers add-layer $BUILD_INPUT_DIR/sources/meta-openembedded/meta-oe \
