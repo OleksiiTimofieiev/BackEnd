@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=ePsIEIxZs1c&t=7s
+
+target:
+gdbserver 92.168.0.101:2345 ./syscall.arm64
+
+host:
+$GDB -tui ./syscall.arm64.debug
+set sysroot /opt/poky/4.0.7/sysroots/cortexa8hf-neon-poky-linux-gnueabi
+set substitute-path /usr/src/debug/ /home/olekdsii/Desktop/BackEnd/C_IOT/Yocto/DockerBuild/yocto/output/build/tmp/work/cortexa8hf-neon-poky-linux-gnueabi
+target remote 192.168.8.103:2345
+
+commands:
+backtrace
+continue

@@ -1,0 +1,54 @@
+https://itvdn.com/ua/video/web-apps-security-testing
+
+General:
+OWASP Cheat Sheet
+Possible instruments for analysis
+
+- model OSI
+- model TCP/IP:
+application
+transport
+internet
+network access layer
+- tree of attacks:
+input
+libs
+internet connections
+- OWASP
+- SOP: same origin policy:
+scheme(protocol)
+host
+port
+resource
+- pentest: penetration testing
+
+-------
+
+- XSS:
+DOM based XSS:
+hacker sends a link to the user(javascript code as usual)
+user interacts
+code returns user`s data (possibly credentials)
+
+-------
+
+- authentification:
+login + password [HTTP]
+Header if not succes: WWW-Authentificate
+Form
+
+via certificate:
+HTTPS, certificate has to be valid (expiry date, approved certification centers)
+
+via token:
+JWT [header: type and signature algotithm][payload: time of token, system data, user role, etc] [signature for the toke]
+
+via key:
+API Key
+
+- session:
+set of request beetween login and logout via presumably one connection
+
+- sniffing:
+tcpdump -X s0 -ieth0 -w dump.pcap
+

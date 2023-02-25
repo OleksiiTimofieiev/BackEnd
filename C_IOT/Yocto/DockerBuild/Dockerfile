@@ -85,4 +85,4 @@ CMD source $BUILD_INPUT_DIR/sources/poky/oe-init-build-env \
 && bitbake-layers add-layer $BUILD_INPUT_DIR/sources/meta-openembedded/meta-networking \
 && bitbake-layers add-layer $BUILD_INPUT_DIR/sources/meta-aws \
 && bitbake-layers add-layer $BUILD_INPUT_DIR/sources/meta-openembedded/meta-webserver \ 
-    && bitbake $PROJECT
+    && bitbake $PROJECT && bitbake bbb -c populate_sdk

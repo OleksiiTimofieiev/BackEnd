@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=nbmEBvoVAp0&list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj&index=3
+
+- регистронезависимый поиск:
+collation
+lower
+citext
+- queries and subqueries are possible:
+not/exists
+select 
+any
+all

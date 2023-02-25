@@ -24,3 +24,11 @@ Additional:
     modification == update every single record in redundancy fashion
     deletion problem == delete redundancy fashion
 }
+
+- SELECT
+- FROM
+- WHERE
+- symbol * == all
+- JOIN
+
+- SELECT "item1", "item2" FROM table
