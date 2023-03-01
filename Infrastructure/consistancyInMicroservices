@@ -1,0 +1,30 @@
+https://www.youtube.com/watch?v=6HvSpqBc8fA&list=WL&index=27&t=1531s
+
+- shared database not good as all go to one source of data, high cohetion
+- isolation is the best
+- two phase commit (2PC) is not an option:
+increase of servers horizontaly, perfomance will reduce
+2PC - old soviet shop, all go to one seller, description:
+coordinator being used to check all microservises
+- optimistic approach is good:
+horizontal only optimistic approach,
+optimistic - check only invalid cases
+- communication channels:
+need to reach basic ACID
+atomicity == all or nothing: all steps have to be done
+consistency == global logic invariants: data are correct in result
+isolation
+durability == request that actions/transaction have to be saved (for rollbacks possibly)
+- SAGA ші пщщв:
+kind a transaction analogue
+event graph, has to have possibility to retry steps
+wait success of next and can rollback in atomicity way
+!!! Requirements:
+- Idempotency key == some events may be lost == fault tolerance, to play one time
+one each operation has to have unique key
+every service for each reuest == processed or not before, we`re waiting for the requests
+- Good delivery channel (at least once delivery), event subscription, long term persistance for some time, rerequest events
+- We can rollaback according to atomicity
+!!! Realization:
+- choreography:
+channel == persistent queue == kafka
