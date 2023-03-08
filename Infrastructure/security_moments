@@ -1,0 +1,29 @@
+security:
+input
+dependencies; possible management Dependabot 
+use HTTPS everywhere: secure API
+Access and identify tokens 
+Authorisation servers
+Protect secret
+Penetration, static analysis
+Policies to slow attack timings: rate limiting
+Docker rootless mode
+Multi authentication tool
+Docker security best practices 
+K8s security best practices: 11 ways not to get hacked 
+DevSecOps
+OWASP Top 10
+ 
+JWT(json web token):
+Signed or encrypted 
+has a json structure representation (headers,payloads ,signature)
+some libraries are available 
+
+OAuth 2 == delegated access:
+protocol of protocols
+Request -> logic -> consent 
+Client-> OAuth server -> access , request token
+scope: access to certain realm of resources ; grouping of claims 
+Profile of tokens 
+Types of tokens: guid, jwt …
+
