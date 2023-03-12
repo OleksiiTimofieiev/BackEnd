@@ -1,0 +1,55 @@
+https://www.youtube.com/watch?v=CgCLPYJRxbU
+
+- key element is cluster of nodes
+- nodes: worker/master
+- Master node (server which ha 3 processes):
+kube-apiserver, 
+kube-controller-manager(if node fails, containers will be moved to other nodes), 
+kube-scheduler(on which node which container), 
+etcd
+- Worker node: 
+kubelet==docker management api,
+kube-proxy==network interface of a server, manages iptables
+- One master-many workers
+- Image registry
+- use of DSL (YAML)
+
+- Features:
+service discovery and load balancing: access via DNS or port
+storage orchestration: attach local or cloud storage to container
+automated rollout and rollback: update of a service via green-blue deployment 
+automated bin packing: necessary resources indicated-> K8s will select suitable node 
+Secrets manager
+Kibernetes cloud services
+
+- Container:
+logging(stdout)
+supervision(healthcheck, etc.)
+
+- unit of creation: pod[several or one container in one network namespace, 
+folder, labels(key/value), selectors for labels for service descovery]
+infrastructure: YAML
+
+k8s primitives:
+
++ pod:
+type
+metadata
+specification
+
++ replicaSet: set of pods => supervision, auto-scaling
++ deployment: replicaSet + history of old replicaSets (hisory save period is configurable) + 
+deploy process (sequentially downscaling of previous version)
++ service descovery -> service: DNS + Virtual IP + Load balancer + Selector (tier + version for example), 
+sending trafic for labeled pods being active
++ job: pod + successful completion (return 0) 
++ cronjob: job + cron
++ volume: size + access type (ReadWrite-once(one user - only us),
+ReadOnly-many,ReadWrite-many(NFS, clusteFS)) + 
+storage class(slow, normal,fast) - 19 ways of realization of a storage class;
+can be connected to pod, replicaSet, deployment
++ stateful set: pods with communication with each other with stable name,
+can be: each pod works with its own volume
++ ingress: hostname + path + TLS + Service
+has public api, request by hostname or URL
+
