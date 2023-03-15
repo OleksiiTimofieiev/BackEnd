@@ -1,0 +1,29 @@
+https://www.youtube.com/watch?v=10ZR-fbyuSY&list=WL&index=36
+
+- what is container:
+capabilities == have root access
+namespaces == processes don`t see other processes
+cgroups[control groups] == unite process in one group to manage resources:
+quota   = how much time can used 15% of 100 CPU
+shares  = weight of the process to the CPU
+
+docker == api on go use above described
+
+- CPU:
++ system threads are distributed to process in fair manner == Completely fair scheduler
++ requests == weight of the container, hard limiting => limits
++ weights 3 cores, 500,1000,1500 -> how many cores each pod received
+3 pods, calculation:
+500/3000(weighs==threads)x3(cores)=0,5 core
+1000/3000(weighs==threads)x3(cores)=1 core
+1500/3000(weighs==threads)x3(cores)=1,5 core
++ do not use more pods then CPU can handle 
+
+- RAM:
++ MMS==memory management subsystem
++ OOK==out of memory killer kills the huges pod, 
+but we can set pod as not killable, guaranteed = -998
+best effor = 1000, will be killed for sure
+burstable=min(max(2,1000 - (1000*memoryRequestBytes)/machineMemoryCapacityBytes),999) == обратно пропрционально request/capacity
+bigger pod the lower chance it will be killed
++ limits==amount of memory can be used
