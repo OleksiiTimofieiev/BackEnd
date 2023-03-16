@@ -1,0 +1,18 @@
+- install VBox
+- install kubectl (managing the cluster):
+snap install kubectl --classic
+- install minicube (creation single-node cluster):
+https://minikube.sigs.k8s.io/docs/start/
+
++ start cluster: 
+- minikube start 
+- minikube start --cpus=4 --memory=8gb --disk-size=25gb
++ config: ~/.kube/config
++ files: ~/.minikube
++ iso: .minikube/machines/minikube/boot2docker.iso
++ cluster status: kubectl get componentstatuses
++ cluster info: kubectl cluster-info
++ quantity of nodes: kubectl get nodes
++ stop cluster: minikube stop => will stop vbox machine
++ delete cluster: minikube delete
++ minikube ssh: will connect as docker user

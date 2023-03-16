@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=BygAKOwMqrU&list=WL&index=4&t=463s
+
+- parent() of QObject: если слишком много детей, время удаления может замедляться поскольку хранятся в списке;
+ выход - средний слой/обертка
+- Q_Property: с приходом QML стало легко оборачивать данные Q_Property; 
+если много данных, много накладных расходов-память; выход - убегать/qt models via roles
+- QObject::connect(): connect and disconnect are the longest
+- QObject: is not a mandatory class; too much QObject may slow down the program
+- Foreach - macro to iterate through a container, copies container; For C++11 - not copies
+- Contextis QObject in thread of which lamda will be executed
+- invokeMethod-blockingQueuedConnection: to avoid signal-slot pair
+- PIMPL (private implemantation): 
+- moveToThread: object context can be moved to a specific thread
+- QML==GUI, C++==for logic and high cpu operations

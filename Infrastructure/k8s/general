@@ -32,13 +32,13 @@ infrastructure: YAML
 
 k8s primitives:
 
-+ pod:
++ pod (set of connected containers):
 type
 metadata
 specification
 
 + replicaSet: set of pods => supervision, auto-scaling
-+ deployment: replicaSet + history of old replicaSets (hisory save period is configurable) + 
++ deployment controller (for stateless apps): replicaSet + history of old replicaSets (hisory save period is configurable) + 
 deploy process (sequentially downscaling of previous version)
 + service descovery -> service: DNS + Virtual IP + Load balancer + Selector (tier + version for example), 
 sending trafic for labeled pods being active
@@ -48,8 +48,12 @@ sending trafic for labeled pods being active
 ReadOnly-many,ReadWrite-many(NFS, clusteFS)) + 
 storage class(slow, normal,fast) - 19 ways of realization of a storage class;
 can be connected to pod, replicaSet, deployment
-+ stateful set: pods with communication with each other with stable name,
++ stateful set(statefull apps): pods with communication with each other with stable name,
 can be: each pod works with its own volume
 + ingress: hostname + path + TLS + Service
 has public api, request by hostname or URL
 
+- High availability:
+Deployment (will recreate necessary amount of pods) and StatefulSet (will not recreate pod if not triggered manually)
+PodAntiAffinity: one pod per node
+PodDisruptionBudgets: kill one pod per one time
