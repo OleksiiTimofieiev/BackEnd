@@ -1,0 +1,6 @@
++ sudo docker build -t k8s .
++ sudo docker tag myk8sapp:latest otimofie/k8s:latest
++ sudo docker login
++ sudo docker push otimofie/k8s:latest
++ sudo docker run -it -p1234:80 otimofie/k8s
++ sudo docker rmi 2869ce682823 -f

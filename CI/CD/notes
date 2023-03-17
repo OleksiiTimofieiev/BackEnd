@@ -1,6 +1,0 @@
-URL: http://localhost:8080/
-
-- types of jobs:
-FreeStyle: commonly bash, shell
-Pipeline: workflow, normally written in DSL
-Multi Configuration: for multiple environments

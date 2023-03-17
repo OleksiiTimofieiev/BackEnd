@@ -40,7 +40,7 @@ specification
 + replicaSet: set of pods => supervision, auto-scaling
 + deployment controller (for stateless apps): replicaSet + history of old replicaSets (hisory save period is configurable) + 
 deploy process (sequentially downscaling of previous version)
-+ service descovery -> service: DNS + Virtual IP + Load balancer + Selector (tier + version for example), 
++ service discovery -> service: DNS + Virtual IP + Load balancer + Selector (tier + version for example): ClusteIP, NodePort, LoadBalancer, ExternalName
 sending trafic for labeled pods being active
 + job: pod + successful completion (return 0) 
 + cronjob: job + cron
@@ -52,6 +52,8 @@ can be connected to pod, replicaSet, deployment
 can be: each pod works with its own volume
 + ingress: hostname + path + TLS + Service
 has public api, request by hostname or URL
++ migration: alter databases for its new configuration
++ secrets
 
 - High availability:
 Deployment (will recreate necessary amount of pods) and StatefulSet (will not recreate pod if not triggered manually)

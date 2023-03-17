@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=G3nELxmECd8&list=WL&index=34&t=2052s
+
+- dockerfile -> docker build -> docker-image -> docker gitlab registry -> docker-image + tests
+- .helm[backend.yaml] -> helm install -> k8s 
+- docker image should contain everything for autonomous start
+- git branch tag == temporary images
+- git tag == prod images
+- backend should not be updated if migration not finished, hack:
+init containers, if successful (while netcat db connection, migration is successful) -> go;
+maybe already a mechanism for monitoring such a dependency
+- remember about gracefull shutdown
+
+possible schema:
+- deployment for apps accumulated by pods
+- statefull set for DB
+- migration: DB schema changes
+
+Kubernetes, Helm, Gitlab
