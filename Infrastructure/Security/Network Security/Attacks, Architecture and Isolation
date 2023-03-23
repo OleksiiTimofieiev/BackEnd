@@ -1,0 +1,7 @@
+- isolation == restricting selparate networks
+- switch is isolated from the box
+- wireless: arpspoof
+- ethercap
+- arp == address resolution protocol
+- firewall on router
+- several VLANs

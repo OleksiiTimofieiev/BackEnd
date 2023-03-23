@@ -1,0 +1,10 @@
+Firewalls (allow and deny traffic):
+- NAT: rules for inbound traffic
+- outbound filtering also possible; for example to prevent reverse shell
+
+Firewall localization:
+- network based == router with firewall
+
+Linux:
+- iptables -L
+- ufw, gufw, nftables

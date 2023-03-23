@@ -1,8 +1,5 @@
 plan: {
   - 1: {
-    - databases intro:
-    https://www.youtube.com/playlist?list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj
-
     cache invalidation  
     - оптимизация SQL запросов
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
@@ -10,17 +7,18 @@ plan: {
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
 
     - hash map in go
-    -  порядок перебора map
+    - порядок перебора map
     Самый популярный неправильный ответ: «Gorm, вроде, неплох». Конкурирует с ответом «Я всё пишу руками». Я даже согласен с обоими ответами, но давайте обсудим подробнее — как устроен gorm, и почему вдруг руками.
-Наводящие вопросы: что означает буква M в аббревиатуре ORM? Что на эту букву M есть в gorm? А что такое DAL и зачем он нужен?
--  Какой у вас любимый линтер?
-- Наводящие вопросы: какое отношение линтеры имеют к CI? Зачем нужен CI в процессе разработки?
-- Какие типы мьютексов предоставляет stdlib?
-- Стандартный набор метрик prometheus в Go -программе?
-- Наводящие вопросы: оставив прометей в стороне — что вообще Go-программа способна о себе рассказать? Метрики runtime — что это, и откуда берется?
-- Как встроить стандартный профайлер в свое приложение?
-- Overhead от стандартного профайлера?
-- Какие средства обобщенного программирования есть в Go?w
+    Наводящие вопросы: что означает буква M в аббревиатуре ORM? Что на эту букву M есть в gorm? А что такое DAL и зачем он нужен?
+    - Какой у вас любимый линтер?
+    - Наводящие вопросы: какое отношение линтеры имеют к CI? Зачем нужен CI в процессе разработки?
+    - Какие типы мьютексов предоставляет stdlib?
+    - Стандартный набор метрик prometheus в Go -программе?
+    - Наводящие вопросы: оставив прометей в стороне — что вообще Go-программа способна о себе рассказать? Метрики runtime — что это, и откуда берется?
+    - Как встроить стандартный профайлер в свое приложение?
+    - Overhead от стандартного профайлера?
+    - Какие средства обобщенного программирования есть в Go?w
+    - MVCC transactions
   };
 
   - 2: databases after main course: {
@@ -31,9 +29,12 @@ plan: {
     }
 
   - 3: {
+    - Досвід роботи з інструментами devops (kubernetes, ansible/salt/puppet/chef, логування, моніторинг, CI/CD)
+    - db requests optimization
     - benefits from nginx
     - оптимизация запросов к БД
     - kafka
+
     - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
@@ -45,7 +46,6 @@ plan: {
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
     - SQL for highload
     - monitoring: some REST book has it
-    - kubernetes intro: https://www.youtube.com/watch?v=yI37GPp06uc 
     - database migrations
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - microservice patterns/architecture
@@ -72,9 +72,8 @@ plan: {
     - Kafka: streams API
     - Go-Kit
     - memory model otus
-    - typical interview questions: ACID, CAP-theorem
+    - typical interview questions: CAP-theorem, JOINS
     - Rabbit-MQ and connected 
-    - Project with microservices on docker aws kubernetes 
     - delve
     - python JIT compiler and correspondent problems.
     - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
@@ -86,7 +85,6 @@ plan: {
     - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
       Cloud computing platforms (AWS, GCP, Microsoft Azure)
-      Understanding of orchestration and containerisation (e.g. Kubernetes, Swarm)
       Knowledge in Deployment patterns
     }
 
@@ -106,3 +104,5 @@ projects: {
 }
 
 
+Embedded:
+Zigbee, Z-Wave, BLE;

@@ -1,0 +1,14 @@
+--- working with pods ---
+
++ kubectl run hello  --image=httpd:latest --port=80
++ kubectl get pods
++ kubectl describe pods hello
++ kubectl delete pods hello
++ kubectl exec hello date
++ kubectl exec -it hello sh
++ kubectl logs hello
++ minikube config set WantVirtualBoxDriverWarning false    
++ minikube config set driver virtualbox
++ kubectl port-forward hello 7788:80
++ kubectl apply -f pod-myweb-ver1.yaml
++ kubectl delete -f pod-myweb-ver1.yaml

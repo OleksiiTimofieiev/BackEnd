@@ -4,8 +4,8 @@ snap install kubectl --classic
 - install minicube (creation single-node cluster):
 https://minikube.sigs.k8s.io/docs/start/
 
-+ start cluster: 
-- minikube start 
++ set default driver: minikube config set driver virtualbox
++ start cluster: minikube start 
 - minikube start --cpus=4 --memory=8gb --disk-size=25gb
 + config: ~/.kube/config
 + files: ~/.minikube
@@ -16,3 +16,5 @@ https://minikube.sigs.k8s.io/docs/start/
 + stop cluster: minikube stop => will stop vbox machine
 + delete cluster: minikube delete
 + minikube ssh: will connect as docker user
++ kubectl get nodes
+

@@ -1,0 +1,80 @@
+https://www.youtube.com/watch?v=4Tgvd6NPufs&list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj&index=5
+
+- types of index:
++ btree: by default, field has to be comparable,
+search can be possible; full value, left prefix, column prefix, range of values, full match of one part and range in another part;
+requests only by index are possible;
+
+not possible
+search without left part of the key
+omit columns
+optimization of search in range
+
++ hash-index:
+not present in transaction journal !!!
+sometimes indexes hash collisions
+only comparable operators
+possible collision are the main problem
+
++ GiST(R-Tree):
+перекрываемые области
+for geographical data types
+
++ GIN(inverted index):
+which key in which column
+usually used for arrays; for full text search;
+
++ bit index:
+usefull to store information which reflects some condition
+
++ partial index:
+not all fields of tables to be indexed
+
++ functional index
++ cluster index
++ covering index == покрывающий индекс
+
+Cons:
+- will slow down operations which result in necessity of index update
+- need to plan RAM capacity
+
+index to use:
++ use = operator in WHERE
+
+JOIN strategies:
++ MERGE JOIN == merge of 2 sorted sets
++ HASH JOIN
++ NESTED LOOP
+
+- request execution can vary. it depends what is optimal from the database point of view
+
+- Profiling:
++ what, which data is being used oftenly, type of load
++ statistics: postgres.conf:
+shared_preload_libraries = 'pg_stat_statements'
+pg_stat_statements.max = 10000
+pg_stat_statements.track = all
+
+CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
+SELECT pg_stat_statements_reset();
+
+SELECT * FROM pg_stat_statements;
+
++ протоколирование запросов:
+log_duration = on
+log_lock_waits = on
+log_min_duration_statement = 50
+log_filename = ...
+log_directory = ...
+log_destination = 'csvlog'
+logging_collector = on
+set log_min_duration_statement = 50;
+SELECT * FROM ...
+
+sudo apt install libtext-csv-xs-perl pgbadger
+pgbadger /va/log/*
+
+- short request but in huge quantity may also load DB hugely
+- good idea to look for the new requests: they may be slowed down by something
+
+- EXPLAIN/EXPLAIN ANALYZE == explain th DB logic

@@ -1,0 +1,52 @@
+https://www.youtube.com/watch?v=XkS3937Xn8M&list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zGKnj&index=4&ab_channel=VKTeam
+
+- Transaction is a way to guarantee data flow consistency
+- ACID:
+Atomicity   == no partial transactions;
+Consistency == any transaction will not ruin database structure; no data that conflict with structure of DB;
+Isolation   == parallel transation won`t affect each other;
+Durability  == if transaction was saved on disk, data would not be lost;
+
+Syntax:
+BEGIN;
+...
+COMMIT; or ROLLBACK;  
+- transactions are being reflected in journal
+
+- each operation:
+1. to journal of transactions
+2. actual effect on DB
+
+- RAID controller and databeses: caching memory; will write data when suitable;
+RAID controllers have battery;
+- with disk better to work in one thread
+- batch commit is better way to optimize work with disk
+- journal of transaction:
+point in time recovery
+transactions
+
+Isolation:
+- all data currently used by user -> blocking == ISOLATION LEVEL REPEATABLE READ;
+- MVCC(multy version concurrency control): user only sees its own slice of data;
+levels of isolation:
+read uncommitted
+read committed
+repeatable read
+serilizable
+- avoiding regressions:
+lost of update
+dirty read
+non-repeatable read
+phantom reads
+serialization anomalies
+
+Saved procedures:
+- business logic can be process on DB
+- postgres has functions (will return some data)
+- reduce network traffic
+- some security logic
+
+Trigger:
+- in case of event -> do something
+
+Distributed transactions (XA transactions)
