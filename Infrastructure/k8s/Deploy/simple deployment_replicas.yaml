@@ -1,0 +1,23 @@
+apiVersion : apps/v1
+kind : Deployment
+metadata:
+  name: my-web-deployment-replicas
+  labels:
+    app : my-k8s-application
+    env : prod
+    owner : otimofie
+spec:
+  replicas : 3
+  selector:
+    matchLabels:
+      project: test2
+  template:
+    metadata:
+      labels:
+        project: test2
+    spec:
+      containers:
+        - name: test2-web
+          image: otimofie/test
+          ports:
+            - containerPort: 80

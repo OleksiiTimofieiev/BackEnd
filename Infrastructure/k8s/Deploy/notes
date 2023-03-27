@@ -1,0 +1,16 @@
+- kubectl get deploy
+- kubectl create deployment test --image otimofie/tennis_bot
+- kubectl describe deployments test
+- kubectl scale deployment test --replicas 4
+- kubectl get rs == rs=replicaSet
+- replicaSet manages the configuration
+- kubectl autoscale deployment test --min=4 --max=6 --cpu-percent=80
+- kubectl get hpa(horizontal pod autoscaler)
+- kubectl rollout history deployment/test
+- kubectl rollout status deployment/test
+- kubectl describe deployment test => name of container
+- kubectl set image deployment/test repo=otimofie/test --record=true
+- kubectl rollout undo deployment/test => rollout to the previous version
+- kubectl rollout undo deployment/test --to-revision=4
+- kubectl rollout restart deployment/test
+- kubectl apply -f simmple_deployment.yaml
