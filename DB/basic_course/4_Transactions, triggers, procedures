@@ -50,3 +50,6 @@ Trigger:
 - in case of event -> do something
 
 Distributed transactions (XA transactions)
+
+Durability:
+- first we write to transaction log

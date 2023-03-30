@@ -10,6 +10,10 @@ check new version of DB
 master - slave
 master - master
 
-physical
-logical == change of records
+physical[journal of transactions -> slave copies events from journal -> slave adopts changes]
+logical == change of db data records[logical decoding => kind looks for changing]
 requests == information about fulfilled requests
+
+sync
+async
+semisync == replica alive=sync, dead=async
