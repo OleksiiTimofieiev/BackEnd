@@ -3,3 +3,13 @@ https://www.youtube.com/watch?v=HYg6O_YaFEk&list=PLrCZzMib1e9oOFQbuOgjKYbRUoA8zG
 - replication:
 copy data
 load balancing
+testing of new apps on copy of prod database
+check new version of DB
+
+- variants of replication:
+master - slave
+master - master
+
+physical
+logical == change of records
+requests == information about fulfilled requests
