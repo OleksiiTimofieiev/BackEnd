@@ -1,6 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/olekdsii/Desktop/BackEnd'
-make: Leaving directory '/home/olekdsii/Desktop/BackEnd'
+make: Entering directory `/Users/otimofie/SoftwareDevelopment/BackEnd'
+git submodule update --init --recursive
+make: Leaving directory `/Users/otimofie/SoftwareDevelopment/BackEnd'
  
-make: *** No targets specified and no makefile found.  Stop.
-

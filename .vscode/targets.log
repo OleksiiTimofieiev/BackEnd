@@ -1,243 +1,132 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
 
-# GNU Make 4.2.1
-# Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
-# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-# This is free software: you are free to change and redistribute it.
-# There is NO WARRANTY, to the extent permitted by law.
+# This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Fri Aug 26 08:39:29 2022
+# Make data base, printed on Thu Mar 30 11:28:57 2023
 
 # Variables
 
-# 'override' directive
-GNUMAKEFLAGS := 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # environment
-DESKTOP_SESSION = ubuntu
-# default
-.SHELLFLAGS := -c
-# environment
-XDG_SESSION_CLASS = user
-# environment
-SNAP_COMMON = /var/snap/code/common
-# environment
-XDG_SESSION_TYPE = x11
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# environment
-XAUTHORITY = /run/user/1001/gdm/Xauthority
-# environment
-GDMSESSION = ubuntu
-# environment
-XMODIFIERS = @im=ibus
+# automatic
+@F = $(notdir $@)
 # makefile
-CURDIR := /home/olekdsii/Desktop/BackEnd
+CURDIR := /Users/otimofie/SoftwareDevelopment/BackEnd
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/105
+VSCODE_NLS_CONFIG = {"locale":"en-ua","availableLanguages":{},"_languagePackSupport":true}
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # environment
-JOURNAL_STREAM = 8:55548
+__CFBundleIdentifier = com.microsoft.VSCode
 # environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+INFOPATH = /opt/homebrew/share/info:/opt/homebrew/share/info:
 # environment
-SNAP_INSTANCE_NAME = code
+VSCODE_CWD = /
 # environment
-SNAP_ARCH = amd64
-# makefile
-MAKEFILE_LIST := 
-# automatic
-@F = $(notdir $@)
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
-# environment
-USERNAME = olekdsii
-# environment
-MAKELEVEL := 0
-# environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
-# environment
-_ = /snap/code/105/usr/share/code/code
-# environment
-MANAGERPID = 1863
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-LC_NAME = uk_UA.UTF-8
-# environment
-VSCODE_CWD = /home/olekdsii
-# environment
-GSETTINGS_SCHEMA_DIR = /snap/code/105/usr/share/glib-2.0/schemas
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /home/olekdsii/.local/bin:/home/olekdsii/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# environment
-GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
-# environment
-SESSION_MANAGER = local/LWO1-LHP-A10432:@/tmp/.ICE-unix/2085,unix/LWO1-LHP-A10432:/tmp/.ICE-unix/2085
-# environment
-XDG_RUNTIME_DIR = /run/user/1001
-# environment
-GDK_PIXBUF_MODULE_FILE = /home/olekdsii/snap/code/common/.cache/gdk-pixbuf-loaders.cache
-# environment
-SNAP = /snap/code/105
-# environment
-SNAP_VERSION = e4503b30
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-DISABLE_WAYLAND = 1
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin:/opt/homebrew/sbin
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = f0d182d11daa40fbb918c64be689c697
-# environment
-GDK_PIXBUF_MODULEDIR = /snap/code/105/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-LS_COLORS = 
-# environment
-PARENT_WINDOW_ID = 0
-# environment
-XDG_SESSION_DESKTOP = ubuntu
-# environment
-SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 81442
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.JaprJzbPhj/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
+PWD = /Users/otimofie/SoftwareDevelopment/BackEnd
 # environment
-SNAP_INSTANCE_KEY = 
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
 # environment
-PWD = /home/olekdsii/Desktop/BackEnd
-# default
-.LOADED := 
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-SSH_AGENT_PID = 2046
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
-# environment
-GTK_MODULES = gail:atk-bridge
+MANPATH = /opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/opt/homebrew/share/man::
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/olekdsii
+HOME = /Users/otimofie
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
+VSCODE_CODE_CACHE_PATH = /Users/otimofie/Library/Application Support/Code/CachedData/ee2b180d582a7f601fa6ecfdad8d9fd269ab1884
 # environment
-VSCODE_CLI = 1
+LOGNAME = otimofie
 # environment
-VSCODE_CODE_CACHE_PATH = /home/olekdsii/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
-# environment
-LOGNAME = olekdsii
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
-# environment
-SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
-# environment
-SNAP_CONTEXT = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
-# automatic
-+F = $(notdir $+)
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# environment
-SNAP_USER_COMMON = /home/olekdsii/snap/code/common
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-LC_TIME = uk_UA.UTF-8
-# environment
-SNAP_REAL_HOME = /home/olekdsii
+XPC_FLAGS = 0x0
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-QT_IM_MODULE = ibus
+SHLVL = 1
 # environment
-SNAP_USER_DATA = /home/olekdsii/snap/code/105
-# environment
-SHLVL = 0
-# environment
-GNOME_SHELL_SESSION_MODE = ubuntu
+LOCAL_GIT_DIRECTORY = /Applications/GitHub Desktop.app/Contents/Resources/app/git
 # default
-MAKE_VERSION := 4.2.1
+MAKE_VERSION := 3.81
 # environment
-USER = olekdsii
-# environment
-SNAP_REVISION = 105
-# environment
-LC_MONETARY = uk_UA.UTF-8
+USER = otimofie
 # makefile
-.DEFAULT_GOAL := 
-# environment
-XDG_CURRENT_DESKTOP = Unity
+.DEFAULT_GOAL := default
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-LC_TELEPHONE = uk_UA.UTF-8
-# environment
-GIO_USE_VFS = local
 # default
-MAKE_COMMAND := make
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
 .VARIABLES := 
+# environment
+TMPDIR = /var/folders/nw/t62zh_h96ggfwf_859nf2mp40000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-LANGUAGE = en_US:
+VSCODE_IPC_HOOK = /Users/otimofie/Library/Application Support/Code/1.76-main.sock
 # environment
-VSCODE_IPC_HOOK = /run/user/1001/vscode-63852ed6-1.70.2-main.sock
-# environment
-BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+MallocNanoZone = 0
 # makefile
-MAKEFLAGS = pqrR
+MAKEFLAGS = Rrqp
 # environment
-MFLAGS = -pqrR
+MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.669206.669212
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
 # environment
-GDK_BACKEND = x11
+HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
-LC_PAPER = uk_UA.UTF-8
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
-QT_ACCESSIBILITY = 1
+COMMAND_MODE = unix2003
 # default
 MAKEFILES := 
-# environment
-SNAP_COOKIE = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
-# environment
-LC_NUMERIC = uk_UA.UTF-8
 # automatic
 <F = $(notdir $<)
-# environment
-LC_MEASUREMENT = uk_UA.UTF-8
-# environment
-SNAP_NAME = code
 # environment
 LC_ALL = C
 # automatic
@@ -245,25 +134,13 @@ LC_ALL = C
 # default
 SUFFIXES := 
 # environment
-SNAP_REEXEC = 
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-WINDOWPATH = 2
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-LC_IDENTIFICATION = uk_UA.UTF-8
-# default
-.RECIPEPREFIX := 
-# environment
-LC_ADDRESS = uk_UA.UTF-8
+MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 81492
+VSCODE_PID = 11164
 # variable set hash-table stats:
-# Load=125/1024=12%, Rehash=0, Collisions=21/147=14%
+# Load=64/1024=6%, Rehash=0, Collisions=1/87=1%
 
 # Pattern-specific Variable Values
 
@@ -271,9 +148,9 @@ VSCODE_PID = 81492
 
 # Directories
 
-# . (device 64769, inode 8657602): 18 files, no impossibilities.
+# . (device 16777232, inode 1190189): 19 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -283,25 +160,35 @@ VSCODE_PID = 81492
 
 # Not a target:
 all:
-#  Command line target.
+#  Command-line target.
 #  Implicit rule search has been done.
 #  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
- 
+#  Last modified 2023-03-30 11:28:47
 #  File has been updated.
-#  Failed to be updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
+default:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 2):
+	git submodule update --init --recursive
+	
 
 # Not a target:
 .DEFAULT:
@@ -309,27 +196,21 @@ makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
-# Not a target:
-GNUmakefile:
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has been updated.
-#  Failed to be updated.
-
 # files hash-table stats:
-# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
-# No 'vpath' search paths.
+# No `vpath' search paths.
 
-# No general ('VPATH' variable) search path.
+# No general (`VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 210 B / avg = 8 B
-# current buf: size = 8162 B / used = 210 B / count = 26 / avg = 8 B
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# strcache performance: lookups = 29 / hit rate = 10%
-# hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Fri Aug 26 08:39:29 2022
+# Finished Make data base on Thu Mar 30 11:28:57 2023
 
  
+make: *** No rule to make target `all'.  Stop.
+
