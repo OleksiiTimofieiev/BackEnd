@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=MRNGw08i6S4&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=10&t=1s
+
+- types of services:
+ClusterIP - IP only inside k8s cluster
+NodePort - some port on all k8s workers
+ExternalName - DNS Name Record
+LoadBalance - for cloud cluster (AWS, GCP, AZURE)
+
+1. create deployment:
+kubectl create delployment <name> --image <image>
+ 
+2. create replicas:
+kubectl scale deployment <deployment_name> --replica <amount>
+
+3. Provide access, create service:
+kubectl expose deployment <deployment_name> --type=<type> --port 80
+
+4. list services:
+kubectl get services or get svc
+
+5. delete service:
+kubectl delete service <name>
+
+- Provide access, create service:
+kubectl expose deployment <deployment_name> --type=NodePort --port 80
+kubectl describe nodes | grep ExternalIP
+kubectl get svc
+externalIp:port
+
+- Provide access, create service:
+kubectl expose deployment <deployment_name> --type=LoadBalancer --port 80
+kubectl get svc
+
+
+

@@ -38,7 +38,7 @@ metadata
 specification
 
 + replicaSet: set of pods => supervision, auto-scaling
-+ deployment controller (for stateless apps): replicaSet + history of old replicaSets (hisory save period is configurable) + 
++ deployment controller (for stateless apps): replicaSet + history of old replicaSets (history save period is configurable) + 
 deploy process (sequentially downscaling of previous version)
 + service discovery -> service: DNS + Virtual IP + Load balancer + Selector (tier + version for example): ClusteIP, NodePort, LoadBalancer, ExternalName
 sending trafic for labeled pods being active
