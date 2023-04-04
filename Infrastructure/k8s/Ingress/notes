@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=ThP-OEjpDZk&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=11
+
+- ingress controller -> ingress rules -> where the request should go -> service of clusterIP type
+- ingress is a traffic organizer

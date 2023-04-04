@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=MRNGw08i6S4&list=PLg5SS_4L6LYvN1RqaVesof8KAf-02fJSi&index=10&t=1s
 
+- to get access for out container from outer world
 - types of services:
 ClusterIP - IP only inside k8s cluster
 NodePort - some port on all k8s workers
