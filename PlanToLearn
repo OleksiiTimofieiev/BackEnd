@@ -21,6 +21,8 @@ plan: {
     - MVCC transactions
   };
 
+  1.a: find good course for SQL, noSQL databases
+
   - 2: databases after main course: {
       - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
       - https://www.youtube.com/watch?v=dDryrO8y82c&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=28
@@ -31,10 +33,8 @@ plan: {
   - 3: {
     - Досвід роботи з інструментами devops (kubernetes, ansible/salt/puppet/chef, логування, моніторинг, CI/CD)
     - db requests optimization
-    - benefits from nginx
     - оптимизация запросов к БД
     - kafka
-
     - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
@@ -90,6 +90,7 @@ plan: {
 
   - 4: interview preparation: {
       - вопросы по БД on interview
+      - пересмотреть интервью по го
       - typical question for the containers/collections/context/sync package/
       - вопросы по конструкциям языка
       - https://www.youtube.com/watch?v=ryJOS-8hmQo&t=6430s
@@ -99,10 +100,12 @@ plan: {
 }
 
 projects: {
+  - TennisBot
+  - GymPartner
   - planning and budget with microservices
   - https://www.youtube.com/watch?v=hb-9Lz-nuyM&t=418s
 }
 
 
 Embedded:
-Zigbee, Z-Wave, BLE;
+Zigbee, Z-Wave, BLE
