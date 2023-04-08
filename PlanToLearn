@@ -1,6 +1,13 @@
 plan: {
   - 1: {
-    cache invalidation  
+    - kafka
+    - Rabbit-MQ
+    - kafka vs rabbit mq
+    - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
+    - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
+    - nginx
+
+
     - оптимизация SQL запросов
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
@@ -19,14 +26,11 @@ plan: {
     - Overhead от стандартного профайлера?
     - Какие средства обобщенного программирования есть в Go?w
     - MVCC transactions
-    - kafka
-    - nginx
+
     - db requests optimization
-    - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
-    - Rabbit-MQ
-    - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - effective go
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
+    cache invalidation  
   };
 
   - 2: databases after main course: {
