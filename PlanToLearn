@@ -24,9 +24,10 @@ plan: {
     - db requests optimization
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - Rabbit-MQ
+    - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
+    - effective go
+    - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
   };
-
-  1.a: find good course for SQL, noSQL databases
 
   - 2: databases after main course: {
       - https://www.youtube.com/watch?v=xY_M8TGdm6A&list=PLH-XmS0lSi_zgalbXwsytGNdAlNYmmE5C&index=16
@@ -51,13 +52,8 @@ plan: {
     - patterns of microservices: refresh
     - interview questions about microservices
     - security in web development
-    - check what is required in vacancies
     - algorithm course
     - ajax
-    - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-    - effective go
-    - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
-    - gRPC
     - Security: XSS, SQL injections, keeping passwords, keeping secrets
     - testing a web server
     - transactions/transactional behaviour
