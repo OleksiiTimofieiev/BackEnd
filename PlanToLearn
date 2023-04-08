@@ -7,12 +7,6 @@ plan: {
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - nginx
 
-
-    - оптимизация SQL запросов
-    indexes: https://www.youtube.com/watch?v=HubezKbFL7E
-    index: https://www.youtube.com/watch?v=39e1vAGD3hg
-    index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
-
     - hash map in go
     - порядок перебора map
     Самый популярный неправильный ответ: «Gorm, вроде, неплох». Конкурирует с ответом «Я всё пишу руками». Я даже согласен с обоими ответами, но давайте обсудим подробнее — как устроен gorm, и почему вдруг руками.
@@ -25,6 +19,13 @@ plan: {
     - Как встроить стандартный профайлер в свое приложение?
     - Overhead от стандартного профайлера?
     - Какие средства обобщенного программирования есть в Go?w
+
+    - оптимизация SQL запросов
+    indexes: https://www.youtube.com/watch?v=HubezKbFL7E
+    index: https://www.youtube.com/watch?v=39e1vAGD3hg
+    index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
+
+   
     - MVCC transactions
 
     - db requests optimization
