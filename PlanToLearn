@@ -19,6 +19,11 @@ plan: {
     - Overhead от стандартного профайлера?
     - Какие средства обобщенного программирования есть в Go?w
     - MVCC transactions
+    - kafka
+    - nginx
+    - db requests optimization
+    - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
+    - Rabbit-MQ
   };
 
   1.a: find good course for SQL, noSQL databases
@@ -31,11 +36,6 @@ plan: {
     }
 
   - 3: {
-    - Досвід роботи з інструментами devops (kubernetes, ansible/salt/puppet/chef, логування, моніторинг, CI/CD)
-    - db requests optimization
-    - оптимизация запросов к БД
-    - kafka
-    - nginx
     - best polling and websocket practices:
     https://www.youtube.com/watch?v=9dMcEfl-wyI
     https://www.youtube.com/watch?v=1tNfKI03qRU
@@ -46,17 +46,11 @@ plan: {
     - https://www.youtube.com/watch?v=1qm8eqGYKX0
     - SQL for highload
     - monitoring: some REST book has it
-    - database migrations
-    - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
-    - microservice patterns/architecture
     - working with infrastructure: {-- знание concurrency-паттернов, умение писать безопасный многопоточный код
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
-    - опыт работы с брокерами сообщений (Kafka, NATS, nsq, etc.)
-    - patterns of microservices
+    - patterns of microservices: refresh
     - interview questions about microservices
-    - kafka: https://www.youtube.com/watch?v=BtmYjTO1EpI
     - security in web development
-    - event-driven approach in code => kafka projects
     - check what is required in vacancies
     - algorithm course
     - ajax
@@ -69,20 +63,16 @@ plan: {
     - transactions/transactional behaviour
     - sql injections
     - Executor tracing
-    - Kafka: streams API
     - Go-Kit
     - memory model otus
     - typical interview questions: CAP-theorem, JOINS
-    - Rabbit-MQ and connected 
     - delve
     - python JIT compiler and correspondent problems.
     - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
     - http versions: 1,2,3?
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
-    - protocols
     - Paxos, Raft
-    - Messaging systems (e.g. RabbitMQ, Apache Kafka, Google Pub/Sub)
     - Certifications on:
       Cloud computing platforms (AWS, GCP, Microsoft Azure)
       Knowledge in Deployment patterns

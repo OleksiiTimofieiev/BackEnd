@@ -1,3 +1,9 @@
+https://habr.com/ru/companies/otus/articles/725168/
+
+- better to use JSON in messages
+- topic is being used for message grouping
+- uses FIFO
+
 https://www.youtube.com/watch?v=BtmYjTO1EpI&list=PPSV
 
 - message broker for big data
