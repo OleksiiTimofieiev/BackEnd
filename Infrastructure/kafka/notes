@@ -31,3 +31,25 @@ exactly once -> to save data in offsets in kafka atomically
 - not always correctly distrubetes nodes
 - better to monitor:
 disks, network, scaling, leader selection, partition deferred, response time
+
+-------
+
+🍺  /opt/homebrew/Cellar/zookeeper/3.8.1: 1,103 files, 45.5MB
+==> Installing kafka
+==> Pouring kafka--3.4.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+To restart kafka after an upgrade:
+  brew services restart kafka
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/kafka/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties
+==> Summary
+🍺  /opt/homebrew/Cellar/kafka/3.4.0: 203 files, 101.5MB
+==> Running `brew cleanup kafka`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> kafka
+To restart kafka after an upgrade:
+  brew services restart kafka
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/kafka/bin/kafka-server-start /opt/homebrew/etc/kafka/server.properties
