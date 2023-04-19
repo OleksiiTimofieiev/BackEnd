@@ -1,0 +1,7 @@
+- to be used with files or DB
+
+Persistant volume:
+claster resource to save or store data
+created via yaml
+takes actual physical storage: local or remote(cloud. nfs-server)
+storage: external plugin to your cluster
