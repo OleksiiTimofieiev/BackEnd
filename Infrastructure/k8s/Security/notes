@@ -2,4 +2,15 @@ https://www.youtube.com/watch?v=tR0qDLgggik&list=WL&index=3
 
 - Center for internet security reccomendation for k8s
 - Payment card industry security standards council
-- 
+- aqua, nist, owasp
+- 4c model: runtime, k8s control plane, API
+
+---
+
+- cluster configuration:
+kube-bench to see the correspondence of control-plane & node are in accordance with CIS standard
+limit network access to k8s: API, VPN, white lists
+each unit has to identify separately
+configura RBAC
+
+- scan images to be run in out cluster
