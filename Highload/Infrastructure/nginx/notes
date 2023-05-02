@@ -12,3 +12,16 @@ https://www.youtube.com/watch?v=vEmi_cKgDlE&list=PLhgRAQ8BwWFa7ulOkX0qi5UfVizGD_
 - limits:
 parallel connections
 simultaneous connctions
+
+https://www.youtube.com/watch?v=7VAI73roXaY
+
+https://www.youtube.com/watch?v=7VAI73roXaY
+
+- brew install nginx
+- /usr/loval/etc/nginx
+- nginx -t -> /opt/homebrew/etc/nginx/nginx.conf
+- nginx -> start nginx
+- *.conf == list of directives
+- nginx -s reload
+- nginx -s stop
+- cmd - opt - e
