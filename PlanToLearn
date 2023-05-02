@@ -6,7 +6,7 @@ plan: {
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - nginx
-
+    - SQL
     - hash map in go
     - порядок перебора map
     Самый популярный неправильный ответ: «Gorm, вроде, неплох». Конкурирует с ответом «Я всё пишу руками». Я даже согласен с обоими ответами, но давайте обсудим подробнее — как устроен gorm, и почему вдруг руками.
@@ -58,7 +58,6 @@ plan: {
     - interview questions about microservices
     - security in web development
     - algorithm course
-    - ajax
     - Security: XSS, SQL injections, keeping passwords, keeping secrets
     - testing a web server
     - transactions/transactional behaviour
@@ -74,9 +73,7 @@ plan: {
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
     - Paxos, Raft
-    - Certifications on:
-      Cloud computing platforms (AWS, GCP, Microsoft Azure)
-      Knowledge in Deployment patterns
+    - Knowledge in Deployment patterns
     }
 
   - 4: interview preparation: {

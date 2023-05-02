@@ -1,6 +1,0 @@
-- atomic
-- asm вставки
-- rate limiter => docker is better for limitation of resources of a machine
-- http packet has proxy functionality
-- gov.uk == маршрутизатор написан на го
-- ui == binding for qt
