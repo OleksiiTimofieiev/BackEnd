@@ -1,11 +1,11 @@
 plan: {
   - 1: {
+    - nginx
     - kafka
     - Rabbit-MQ
     - kafka vs rabbit mq
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
-    - nginx
     - SQL
     - hash map in go
     - порядок перебора map
