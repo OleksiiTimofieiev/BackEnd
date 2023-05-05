@@ -72,8 +72,13 @@ plan: {
     - http versions: 1,2,3?
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
-    - Paxos, Raft
+    - Consensus algorithms: Paxos, Raft
     - Knowledge in Deployment patterns
+    - Sharding
+    - Caching algorithms: tagging cache
+    - CDN
+    - Distributed transactions: 2PC, SAGA
+    - CAP/ACID
     }
 
   - 4: interview preparation: {
