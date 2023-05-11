@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=ctJnI43ermQ
+
+default interface - docker0
+
+- bridge: default when starting container (172.17.0.0/16),
+has access to extermal services
+- use -p == port mapping; -p 80:80; creating a bridge
+- --network=host => ip address of host; use of host ip address and port in docker
+- --network=none => no external connection to the container
+- macvlan
+- ipvlan
+- overlay == for use in cluster; use of docker swarm;
+
+- network creation:
+docker network create --drive bridge NAME
+docker run --net NAME nginx
+DNS may be used:
+https://docs.docker.com/network/network-tutorial-standalone/
+---
+docker network create --drive host NAME
+ip address of host utilized
+---
+docker network create --drive none NAME
+full isolation for external world
