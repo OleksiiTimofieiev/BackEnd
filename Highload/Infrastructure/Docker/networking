@@ -41,4 +41,7 @@ ipvlan => mac address is the same for the containers
 - docker network create myNe01
 - docker run --rm --it --name container1/2 --net myNet01 nicolaka/netshoot /bin/bash
 - ping container2
-- 
+- docker network connect myNet01 container2 => to change network in the runtime
+- docker network disconnect <networ_id> container2
+- docker network create -d macvlan --subnet 192.168.100.0/24 --gateway 192.168.100.1 myNet192 --ip-range 192.168.100.99/32 -o parent=wlan0 myMacvlan => set specific IP
+- docker run --rm --it --name container2 --ip 10.10.10.213 --net myHomeLan nicolaka/netshoot /bin/bash
