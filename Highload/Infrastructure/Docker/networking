@@ -22,3 +22,23 @@ ip address of host utilized
 ---
 docker network create --drive none NAME
 full isolation for external world
+---
+macvlan => server has NIC, each NIC has its address, we may avoid use -p flag,
+direct access to the container
+---
+ipvlan => mac address is the same for the containers
+
+- docker network ls
+- docker network create myNet01 (by default => bridge driver)
+- docker network create --driver host myNethost
+- docker network create --d null myNetnone
+- docker network inspect myNet01
+- docker network create -d bridge --subnet 192.168.10.0/24 --gateway 192.168.10.1 myNet192 => custom network params
+- docker network rm myNet01 ...
+- docker run --rm --it --name container1/2 nicolaka/netshoot /bin/bash
+- ip a => ip address in container
+- docker inspect container1 => gateway, ip address
+- docker network create myNe01
+- docker run --rm --it --name container1/2 --net myNet01 nicolaka/netshoot /bin/bash
+- ping container2
+- 
