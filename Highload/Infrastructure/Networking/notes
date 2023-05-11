@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=9VVzu87lVbE&list=WL&index=53&t=940s
+
+- data link layer:
+briadcast/multicast(request to all servers and each sever decides on its own wether to reply - %0 for example) || local balancer (selecting the IP where to send request)
+
+- network layer:
+same but changes destination IP (proxy/reverse proxy)
+high load on balancer with reverse traffic
+
+- transport layer:
+same logic
+ECMP algo
