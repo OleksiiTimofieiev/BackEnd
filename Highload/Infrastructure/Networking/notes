@@ -1,4 +1,5 @@
 https://www.youtube.com/watch?v=9VVzu87lVbE&list=WL&index=53&t=940s
+https://www.youtube.com/watch?v=iZavvatyDb8&list=WL&index=42
 
 - data link layer:
 briadcast/multicast(request to all servers and each sever decides on its own wether to reply - %0 for example) || local balancer (selecting the IP where to send request)
@@ -24,6 +25,3 @@ Balancing algorithms:
 - destination hash scheduling, source hash scheduling
 - sticky session (client is connected to a specific servers and staying on it)
 
-https://www.youtube.com/watch?v=iZavvatyDb8&list=WL&index=42
-
-- 
