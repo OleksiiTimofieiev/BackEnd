@@ -10,3 +10,20 @@ high load on balancer with reverse traffic
 - transport layer:
 same logic
 ECMP algo
+
+- global:
+DNS round robin
+redirect
+
+- anycast:
+to the nearest server in the nerwork
+
+Balancing algorithms:
+- weighted round robin
+- least connections
+- destination hash scheduling, source hash scheduling
+- sticky session (client is connected to a specific servers and staying on it)
+
+https://www.youtube.com/watch?v=iZavvatyDb8&list=WL&index=42
+
+- 
