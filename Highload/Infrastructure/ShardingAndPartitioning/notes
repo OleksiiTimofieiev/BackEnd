@@ -9,3 +9,5 @@ CREATE TABLE news_1 (
     list of values
     rate > 100 AND rate < 200
 ) INHERITS (news)
+
+- Sharding
