@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=ECkQtFnOxuA&list=WL&index=21&t=1269s
+
+- Partitioning:
+one big table distributed for small ones
+INHERITS operator in psql
+
+CREATE TABLE news_1 (
+    CHECK ( categoty_id = 1) other checks are available
+    list of values
+    rate > 100 AND rate < 200
+) INHERITS (news)
