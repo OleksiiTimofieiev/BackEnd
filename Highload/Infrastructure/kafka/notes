@@ -33,7 +33,19 @@ explicit partition
 round-robin
 key-defined (key_hash % n)
 4. compress message
-5. accumulate batch (batch.size, linger.ms)
+5. accumulate batch (batch.size, linger.ms == timeout)
+
+- consumer: poll messages
+1. fetch metadata
+2. poll data from leaders
+
+- consumer group: each consumer reads its own partition; kinda microservices logic;
+- offset: topic __consumer_offsets => to keep metadata on messages have been already read
+- commit types: 
+auto (at most once -> miss messages)
+manual commit (at least once -> duplicate messages)
+exactly once (not missed, no duplicates)
+
 
 
 
