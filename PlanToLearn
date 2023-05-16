@@ -1,31 +1,28 @@
 plan: {
   - 1: {
-    - nginx
     - kafka
     - Rabbit-MQ
     - kafka vs rabbit mq
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - SQL
-    - hash map in go
     - порядок перебора map
     Самый популярный неправильный ответ: «Gorm, вроде, неплох». Конкурирует с ответом «Я всё пишу руками». Я даже согласен с обоими ответами, но давайте обсудим подробнее — как устроен gorm, и почему вдруг руками.
     Наводящие вопросы: что означает буква M в аббревиатуре ORM? Что на эту букву M есть в gorm? А что такое DAL и зачем он нужен?
     - Какой у вас любимый линтер?
     - Наводящие вопросы: какое отношение линтеры имеют к CI? Зачем нужен CI в процессе разработки?
-    - Какие типы мьютексов предоставляет stdlib?
     - Стандартный набор метрик prometheus в Go -программе?
     - Наводящие вопросы: оставив прометей в стороне — что вообще Go-программа способна о себе рассказать? Метрики runtime — что это, и откуда берется?
     - Как встроить стандартный профайлер в свое приложение?
     - Overhead от стандартного профайлера?
-    - Какие средства обобщенного программирования есть в Go?w
+    - Какие средства обобщенного программирования есть в Go?
 
     - оптимизация SQL запросов
     indexes: https://www.youtube.com/watch?v=HubezKbFL7E
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
 
-   
+    - transactions
     - MVCC transactions
 
     - db requests optimization
@@ -56,19 +53,8 @@ plan: {
     - multystage docker: https://www.youtube.com/watch?v=p1dwLKAxUxA&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE&index=23
     - patterns of microservices: refresh
     - interview questions about microservices
-    - security in web development
-    - algorithm course
-    - Security: XSS, SQL injections, keeping passwords, keeping secrets
     - testing a web server
-    - transactions/transactional behaviour
-    - sql injections
-    - Executor tracing
-    - Go-Kit
-    - memory model otus
     - typical interview questions: CAP-theorem, JOINS
-    - delve
-    - python JIT compiler and correspondent problems.
-    - web_socket: https://www.youtube.com/watch?v=tfTgPlWKU78&list=PLGN1AjiJJv0lVSKVWMqAwOZvHMLT1qRUh&index=6
     - http versions: 1,2,3?
     - Monitoring, alerting approaches
     - Common attacks types (OWASP)
@@ -82,7 +68,6 @@ plan: {
     }
 
   - 4: interview preparation: {
-      - вопросы по БД on interview
       - пересмотреть интервью по го
       - typical question for the containers/collections/context/sync package/
       - вопросы по конструкциям языка
