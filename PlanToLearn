@@ -29,6 +29,7 @@ plan: {
     - effective go
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     cache invalidation  
+    - CAP
   };
 
   - 2: databases after main course: {

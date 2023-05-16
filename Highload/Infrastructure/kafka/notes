@@ -1,5 +1,40 @@
 https://www.youtube.com/watch?v=-AZOi3kP9Js
 
+- distributed event broker
+- CAP: in accordance with CA parts
+- horizontal scaling
+- message logic: events -> broker(broadcasting) -> consumers
+- broker: receive/store messages for consumer; usually several united in Kafka cluster;
+- zookeeper (db): to store coordination and state of the cluster (metadata, state, cluster configuration, topics, partitions)
+- kafka controller: master for replication purposes; for data consistency
+- message: 
+key: optional, used for distribution via cluster
+value (array of bytes)
+timestamp (unix)
+headers (attributes)
+- topic: stream of data, FIFO; each consumer data from its own topic
+- partitions: FIFO; each broker may have its own partition; cometimes topics have to managed manually;
+- deletion: in accordance with TTL(time-to-leave); segment to be deleted; check future timestamps as a possible cause why deleteion not happens;
+- data replication: replication-factor(>1); one replica is being leader replica;
+kafka-controller selects leader; R/W only with leader replica; follower is being idle; follower poll leader for changes -> solution: ISR follower with sync write,
+ISR follower can be used as leader, min.insync.replicas = 3 => -1 from node to not block R/W operations
+- producer: send message, acks (receive guarantee):
+0 - no confiramtion needed
+1 - confiramtion only from leader replica
+-1==all - confirmation from all insync=ISR replicas
+
+1. fetch metadata(checkout leader, metadata from zookeper) -> blockes send until receives information from zookeper;
+2. serialize message:
+key.serializer
+value.serializer
+StringSerializer
+3. define partition:
+explicit partition
+round-robin
+key-defined (key_hash % n)
+4. compress message
+5. accumulate batch (batch.size, linger.ms)
+
 
 
 https://habr.com/ru/companies/otus/articles/725168/
