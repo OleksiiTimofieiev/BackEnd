@@ -35,3 +35,7 @@ get access to internal server from client server
 ifrastructure has to have a separate proxy
 
 - gzip, zip bomb:
+
+- CSRF cross site request forgery
+With GET no changes
+CORS
