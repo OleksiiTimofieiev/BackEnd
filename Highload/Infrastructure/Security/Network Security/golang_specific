@@ -1,6 +1,37 @@
 https://www.youtube.com/watch?v=UfeZ-bPFs10&list=WL&index=6&t=2235s
 files: /Users/otimofie/SoftwareDevelopment/BackEnd/Go/src/go-sec
 
-- SQL injection: placeholders need to be used [$, ?] => prepared statement
-- Password: password to be saved in hashed state [bcrypt, script]; salt used to harden use of typical passwords => not possible to see that different hashes have same password; md5 not to be used as it is easily cracked;
-- 
+- SQL injection: 
+placeholders need to be used [$, ?] => prepared statement
+
+- Password: 
+password to be saved in hashed state [bcrypt, script]; salt used to harden use of typical passwords => not possible to see that different hashes have same password; md5 not to be used as it is easily cracked; salt can be saved with password; salt has to be generated randomly for each password;
+
+- HTTP,HTTPS,PKI: 
+tcpdump, wireshark == to watch for the network traffic if HTTP
+public key is to close the box with yout private key
+to avoid man in the middle attack -> public key infrustructure is for it
+nginx usually used to encrypt traffic
+
+- XSS (cross site scripting):
+data is considered as a code
+input text not validated or sanitezed
+
+- Logs:
+sensitive data has to be secured
+
+- Secrets:
+No secrets in the code (git blame will show the secret in previous commit)
+Can be stored in Vault
+
+- PPROF:
+Limit access to pprof
+
+- RCE (remote code execution):
+external dependencies has to be monitored
+
+- SSRF (server side request forgery):
+get access to internal server from client server
+ifrastructure has to have a separate proxy
+
+- gzip, zip bomb:
