@@ -1,3 +1,4 @@
 https://www.youtube.com/watch?v=DcB8qu6cJ1g&list=WL&index=26
 
-- 
+- scaling: performance(latency+RPS) + resouces(CPU,memory, etc.)
+- scale up/down rules [early, slowly]
