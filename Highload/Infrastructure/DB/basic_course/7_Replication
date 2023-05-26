@@ -17,3 +17,6 @@ requests == information about fulfilled requests
 sync
 async
 semisync == replica alive=sync, dead=async
+
+https://www.youtube.com/watch?v=lHFaZkJk2O0&list=WL&index=11
+
