@@ -9,6 +9,7 @@ check new version of DB
 - variants of replication:
 master - slave
 master - master
+push/pull
 
 physical[journal of transactions -> slave copies events from journal -> slave adopts changes]
 logical == change of db data records[logical decoding => kind looks for changing]
