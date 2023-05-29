@@ -165,7 +165,7 @@ def discover_devices(bus,timeout):
     return discovered_devices
 
 if (len(sys.argv) != 2):
-    print("usage: python3 client_discover_devices.py [scantime (secs)]")
+    print("usage: python3 discover_devices.py [scantime (secs)]")
     sys.exit(1)
     
 scantime = int(sys.argv[1]) * 1000
