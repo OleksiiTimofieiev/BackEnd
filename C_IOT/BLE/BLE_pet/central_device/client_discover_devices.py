@@ -115,7 +115,7 @@ def discovery_timeout():
     adapter_interface.StopDiscovery()
     bus = dbus.SystemBus()
     bus.remove_signal_receiver(interfaces_added,"InterfacesAdded")
-    bus.remove_signal_receiver(interfaces_added,"InterfacesRemoved")
+    bus.remove_signal_receiver(interfaces_removed,"InterfacesRemoved")
     bus.remove_signal_receiver(properties_changed,"PropertiesChanged")
     list_devices_found()
     return True

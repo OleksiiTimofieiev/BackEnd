@@ -1,5 +1,5 @@
 make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/otimofie/SoftwareDevelopment/BackEnd'
+make: Entering directory '/home/olekdsii/Desktop/BackEnd'
 git submodule update --init --recursive
-make: Leaving directory `/Users/otimofie/SoftwareDevelopment/BackEnd'
+make: Leaving directory '/home/olekdsii/Desktop/BackEnd'
  

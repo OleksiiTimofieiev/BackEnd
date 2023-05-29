@@ -1,153 +1,314 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.81
-# Copyright (C) 2006  Free Software Foundation, Inc.
-# This is free software; see the source for copying conditions.
-# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
 
-# This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
-
-
-# Make data base, printed on Mon May 22 08:38:22 2023
+# Make data base, printed on Mon May 29 13:54:32 2023
 
 # Variables
 
+# 'override' directive
+GNUMAKEFLAGS := 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
 # environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
-# automatic
-@F = $(notdir $@)
+# environment
+XAUTHORITY = /run/user/1001/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /Users/otimofie/SoftwareDevelopment/BackEnd
+CURDIR := /home/olekdsii/Desktop/BackEnd
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-gb","osLocale":"en-ua","availableLanguages":{},"_languagePackSupport":true}
+SNAP_DATA = /var/snap/code/129
 # environment
-_ = /usr/bin/make
-# makefile (from `Makefile', line 1)
+VTE_VERSION = 6003
+# environment
+GIO_MODULE_DIR = /home/olekdsii/snap/code/common/.cache/gio-modules
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:68380
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# environment
+GVM_ROOT = /home/olekdsii/.gvm
+# makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/terminator.desktop
+# environment
+USERNAME = olekdsii
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /home/olekdsii/snap/code/129/.local/share:/home/olekdsii/snap/code/129:/snap/code/129/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-__CFBundleIdentifier = com.microsoft.VSCode
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # environment
-INFOPATH = /opt/homebrew/share/info:
+PERL_MM_OPT = INSTALL_BASE=/home/olekdsii/perl5
 # environment
-VSCODE_CWD = /
+MANAGERPID = 2621
+# environment
+GVM_PATH_BACKUP = /home/olekdsii/.gvm/bin:/home/olekdsii/.local/bin:/home/olekdsii/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = uk_UA.UTF-8
+# environment
+VSCODE_CWD = /home/olekdsii/Desktop
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+GSETTINGS_SCHEMA_DIR = /home/olekdsii/snap/code/129/.local/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-GOPATH = /Users/otimofie/go
+PATH = /home/olekdsii/perl5/bin:/home/olekdsii/.gvm/bin:/home/olekdsii/.local/bin:/home/olekdsii/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/LWO1-LHP-A10432:@/tmp/.ICE-unix/2948,unix/LWO1-LHP-A10432:/tmp/.ICE-unix/2948
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/olekdsii/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/129
+# environment
+GOPATH = /home/olekdsii/go
+# environment
+SNAP_VERSION = b3e4e68a
+# environment
+XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.3A3JYpBqFf/Listeners
+INVOCATION_ID = 175867845ee24e49b8ef9415be995292
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/129/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 1162678
 # automatic
 %F = $(notdir $%)
 # environment
-PWD = /Users/otimofie/SoftwareDevelopment/BackEnd
+DISPLAY = :0
 # environment
-HOMEBREW_CELLAR = /opt/homebrew/Cellar
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-MANPATH = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man:/opt/homebrew/share/man::
-# environment
-GOMODCACHE = /Users/otimofie/go/pkg/mod
-# environment
-HOME = /Users/otimofie
+PWD = /home/olekdsii/Desktop/BackEnd
 # default
-MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+.LOADED := 
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/otimofie/Library/Application Support/Code/CachedData/b3e4e68a0bc097f0ae7907b217c1119af9e03435
+GTK_PATH = /snap/code/129/usr/lib/x86_64-linux-gnu/gtk-3.0
 # environment
-LOGNAME = otimofie
+SSH_AGENT_PID = 2883
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+GOMODCACHE = /home/olekdsii/go/pkg/mod
+# environment
+HOME = /home/olekdsii
+# environment
+PERL_MB_OPT = --install_base "/home/olekdsii/perl5"
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+PERL_LOCAL_LIB_ROOT = /home/olekdsii/perl5
+# environment
+VSCODE_CLI = 1
+# environment
+PERL5LIB = /home/olekdsii/perl5/lib/perl5:/usr/share/perl/5.30:/etc/perl:/usr/lib/x86_64-linux-gnu/perl5/5.30:/usr/share/perl5:/usr/lib/x86_64-linux-gnu/perl/5.30:/usr/lib/x86_64-linux-gnu/perl-base
+# environment
+VSCODE_CODE_CACHE_PATH = /home/olekdsii/.config/Code/CachedData/b3e4e68a0bc097f0ae7907b217c1119af9e03435
+# environment
+LOGNAME = olekdsii
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
+# automatic
++F = $(notdir $+)
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+SNAP_USER_COMMON = /home/olekdsii/snap/code/common
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
-XPC_FLAGS = 0x0
+GVM_VERSION = 1.0.22
+# environment
+LC_TIME = uk_UA.UTF-8
+# environment
+SNAP_REAL_HOME = /home/olekdsii
+# environment
+COLORTERM = truecolor
 # default
 MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
-# default
-MAKE_VERSION := 3.81
+QT_IM_MODULE = ibus
 # environment
-USER = otimofie
+SNAP_USER_DATA = /home/olekdsii/snap/code/129
+# environment
+SHLVL = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_CRASH_REPORTER_SANDBOXED_HINT = 1
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = olekdsii
+# environment
+SNAP_REVISION = 129
+# environment
+LC_MONETARY = uk_UA.UTF-8
 # makefile
 .DEFAULT_GOAL := default
+# environment
+XDG_CURRENT_DESKTOP = Unity
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = uk_UA.UTF-8
 # default
-MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/olekdsii
+# environment
+TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
 # default
 .VARIABLES := 
-# environment
-TMPDIR = /var/folders/nw/t62zh_h96ggfwf_859nf2mp40000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/otimofie/Library/Application Support/Code/1.78-main.sock
+LANGUAGE = en_US:
 # environment
-MallocNanoZone = 0
+VSCODE_IPC_HOOK = /run/user/1001/vscode-63852ed6-1.78-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
-MAKEFLAGS = Rrqp
+MAKEFLAGS = pqrR
 # environment
-MFLAGS = -Rrqp
+MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.4708206.4708212
-# environment
-HOMEBREW_PREFIX = /opt/homebrew
+GTK_IM_MODULE_FILE = /home/olekdsii/snap/code/common/.cache/immodules/immodules.cache
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
-# automatic
-+F = $(notdir $+)
 # environment
-HOMEBREW_REPOSITORY = /opt/homebrew
+GDK_BACKEND = x11
 # environment
-__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+LC_PAPER = uk_UA.UTF-8
 # environment
-COMMAND_MODE = unix2003
+NO_AT_BRIDGE = 1
+# environment
+LC_IDENTIFICATION = uk_UA.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
+# environment
+SNAP_COOKIE = HeCAaJcL935szyqqqtmfY-PORM320wH_wFP0OCmytJp9NNmZ173U
+# environment
+LC_NUMERIC = uk_UA.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
+GTK_EXE_PREFIX = /snap/code/129/usr
+# environment
+LC_MEASUREMENT = uk_UA.UTF-8
+# environment
+SNAP_NAME = code
+# environment
 LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
 # environment
-MAKELEVEL := 0
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# environment
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+LOCPATH = /snap/code/129/usr/lib/locale
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = uk_UA.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 30830
+TERM = xterm-256color
+# environment
+TERMINATOR_DBUS_NAME = net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873
+# environment
+VSCODE_PID = 647657
+# environment
+TERMINATOR_UUID = urn:uuid:548ef82c-9108-48e9-b09d-379572714c99
 # variable set hash-table stats:
-# Load=66/1024=6%, Rehash=0, Collisions=2/89=2%
+# Load=147/1024=14%, Rehash=0, Collisions=26/172=15%
 
 # Pattern-specific Variable Values
 
@@ -155,9 +316,9 @@ VSCODE_PID = 30830
 
 # Directories
 
-# . (device 16777232, inode 1190189): 19 files, no impossibilities.
+# . (device 64769, inode 8750331): 18 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -167,35 +328,24 @@ VSCODE_PID = 30830
 
 # Not a target:
 all:
-#  Command-line target.
+#  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
-#  File has not been updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2023-03-30 11:28:47
+#  Last modified 2023-05-29 13:53:59.190100223
 #  File has been updated.
 #  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 default:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 2):
+#  recipe to execute (from 'Makefile', line 2):
 	git submodule update --init --recursive
-	
 
 # Not a target:
 .DEFAULT:
@@ -204,18 +354,19 @@ default:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
-# No `vpath' search paths.
+# No 'vpath' search paths.
 
-# No general (`VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# strcache buffers: 1 (0) / strings = 24 / storage = 201 B / avg = 8 B
+# current buf: size = 8162 B / used = 201 B / count = 24 / avg = 8 B
 
-# Finished Make data base on Mon May 22 08:38:22 2023
+# strcache performance: lookups = 29 / hit rate = 17%
+# hash-table stats:
+# Load=24/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Mon May 29 13:54:32 2023
 
  

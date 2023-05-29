@@ -1,1 +1,14 @@
 - sudo apt-get install python3-gi d-feet -y
+
+- https://unix.stackexchange.com/questions/508221/bluetooth-service-running-but-bluetoothctl-says-org-bluez-error-notready
+In my case the solution was:
+
+bluetoothctl power on
+followed by
+
+rfkill unblock all
+hci0 was soft blocked.
+Share
+
+- sudo adduser <username> dialout
+- sudo chmod a+rw /dev/ttyUSB0
