@@ -31,6 +31,7 @@ def interfaces_added(path, interfaces):
             print("NEW RSSI  : ",
             bluetooth_utils.dbus_to_python(dev['RSSI'])) 
         print("------------------------------")
+
 def discover_devices(bus):
     global adapter_interface
     global mainloop
@@ -38,7 +39,7 @@ def discover_devices(bus):
     adapter_path = bluetooth_constants.BLUEZ_NAMESPACE + bluetooth_constants.ADAPTER_NAME
     # acquire an adapter proxy object and its Adapter1 interface so we can call its methods
     adapter_object = bus.get_object(bluetooth_constants.BLUEZ_SERVICE_NAME, adapter_path)
-    adapter_interface=dbus.Interface(adapter_object, bluetooth_constants.ADAPTER_INTERFACE)
+    adapter_interface = dbus.Interface(adapter_object, bluetooth_constants.ADAPTER_INTERFACE)
     # register signal handler functions so we can asynchronously report discovered devices
     # InterfacesAdded signal is emitted by BlueZ when an advertising packet from a device it doesn't
     # already know about is received
