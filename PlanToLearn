@@ -6,6 +6,7 @@ plan: {
     - gRPC in golang: https://www.youtube.com/watch?v=4NdS0hfhkyc&list=PL2WJEuL48sg5KB7ZGnxXMS_aHg49ky7Uz&index=4
     - websocket https://www.youtube.com/watch?v=PmAyjFaC3zQ
     - SQL
+    - JWT OAuth
     - порядок перебора map
     Самый популярный неправильный ответ: «Gorm, вроде, неплох». Конкурирует с ответом «Я всё пишу руками». Я даже согласен с обоими ответами, но давайте обсудим подробнее — как устроен gorm, и почему вдруг руками.
     Наводящие вопросы: что означает буква M в аббревиатуре ORM? Что на эту букву M есть в gorm? А что такое DAL и зачем он нужен?
@@ -30,6 +31,7 @@ plan: {
     - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
     cache invalidation  
     - CAP
+    - ACID
   };
 
   - 2: databases after main course: {
