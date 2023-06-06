@@ -1,0 +1,11 @@
+- friend keyword => to have the access to the private area of the class,
+oftenly used for testing purposes
+- auto: used for the type deduction
+- code bloating: use of inline keyword
+- const_cast: remove const from the variable
+- decltype: auto func(...) -> decltype(a+b)
+- diff pointer & referense
+reference and variable have the same address in memory
+pointer has its own address
+reference:
+reassignement is not possible, no arithmetic operations, no null value
