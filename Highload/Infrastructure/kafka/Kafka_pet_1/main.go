@@ -5,8 +5,46 @@ import (
 	"log"
 	"time"
 
-	"github.com/confluentinc/confluent-kafka-go/kafka"
+	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
+
+// TODO: 43:24
+
+type OrderPlacer struct {
+	producer   *kafka.Producer
+	topic      string
+	deliverych chan kafka.Event
+}
+
+func NewOrderPlacer(p *kafka.Producer, topic string) *OrderPlacer {
+	return &OrderPlacer{
+		producer:   p,
+		topic:      topic,
+		deliverych: make(chan kafka.Event, 10000),
+	}
+}
+
+func (op *OrderPlacer) placeOrder(orderType string, size int) error {
+	var (
+		format  = fmt.Sprintf("%s - %d", orderType, size)
+		payload = []byte(format)
+	)
+
+	err := op.producer.Produce(&kafka.Message{
+		TopicPartition: kafka.TopicPartition{Topic: &op.topic, Partition: kafka.PartitionAny},
+		Value:          payload,
+	},
+		op.deliverych,
+	)
+
+	if err != nil {
+		log.Panic(err)
+	}
+
+	// e := <-delivery_chan
+	<-op.deliverych
+	return nil
+}
 
 func main() {
 	topic := "restart"
@@ -70,5 +108,3 @@ func main() {
 
 	// fmt.Printf("%+v\n", p)
 }
-
-// 32:57
