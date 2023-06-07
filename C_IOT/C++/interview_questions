@@ -9,3 +9,7 @@ reference and variable have the same address in memory
 pointer has its own address
 reference:
 reassignement is not possible, no arithmetic operations, no null value
+- dynamic_cast => cast to find correct down cast
+- explicit => to use a specific type, to avoid implicit call to the constructor
+- function chaining <- return reference to the object
+- 
