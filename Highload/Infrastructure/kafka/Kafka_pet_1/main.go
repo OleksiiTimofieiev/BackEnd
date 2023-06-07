@@ -31,8 +31,11 @@ func (op *OrderPlacer) placeOrder(orderType string, size int) error {
 	)
 
 	err := op.producer.Produce(&kafka.Message{
-		TopicPartition: kafka.TopicPartition{Topic: &op.topic, Partition: kafka.PartitionAny},
-		Value:          payload,
+		TopicPartition: kafka.TopicPartition{
+			Topic:     &op.topic,
+			Partition: kafka.PartitionAny,
+		},
+		Value: payload,
 	},
 		op.deliverych,
 	)
@@ -85,26 +88,34 @@ func main() {
 		}
 	}()
 
-	delivery_chan := make(chan kafka.Event, 10000)
-	// TODO: enum or sort of
-	for {
-		err = p.Produce(&kafka.Message{
-			TopicPartition: kafka.TopicPartition{Topic: &topic, Partition: kafka.PartitionAny},
-			Value:          []byte("restart"),
-		},
-			delivery_chan,
-		)
+	op := NewOrderPlacer(p, "restart")
 
-		if err != nil {
-			log.Panic(err)
+	for i := 0; i < 1000; i++ {
+		if err := op.placeOrder("market", i+1); err != nil {
+			log.Fatal(err)
 		}
-
-		// e := <-delivery_chan
-		<-delivery_chan
-		time.Sleep(time.Second * 5)
+		time.Sleep(time.Second * 3)
 	}
+	// delivery_chan := make(chan kafka.Event, 10000)
+	// // TODO: enum or sort of
+	// for {
+	// 	err = p.Produce(&kafka.Message{
+	// 		TopicPartition: kafka.TopicPartition{Topic: &topic, Partition: kafka.PartitionAny},
+	// 		Value:          []byte("restart"),
+	// 	},
+	// 		delivery_chan,
+	// 	)
 
-	// fmt.Printf("%+v\n", e.String())
+	// 	if err != nil {
+	// 		log.Panic(err)
+	// 	}
 
-	// fmt.Printf("%+v\n", p)
+	// 	// e := <-delivery_chan
+	// 	<-delivery_chan
+	// 	time.Sleep(time.Second * 5)
+	// }
+
+	// // fmt.Printf("%+v\n", e.String())
+
+	// // fmt.Printf("%+v\n", p)
 }
