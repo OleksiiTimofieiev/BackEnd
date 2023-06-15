@@ -10,9 +10,6 @@ func IsAnagram(s string, t string) bool {
 	var freq [26]int
 
 	for idx := 0; idx < len(s); idx++ {
-		log.Println(s[idx] - 'a')
-		log.Println(t[idx] - 'a')
-
 		freq[s[idx]-'a']++
 		freq[t[idx]-'a']--
 	}
