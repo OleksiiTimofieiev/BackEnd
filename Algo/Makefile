@@ -1,4 +1,4 @@
 default:
-	go run main.go
+	@go run main.go
 clean:
-	rm Algo
+	@rm Algo
