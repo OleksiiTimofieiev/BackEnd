@@ -1,13 +1,12 @@
 package arrayshashing
 
-import "log"
 
 func IsAnagram(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}
 
-	var freq [26]int
+	var freq [42]int
 
 	for idx := 0; idx < len(s); idx++ {
 		freq[s[idx]-'a']++
