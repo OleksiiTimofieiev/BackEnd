@@ -1,0 +1,12 @@
+https://www.youtube.com/watch?v=osIX2lO1rzM&list=WL&index=4&t=2902s
+
+- protocol buffers:
+JSON has a dynamic schema
+slow data parcing
+no tipisation == everything is being passed as string
+huge amount of data
+
+- message is a basic object in protobut
+message field name change is not a problem
+int64 id = 1
+repeadted data type == slice

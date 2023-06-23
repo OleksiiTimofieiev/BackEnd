@@ -12,5 +12,6 @@ func main() {
 	log.Println(arrayshashing.ReplaceElements([]int{17,18,5,4,6,1}))
 	log.Println(arrayshashing.IsSubsequence("abc", "ahbgdc"))
 	log.Println(arrayshashing.LengthOfLastWord("luffy is still joyboy"))
+	log.Println(arrayshashing.MajorityElement([]int{2,2,1,1,1,2,2}))
 	
 }
