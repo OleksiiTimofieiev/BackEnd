@@ -1,6 +1,8 @@
 https://www.youtube.com/watch?v=-AZOi3kP9Js
 
 - distributed event broker
+- pull model; possibly via batch
+- use commit log as main data structure
 - CAP: in accordance with CA parts
 - horizontal scaling
 - message logic: events -> broker(broadcasting) -> consumers
@@ -13,7 +15,9 @@ value (array of bytes)
 timestamp (unix)
 headers (attributes)
 - topic: stream of data, FIFO; each consumer data from its own topic
+- topic may have different partitions on different "shards"
 - partitions: FIFO; each broker may have its own partition; sometimes topics have to be managed manually;
+- one partition for on consumer is being a rule;
 - deletion: in accordance with TTL(time-to-leave); segment to be deleted; check future timestamps as a possible cause why deleteion not happens;
 - data replication: replication-factor(>1); one replica is being leader replica;
 kafka-controller selects leader; R/W only with leader replica; follower is being idle; follower poll leader for changes -> solution: ISR follower with sync write,
