@@ -1,7 +1,9 @@
 plan: {
   - 1: {
-    - Rabbit-MQ
-    - kafka vs rabbit mq
+    - transactions
+    - MVCC transactions
+    - CAP
+    - ACID
     - SQL
     - JWT OAuth
     - порядок перебора map
@@ -20,15 +22,10 @@ plan: {
     index: https://www.youtube.com/watch?v=39e1vAGD3hg
     index best practices: https://www.youtube.com/watch?v=aZjYr87r1b8
 
-    - transactions
-    - MVCC transactions
-
     - db requests optimization
     - effective go
-    - http2: https://www.youtube.com/watch?v=BWyTZgg77yM
-    cache invalidation  
-    - CAP
-    - ACID
+    - cache invalidation  
+
   };
 
   - 2: databases after main course: {
