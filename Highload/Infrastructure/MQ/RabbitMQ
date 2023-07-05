@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=ZPDn7tdP6Rk
+
+- AMQP (advanced message queue protocol)
+- broker == message routing
+- exchange == receives messages and distributes them beetween queues
+- binding == exchange-queue binding
+- JSON format
+- rabbit pushes messages to consumers
+
+distribution strategies:
+- fanout: exchange without routing => to all queues
+- direct
+- topic
+
+pros:
+- a lot of client libraries
+- easy to administer: has admin in brovser
+cons:
+- hard to manage configs with highload
