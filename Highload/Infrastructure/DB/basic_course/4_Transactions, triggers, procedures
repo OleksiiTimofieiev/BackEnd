@@ -28,7 +28,7 @@ transactions
 Anomally:
 unrepeatable read == situation when value can be changed from external action if no isolation is present
 lost of update
-dirty read
+dirty read == read uncommited
 non-repeatable read
 phantom reads
 serialization anomalies
@@ -38,8 +38,9 @@ Isolation:
 - MVCC(multy version concurrency control): user only sees its own slice of data;
 levels of isolation:
 read uncommitted
-read committed
-repeatable read
+read committed == default, to read only commited
+repeatable read == reads old snapshot with which transaction started:
+phantom reads, non-repeatable read; checks logic
 serilizable
 
 Saved procedures:
