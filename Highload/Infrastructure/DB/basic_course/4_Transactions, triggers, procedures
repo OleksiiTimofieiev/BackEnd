@@ -25,6 +25,14 @@ RAID controllers have battery;
 point in time recovery
 transactions
 
+Anomally:
+unrepeatable read == situation when value can be changed from external action if no isolation is present
+lost of update
+dirty read
+non-repeatable read
+phantom reads
+serialization anomalies
+
 Isolation:
 - all data currently used by user -> blocking == ISOLATION LEVEL REPEATABLE READ;
 - MVCC(multy version concurrency control): user only sees its own slice of data;
@@ -33,12 +41,6 @@ read uncommitted
 read committed
 repeatable read
 serilizable
-- avoiding regressions:
-lost of update
-dirty read
-non-repeatable read
-phantom reads
-serialization anomalies
 
 Saved procedures:
 - business logic can be process on DB
