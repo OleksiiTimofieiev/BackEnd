@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=d6BtxBKhQoc&t=299s
+
+- ssd => for fresh
+- types: vertical, horizontal
+- partitioning = in one DB, sharding == beetween different DB
+- sharding approaches:
+* range == kinda different intervals [10-20] [40-50],
+not always good as data distribution may not be equal 
+* key == hash function to distribute data
+directory == separate DB with key to shard
+- routing:
+on client => more harder client code, updates on client when shards are being changed
+proxy => client knows nothing about sharding, single fail point
+coordinator => client knows nothing about sharding, single fail point

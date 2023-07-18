@@ -14,4 +14,7 @@ func main() {
 	log.Println(arrayshashing.LengthOfLastWord("luffy is still joyboy"))
 	log.Println(arrayshashing.MajorityElement([]int{2,2,1,1,1,2,2}))
 	
+
+	// Linked List
+	/* reverse list */
 }

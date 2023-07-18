@@ -36,10 +36,10 @@ serialization anomalies
 Isolation:
 - all data currently used by user -> blocking == ISOLATION LEVEL REPEATABLE READ;
 - MVCC(multy version concurrency control): user only sees its own slice of data;
-levels of isolation:
-read uncommitted
-read committed == default, to read only commited
-repeatable read == reads old snapshot with which transaction started;
+- levels of isolation:
+* read uncommitted
+* read committed == default, to read only commited
+* repeatable read == reads old snapshot with which transaction started;
 Такое блокирование гарантирует, что затронутые запросом строки не будут изменены или удалены в параллельном сеансе, пока текущая транзакция не будет завершена (независимо от того, будет ли она зафиксирована или произойдёт её откат). Эти блокировки не защищают от изменения или удаления те строки, 
 которые еще не были охвачены просмотром, и не препятствуют вставке новых строк межу уже заблокированными строками.
 удерживает блокировки каждой затронутой строки до окончания транзакции
